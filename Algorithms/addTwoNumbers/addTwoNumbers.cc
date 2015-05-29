@@ -25,23 +25,19 @@ class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         int inc = 0;
-        ListNode* head = NULL, *last = NULL;
-        if(!l1 || !l2) return NULL;
+        ListNode hint(0), *last = &hint;
         while(l1 && l2) {
             int sum = l1->val + l2->val + inc;
             ListNode* temp = new ListNode(sum % 10);
             inc = sum / 10;
             
-            if(!head) head = temp;
-            if(last) {
-                last->next = temp;
-            }
-            
+            last->next = temp;
             last = temp;
             l1 = l1->next;
             l2 = l2->next;
         }
         
+        if(l2) l1 = l2;
         while(l1) {
             int sum = l1->val + inc;
             last->next = new ListNode(sum % 10);
@@ -50,18 +46,8 @@ public:
             last = last->next;
             l1 = l1->next;
         }
-        
-        while(l2) {
-            int sum = l2->val + inc;
-            last->next = new ListNode(sum % 10);
-            inc = sum / 10;
-            
-            last = last->next;
-            l2 = l2->next;
-        }
-        
         if(inc) last->next = new ListNode(inc);
-        return head;
+        return hint.next;
     }
 };
 
