@@ -17,6 +17,7 @@ There is a more generic way of solving this problem.
 #include <cmath> // log10, pow10
 #include <cstdlib> // labs
 #include <ext/numeric> // __gnu_cxx::power
+#include <cstdio>
 #include <iostream>
 
 using namespace std;
@@ -24,14 +25,16 @@ using namespace __gnu_cxx;
 
 class Solution {
 public:
+	static inline int getDigit(int x, int d) {
+		return ( x / static_cast<int>(pow(10, d)) ) % 10;
+	}
+
     bool isPalindrome(int x) {
-        while(labs(x) > 10L) {
-            // long near = power(10L, static_cast<long>(log10(labs(x))));
-            long near = static_cast<long>( pow10(static_cast<long>(log10(labs(x)))) );
-            if( (x / near) != (x % 10L) ) return false;
-            x /= 10; x %= (near/10L);
-            // cout << x << endl;
-        }
+		int len = static_cast<int>(log10(x)) + 1;
+		if(x < 0) return false;
+		for(int i = 0, j = len-1; i < j; i++, j--) {
+			if(getDigit(x, i) != getDigit(x, j)) return false;
+		}
         return true;
     }
 };
@@ -39,7 +42,7 @@ public:
 #ifdef TEST
 int main()
 {
-    int x = -2147483648;
+    int x;
     cin >> x;
     cout << Solution().isPalindrome(x) << endl;
     return 0;
