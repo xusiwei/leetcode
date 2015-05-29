@@ -36,11 +36,11 @@ public:
     }
     
     int reverse(int x) {
-        static int MAX[] = {2, 1, 4, 7, 4, 8, 3, 6, 4, 7}; // reverse of max
+        static int MAX[] = {2, 1, 4, 7, 4, 8, 3, 6, 4, 7}; // int max
         int buffer[16], count=0, sign=1;
         if(x < 0) {
             sign = -1;
-            MAX[9] = 8;
+            MAX[9] = 8; // int min in abs
         }
         
         // buf[0] is the most inimportant.
