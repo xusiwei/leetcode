@@ -1,9 +1,13 @@
 What's [LeetCode](https://leetcode.com)?
 ================
+from [leetcode.com](https://leetcode.com):
 > LeetCode OJ is a platform for preparing technical coding interviews. Pick from an expanding library of more than 190 questions, code and submit your solution to see if you have solved it correctly. It is that easy!
 
-Problems and Solutions
+Solutions
 ============================
+Here's my solutions of leetcode problems, and I'll keep it up to date.
+If you have any ideas about my solution, welcome to post a comment.
+
 | # | Title | Difficulty |
 |---|-------|------------|
 | 1 | [Two Sum](Algorithms/TwoSum/twoSum.cc)  | Medium |
@@ -208,3 +212,8 @@ Problems and Solutions
 | 216 | Combination Sum III  | Medium |
 | 217 | Contains Duplicate  | Easy |
 | 218 | The Skyline Problem  | Hard |
+
+
+
+----------
+**Notice: by xu(<xusiwei1236@163.com)>, all right reserved.**
