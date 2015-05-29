@@ -17,16 +17,13 @@ public:
         vector<int> res;
         unordered_map<int, int> toIndex;
         
-        int sz = numbers.size();
-        for(int i=0; i<sz; ++i) {
+        for(int i=0, sz = numbers.size(); i<sz; ++i) {
             int v = numbers[i];
             unordered_map<int, int>::iterator pos = toIndex.find(target - v);
             if(pos != toIndex.end()) {
-                int a = pos->second + 1, b = i + 1;
-                if(a > b) std::swap(a, b);
-                res.push_back(a);
-                res.push_back(b);
-                return res;
+                res.push_back(pos->second + 1);
+                res.push_back(i + 1);
+                break;
             }
             toIndex.insert(make_pair(v, i));
         }
