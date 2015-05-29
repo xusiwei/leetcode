@@ -6,7 +6,7 @@ Problems and Solutions
 ============================
 | # | Title | Difficulty |
 |---|-------|------------|
-| 1 | Two Sum  | Medium |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/)  | Medium |
 | 2 | Add Two Numbers  | Medium |
 | 3 | Longest Substring Without Repeating Characters  | Medium |
 | 4 | Median of Two Sorted Arrays  | Hard |
