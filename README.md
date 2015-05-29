@@ -10,12 +10,12 @@ If you have any ideas about my solution, welcome to post a comment.
 
 | # | Title | Solutions | Difficulty |
 |---|-------|-----------|------------|
-| 1  | Two Sum  | [C++](Algorithms/TwoSum/twoSum.cc) | Medium |
-| 2  | Add Two Numbers  | [C++](Algorithms/addTwoNumbers/addTwoNumbers.cc) | Medium |
+| 1  | [Two Sum](https://leetcode.com/problems/two-sum/)  | [C++](Algorithms/TwoSum/twoSum.cc) | Medium |
+| 2  | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)  | [C++](Algorithms/addTwoNumbers/addTwoNumbers.cc) | Medium |
 | 3  | Longest Substring Without Repeating Characters  |  | Medium |
 | 4  | Median of Two Sorted Arrays  |  | Hard |
 | 5  | Longest Palindromic Substring  |  | Medium |
-| 6  | ZigZag Conversion  |  | Easy |
+| 6  | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)  | [C++](Algorithms/ZigZagConversion/zigZagConvert.cc) | Easy |
 | 7  | Reverse Integer  |  | Easy |
 | 8  | String to Integer (atoi)  |  | Easy |
 | 9  | Palindrome Number  |  | Easy |
