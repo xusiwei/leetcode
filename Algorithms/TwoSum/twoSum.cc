@@ -1,5 +1,5 @@
 /*
-copyright xu(xusiwei1236@163.com), all right reseved.
+copyright xu(xusiwei1236@163.com), all right reserved.
 
 Given an array of integers, find two numbers such that they add up to a specific target number.
 

@@ -1,5 +1,5 @@
 /*
-copyright xu(xusiwei1236@163.com), all right reseved.
+copyright xu(xusiwei1236@163.com), all right reserved.
 
 Implement atoi to convert a string to an integer.
 

@@ -1,5 +1,5 @@
 /*
-copyright xu(xusiwei1236@163.com), all right reseved.
+copyright xu(xusiwei1236@163.com), all right reserved.
 
 Given a singly linked list where elements are sorted in ascending order, convert it to a height balanced BST.
 */

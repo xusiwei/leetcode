@@ -1,5 +1,5 @@
 /*
-copyright xu(xusiwei1236@163.com), all right reseved.
+copyright xu(xusiwei1236@163.com), all right reserved.
 
 Remove all elements from a linked list of integers that have value val.
 

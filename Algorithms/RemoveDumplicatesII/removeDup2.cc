@@ -1,5 +1,5 @@
 /*
-copyright xu(xusiwei1236@163.com), all right reseved.
+copyright xu(xusiwei1236@163.com), all right reserved.
 
  Given a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list.
 

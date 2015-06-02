@@ -216,4 +216,4 @@ If you have any ideas about my solution, welcome to post a comment.
 
 
 ----------
-**copyright xu(xusiwei1236@163.com), all right reseved.**
+**copyright xu(xusiwei1236@163.com), all right reserved.**
