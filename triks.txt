@@ -1,0 +1,5 @@
+# find TAB in source code
+find . -name *.cc | xargs grep -P "\t" --color=auto
+
+# replace TAB with 4-SPACE
+find . -name *.cc | xargs sed -i "s/\t/    "
