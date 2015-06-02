@@ -34,7 +34,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 22  | Generate Parentheses  |  | Medium |
 | 23  | Merge k Sorted Lists  |  | Hard |
 | 24  | Swap Nodes in Pairs  |  | Medium |
-| 25  | Reverse Nodes in k-Group  |  | Hard |
+| 25  | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)  | [C++](Algorithms/ReverseNodesInK-Group/reverseNodesInGroups.cc) | Hard |
 | 26  | Remove Duplicates from Sorted Array  |  | Easy |
 | 27  | Remove Element  |  | Easy |
 | 28  | Implement strStr()  |  | Easy |
