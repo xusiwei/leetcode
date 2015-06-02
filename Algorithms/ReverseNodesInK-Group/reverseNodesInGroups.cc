@@ -38,40 +38,40 @@ struct ListNode {
  */
 class Solution {
 public:
-	static void reorderAddTail(ListNode* ph, ListNode* beg, ListNode* end) {
-		for(ListNode* p = beg; p != end; ) {
-			ListNode* next = p->next;
-			// cout << "add " << p->val << " after " << ph->val << endl;
-			// insert after ph.
-			p->next = ph->next;
-			ph->next = p;
-			
-			p = next;
-		}
-	}
-	
+    static void reorderAddTail(ListNode* ph, ListNode* beg, ListNode* end) {
+        for(ListNode* p = beg; p != end; ) {
+            ListNode* next = p->next;
+            // cout << "add " << p->val << " after " << ph->val << endl;
+            // insert after ph.
+            p->next = ph->next;
+            ph->next = p;
+            
+            p = next;
+        }
+    }
+    
     ListNode* reverseKGroup(ListNode* head, int k) {
         if(!head || !head->next || 1==k) return head;
-		ListNode hint(0), *pgh = &hint, *beg = NULL;
+        ListNode hint(0), *pgh = &hint, *beg = NULL;
         
         int count = 0;
         for(ListNode* p = head; p; ) {
-			ListNode* next = p->next;
-			const int i = ++count % k;
-			// cout << "No. " << i << ", " << count << ": " << p->val << endl;
+            ListNode* next = p->next;
+            const int i = ++count % k;
+            // cout << "No. " << i << ", " << count << ": " << p->val << endl;
             if(i == 1) {
-				beg = p;
+                beg = p;
             }
-			else if(i == 0) {
-				reorderAddTail(pgh, beg, p->next);
-				pgh = beg;
-				beg = NULL;
-			}
-			p = next;
+            else if(i == 0) {
+                reorderAddTail(pgh, beg, p->next);
+                pgh = beg;
+                beg = NULL;
+            }
+            p = next;
         }
-		
-		if(beg) pgh->next = beg;
-		return hint.next;
+        
+        if(beg) pgh->next = beg;
+        return hint.next;
     }
 };
 

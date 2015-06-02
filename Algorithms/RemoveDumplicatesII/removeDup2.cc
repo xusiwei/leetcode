@@ -53,9 +53,9 @@ public:
             }
             else {
                 if(took) {
-					removeNext(ps);
-					took = false;
-				}
+                    removeNext(ps);
+                    took = false;
+                }
                 else ps = prev;
                 prev = curr;
             }

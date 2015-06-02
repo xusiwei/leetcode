@@ -27,16 +27,16 @@ using namespace __gnu_cxx;
 
 class Solution {
 public:
-	static inline int getDigit(int x, int d) {
-		return ( x / static_cast<int>(pow(10, d)) ) % 10;
-	}
+    static inline int getDigit(int x, int d) {
+        return ( x / static_cast<int>(pow(10, d)) ) % 10;
+    }
 
     bool isPalindrome(int x) {
-		int len = static_cast<int>(log10(x)) + 1;
-		if(x < 0) return false;
-		for(int i = 0, j = len-1; i < j; i++, j--) {
-			if(getDigit(x, i) != getDigit(x, j)) return false;
-		}
+        int len = static_cast<int>(log10(x)) + 1;
+        if(x < 0) return false;
+        for(int i = 0, j = len-1; i < j; i++, j--) {
+            if(getDigit(x, i) != getDigit(x, j)) return false;
+        }
         return true;
     }
 };
