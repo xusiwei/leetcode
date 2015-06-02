@@ -1,4 +1,6 @@
 /*
+copyright xu(xusiwei1236@163.com), all right reseved.
+
 Reverse digits of an integer.
 
 Example1: x = 123, return 321
