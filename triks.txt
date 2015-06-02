@@ -3,3 +3,6 @@ find . -name *.cc | xargs grep -P "\t" --color=auto
 
 # replace TAB with 4-SPACE
 find . -name *.cc | xargs sed -i "s/\t/    /g"
+
+# replace `reseved` -> `reserved` in all files.
+grep -lr reseved . | xargs sed -i "s/reseved/reserved/g"
