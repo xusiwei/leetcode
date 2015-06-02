@@ -157,7 +157,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 145  | Binary Tree Postorder Traversal  |  | Hard |
 | 146  | LRU Cache  |  | Hard |
 | 147  | Insertion Sort List  |  | Medium |
-| 148  | Sort List  |  | Medium |
+| 148  | [Sort List](https://leetcode.com/problems/sort-list/)  | [C++](Algorithms/SortList/sortList.cc) | Medium |
 | 149  | Max Points on a Line  |  | Hard |
 | 150  | Evaluate Reverse Polish Notation  |  | Medium |
 | 151  | Reverse Words in a String  |  | Medium |
