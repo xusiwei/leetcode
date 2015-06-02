@@ -70,7 +70,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 58  | Length of Last Word  |  | Easy |
 | 59  | Spiral Matrix II  |  | Medium |
 | 60  | Permutation Sequence  |  | Medium |
-| 61  | Rotate List  |  | Medium |
+| 61  | [Rotate List](https://leetcode.com/problems/rotate-list/)  | [C++](Algorithms/RotateList/rotateList.cc) | Medium |
 | 62  | Unique Paths  |  | Medium |
 | 63  | Unique Paths II  |  | Medium |
 | 64  | Minimum Path Sum  |  | Medium |
