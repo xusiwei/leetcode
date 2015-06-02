@@ -30,7 +30,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 18  | 4Sum  |  | Medium |
 | 19  | Remove Nth Node From End of List  |  | Easy |
 | 20  | Valid Parentheses  |  | Easy |
-| 21  | Merge Two Sorted Lists  |  | Easy |
+| 21  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)  | [C++](Algorithms/MergeTwoSortedList/mergeTwoSortedList.cc) | Easy |
 | 22  | Generate Parentheses  |  | Medium |
 | 23  | Merge k Sorted Lists  |  | Hard |
 | 24  | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  | [C++](Algorithms/SwapNodesInPairs/swapNodeInPairs.cc) | Medium |
