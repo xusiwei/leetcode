@@ -91,7 +91,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 79  | Word Search  |  | Medium |
 | 80  | Remove Duplicates from Sorted Array II  |  | Medium |
 | 81  | Search in Rotated Sorted Array II  |  | Medium |
-| 82  | Remove Duplicates from Sorted List II  |  | Medium |
+| 82  | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)  | [C++](Algorithms/RemoveDumplicatesII/removeDup2.cc) | Medium |
 | 83  | Remove Duplicates from Sorted List  |  | Easy |
 | 84  | Largest Rectangle in Histogram  |  | Hard |
 | 85  | Maximal Rectangle  |  | Hard |
