@@ -196,7 +196,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 200  | Number of Islands  |  | Medium |
 | 201  | Bitwise AND of Numbers Range  |  | Medium |
 | 202  | Happy Number  |  | Easy |
-| 203  | Remove Linked List Elements  |  | Easy |
+| 203  | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)  | [C++](Algorithms/RemoveListElements/removeListElements.cc) | Easy |
 | 204  | Count Primes  |  | Easy |
 | 205  | Isomorphic Strings  |  | Easy |
 | 206  | Reverse Linked List  |  | Easy |
