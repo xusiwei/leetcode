@@ -32,7 +32,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 20  | Valid Parentheses  |  | Easy |
 | 21  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)  | [C++](Algorithms/MergeTwoSortedList/mergeTwoSortedList.cc) | Easy |
 | 22  | Generate Parentheses  |  | Medium |
-| 23  | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)  | [C++]() | Hard |
+| 23  | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)  | [C++](Algorithms/MergeKSortedLists/mergeKSortedLists.cc) | Hard |
 | 24  | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  | [C++](Algorithms/SwapNodesInPairs/swapNodeInPairs.cc) | Medium |
 | 25  | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)  | [C++](Algorithms/ReverseNodesInK-Group/reverseNodesInGroups.cc) | Hard |
 | 26  | Remove Duplicates from Sorted Array  |  | Easy |
