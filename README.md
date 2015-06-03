@@ -65,16 +65,16 @@ If you have any ideas about my solution, welcome to post a comment.
 | # | Title | Solutions | Difficulty | Tags |
 |---|-------|-----------|------------|------|
 | 1  | [Two Sum](https://leetcode.com/problems/two-sum/)  | [C++](Algorithms/TwoSum/twoSum.cc) | Medium | [Array][array], [Hash Table][hash] |
-| 2  | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)  | [C++](Algorithms/addTwoNumbers/addTwoNumbers.cc) | Medium |
+| 2  | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)  | [C++](Algorithms/addTwoNumbers/addTwoNumbers.cc) | Medium | [ Linked List ][list], [Math][math] |
 | 3  | Longest Substring Without Repeating Characters  |  | Medium |
 | 4  | Median of Two Sorted Arrays  |  | Hard |
 | 5  | Longest Palindromic Substring  |  | Medium |
-| 6  | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)  | [C++](Algorithms/ZigZagConversion/zigZagConvert.cc) | Easy |
-| 7  | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)  | [C++](Algorithms/ReverseInteger/reverseInteger.cc) | Easy |
-| 8  | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)  | [C++](Algorithms/atoi/atoi.cc) | Easy |
-| 9  | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)  | [C++](Algorithms/PalindromeNumber/palindromeNumber.cc) | Easy |
+| 6  | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)  | [C++](Algorithms/ZigZagConversion/zigZagConvert.cc) | Easy | [String][string] |
+| 7  | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)  | [C++](Algorithms/ReverseInteger/reverseInteger.cc) | Easy | [Math][math] |
+| 8  | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)  | [C++](Algorithms/atoi/atoi.cc) | Easy | [Math][math], [String][string] |
+| 9  | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)  | [C++](Algorithms/PalindromeNumber/palindromeNumber.cc) | Easy | [Math][math] |
 | 10  | Regular Expression Matching  |  | Hard |
-| 11  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)  | [C++](Algorithms/ContainMostWater/containMostWater.cc) | Medium |
+| 11  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)  | [C++](Algorithms/ContainMostWater/containMostWater.cc) | Medium | [Array][array], [Two Pointers][pointer] |
 | 12  | Integer to Roman  |  | Medium |
 | 13  | Roman to Integer  |  | Easy |
 | 14  | Longest Common Prefix  |  | Easy |
@@ -82,13 +82,13 @@ If you have any ideas about my solution, welcome to post a comment.
 | 16  | 3Sum Closest  |  | Medium |
 | 17  | Letter Combinations of a Phone Number  |  | Medium |
 | 18  | 4Sum  |  | Medium |
-| 19  | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)  | [C++](Algorithms/RemoveNthNodeFromEndOfList/removeNthNodeFromEndOfList.cc) | Easy |
+| 19  | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)  | [C++](Algorithms/RemoveNthNodeFromEndOfList/removeNthNodeFromEndOfList.cc) | Easy | [ Linked List ][list], [Two Pointers][pointer] |
 | 20  | Valid Parentheses  |  | Easy |
-| 21  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)  | [C++](Algorithms/MergeTwoSortedList/mergeTwoSortedList.cc) | Easy |
+| 21  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)  | [C++](Algorithms/MergeTwoSortedList/mergeTwoSortedList.cc) | Easy | [ Linked List ][list] |
 | 22  | Generate Parentheses  |  | Medium |
-| 23  | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)  | [C++](Algorithms/MergeKSortedLists/mergeKSortedLists.cc) | Hard |
-| 24  | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  | [C++](Algorithms/SwapNodesInPairs/swapNodeInPairs.cc) | Medium |
-| 25  | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)  | [C++](Algorithms/ReverseNodesInK-Group/reverseNodesInGroups.cc) | Hard |
+| 23  | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)  | [C++](Algorithms/MergeKSortedLists/mergeKSortedLists.cc) | Hard | [ Divide and Conquer ][dnd], [ Linked List ][list], [Heap][heap] |
+| 24  | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  | [C++](Algorithms/SwapNodesInPairs/swapNodeInPairs.cc) | Medium | [ Linked List ][list] |
+| 25  | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)  | [C++](Algorithms/ReverseNodesInK-Group/reverseNodesInGroups.cc) | Hard | [ Linked List ][list] |
 | 26  | Remove Duplicates from Sorted Array  |  | Easy |
 | 27  | Remove Element  |  | Easy |
 | 28  | Implement strStr()  |  | Easy |
@@ -124,7 +124,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 58  | Length of Last Word  |  | Easy |
 | 59  | Spiral Matrix II  |  | Medium |
 | 60  | Permutation Sequence  |  | Medium |
-| 61  | [Rotate List](https://leetcode.com/problems/rotate-list/)  | [C++](Algorithms/RotateList/rotateList.cc) | Medium |
+| 61  | [Rotate List](https://leetcode.com/problems/rotate-list/)  | [C++](Algorithms/RotateList/rotateList.cc) | Medium | [ Linked List ][list], [Two Pointers][pointer] |
 | 62  | Unique Paths  |  | Medium |
 | 63  | Unique Paths II  |  | Medium |
 | 64  | Minimum Path Sum  |  | Medium |
@@ -145,7 +145,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 79  | Word Search  |  | Medium |
 | 80  | Remove Duplicates from Sorted Array II  |  | Medium |
 | 81  | Search in Rotated Sorted Array II  |  | Medium |
-| 82  | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)  | [C++](Algorithms/RemoveDumplicatesII/removeDup2.cc) | Medium |
+| 82  | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)  | [C++](Algorithms/RemoveDumplicatesII/removeDup2.cc) | Medium |  [ Linked List ][list] |
 | 83  | Remove Duplicates from Sorted List  |  | Easy |
 | 84  | Largest Rectangle in Histogram  |  | Hard |
 | 85  | Maximal Rectangle  |  | Hard |
@@ -155,7 +155,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 89  | Gray Code  |  | Medium |
 | 90  | Subsets II  |  | Medium |
 | 91  | Decode Ways  |  | Medium |
-| 92  | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)  | [C++](Algorithms/ReverseLinkedListII/reverseLinkedListII.cc) | Medium |
+| 92  | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)  | [C++](Algorithms/ReverseLinkedListII/reverseLinkedListII.cc) | Medium |  [ Linked List ][list] |  [ Linked List ][list] |
 | 93  | Restore IP Addresses  |  | Medium |
 | 94  | Binary Tree Inorder Traversal  |  | Medium |
 | 95  | Unique Binary Search Trees II  |  | Medium |
@@ -172,7 +172,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 106  | Construct Binary Tree from Inorder and Postorder Traversal  |  | Medium |
 | 107  | Binary Tree Level Order Traversal II  |  | Easy |
 | 108  | Convert Sorted Array to Binary Search Tree  |  | Medium |
-| 109  | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)  | [C++](Algorithms/ConvertSortedListToBST/convertListToBST.cc) | Medium |
+| 109  | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)  | [C++](Algorithms/ConvertSortedListToBST/convertListToBST.cc) | Medium | [ Linked List ][list],  [Tree][tree] |
 | 110  | Balanced Binary Tree  |  | Easy |
 | 111  | Minimum Depth of Binary Tree  |  | Easy |
 | 112  | Path Sum  |  | Easy |
@@ -211,7 +211,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 145  | Binary Tree Postorder Traversal  |  | Hard |
 | 146  | LRU Cache  |  | Hard |
 | 147  | Insertion Sort List  |  | Medium |
-| 148  | [Sort List](https://leetcode.com/problems/sort-list/)  | [C++](Algorithms/SortList/sortList.cc) | Medium |
+| 148  | [Sort List](https://leetcode.com/problems/sort-list/)  | [C++](Algorithms/SortList/sortList.cc) | Medium |  [ Linked List ][list], [Sort][sort] |
 | 149  | Max Points on a Line  |  | Hard |
 | 150  | Evaluate Reverse Polish Notation  |  | Medium |
 | 151  | Reverse Words in a String  |  | Medium |
@@ -250,10 +250,10 @@ If you have any ideas about my solution, welcome to post a comment.
 | 200  | Number of Islands  |  | Medium |
 | 201  | Bitwise AND of Numbers Range  |  | Medium |
 | 202  | Happy Number  |  | Easy |
-| 203  | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)  | [C++](Algorithms/RemoveListElements/removeListElements.cc) | Easy |
+| 203  | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)  | [C++](Algorithms/RemoveListElements/removeListElements.cc) | Easy | [ Linked List ][list] |
 | 204  | Count Primes  |  | Easy |
 | 205  | Isomorphic Strings  |  | Easy |
-| 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)  | [C++](Algorithms/ReverseLinkedList/reverseLinkedList.cc) | Easy |
+| 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)  | [C++](Algorithms/ReverseLinkedList/reverseLinkedList.cc) | Easy | [ Linked List ][list] |
 | 207  | Course Schedule  |  | Medium |
 | 208  | Implement Trie (Prefix Tree)  |  | Medium |
 | 209  | Minimum Size Subarray Sum  |  | Medium |
