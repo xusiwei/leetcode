@@ -6,6 +6,7 @@ from [leetcode.com](https://leetcode.com):
 Categories
 =============================
 You can use Tag to list Problems as categories:
+
 | Tag | Number of Problems |
 |-----|--------------------|
 | [ Array ][array] | 61 |
