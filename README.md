@@ -205,7 +205,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 139  | Word Break  |  | Medium |
 | 140  | Word Break II  |  | Hard |
 | 141  | Linked List Cycle  |  | Medium |
-| 142  | Linked List Cycle II  |  | Medium |
+| 142  | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)  | [C++](Algorithms/LinkedListCycleII/linkedListCycleII.cpp) | Medium |  [ Linked List ][list], [Two Pointers][pointer] |
 | 143  | [Reorder List](https://leetcode.com/problems/reorder-list/)  | [C](Algorithms/ReoderList/reorderList.c) | Medium |  [ Linked List ][list] |
 | 144  | Binary Tree Preorder Traversal  |  | Medium |
 | 145  | Binary Tree Postorder Traversal  |  | Hard |
