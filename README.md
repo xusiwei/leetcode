@@ -146,7 +146,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 80  | Remove Duplicates from Sorted Array II  |  | Medium |
 | 81  | Search in Rotated Sorted Array II  |  | Medium |
 | 82  | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)  | [C++](Algorithms/RemoveDumplicatesII/removeDup2.cc) | Medium |  [ Linked List ][list] |
-| 83  | Remove Duplicates from Sorted List  |  | Easy |
+| 83  | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  | [C++](Algorithms/RemoveDuplicates/removeDup.cpp) | Easy | [Linked List][list] |
 | 84  | Largest Rectangle in Histogram  |  | Hard |
 | 85  | Maximal Rectangle  |  | Hard |
 | 86  | [Partition List](https://leetcode.com/problems/partition-list/)  | [C++](Algorithms/PartitionList/partitionList.cpp) | Medium | [Linked List][list], [Two Pointers][pointer] |
