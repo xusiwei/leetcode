@@ -206,7 +206,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 140  | Word Break II  |  | Hard |
 | 141  | Linked List Cycle  |  | Medium |
 | 142  | Linked List Cycle II  |  | Medium |
-| 143  | Reorder List  |  | Medium |
+| 143  | [Reorder List](https://leetcode.com/problems/reorder-list/)  | [C](Algorithms/InsertionSortList/insertionSortList.c) | Medium |  [ Linked List ][list] |
 | 144  | Binary Tree Preorder Traversal  |  | Medium |
 | 145  | Binary Tree Postorder Traversal  |  | Hard |
 | 146  | LRU Cache  |  | Hard |
