@@ -149,7 +149,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 83  | Remove Duplicates from Sorted List  |  | Easy |
 | 84  | Largest Rectangle in Histogram  |  | Hard |
 | 85  | Maximal Rectangle  |  | Hard |
-| 86  | Partition List  |  | Medium |
+| 86  | [Partition List](https://leetcode.com/problems/partition-list/)  | [C++](Algorithms/PartitionList/partitionList.cpp) | Medium | [Linked List][list], [Two Pointers][pointer] |
 | 87  | Scramble String  |  | Hard |
 | 88  | Merge Sorted Array  |  | Easy |
 | 89  | Gray Code  |  | Medium |
