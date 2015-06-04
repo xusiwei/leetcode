@@ -223,7 +223,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 157  | Read N Characters Given Read4  |  | Easy |
 | 158  | Read N Characters Given Read4 II - Call multiple times  |  | Hard |
 | 159  | Longest Substring with At Most Two Distinct Characters  |  | Hard |
-| 160  | Intersection of Two Linked Lists  |  | Easy |
+| 160  | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)  | [C](Algorithms/IntersectionOfTwoLinkedLists/getIntersectionNode.c), [C++](Algorithms/IntersectionOfTwoLinkedLists/getIntersectionNode.cpp) | Easy | [Linked List][list] |
 | 161  | One Edit Distance  |  | Medium |
 | 162  | Find Peak Element  |  | Medium |
 | 163  | Missing Ranges  |  | Medium |
