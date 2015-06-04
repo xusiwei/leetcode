@@ -17,9 +17,9 @@ Return a deep copy of the list.
 using namespace std;
 
 struct RandomListNode {
-	int label;
-	RandomListNode *next, *random;
-	RandomListNode(int x) : label(x), next(NULL), random(NULL) {}
+    int label;
+    RandomListNode *next, *random;
+    RandomListNode(int x) : label(x), next(NULL), random(NULL) {}
 };
 
 /**
@@ -79,8 +79,8 @@ int printList(RandomListNode* head)
     int count = 0;
     for(; head; head = head->next) {
         printf("-> %3d at %p", head->label, head);
-		if(head->random) printf("  %3d*", head->random->label);
-		puts("");
+        if(head->random) printf("  %3d*", head->random->label);
+        puts("");
         count++;
     }
     return count;
@@ -90,26 +90,26 @@ int printList(RandomListNode* head)
 
 RandomListNode* buildRandomList(int values[], int rlinks[], int length)
 {FUNC_TRACE
-	vector<RandomListNode*> id2ptr;
-	
-	// 0 <--> NULL
-	id2ptr.push_back(NULL);
-	
+    vector<RandomListNode*> id2ptr;
+    
+    // 0 <--> NULL
+    id2ptr.push_back(NULL);
+    
     RandomListNode fake(0), *tail = &fake;
     for(int i=0; i<length; ++i) {
         RandomListNode* temp = new RandomListNode(values[i]);
-		id2ptr.push_back(temp);
-		
-		tail->next = temp;
-		tail = temp;
+        id2ptr.push_back(temp);
+        
+        tail->next = temp;
+        tail = temp;
     }
-	
-	RandomListNode* p = fake.next;
-	for(int i=0; i<length; ++i) {
-		p->random = id2ptr[rlinks[i]];
-		p = p->next;
-	}
-	
+    
+    RandomListNode* p = fake.next;
+    for(int i=0; i<length; ++i) {
+        p->random = id2ptr[rlinks[i]];
+        p = p->next;
+    }
+    
     return fake.next;
 }
 
