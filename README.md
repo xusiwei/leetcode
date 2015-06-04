@@ -83,7 +83,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 17  | Letter Combinations of a Phone Number  |  | Medium |
 | 18  | 4Sum  |  | Medium |
 | 19  | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)  | [C++](Algorithms/RemoveNthNodeFromEndOfList/removeNthNodeFromEndOfList.cc) | Easy | [ Linked List ][list], [Two Pointers][pointer] |
-| 20  | Valid Parentheses  |  | Easy |
+| 20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)  | [C++](Algorithms/ValidParentheses/isValid.cpp) | Easy | [String][string], [Stack][stack] |
 | 21  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)  | [C++](Algorithms/MergeTwoSortedList/mergeTwoSortedList.cc) | Easy | [ Linked List ][list] |
 | 22  | Generate Parentheses  |  | Medium |
 | 23  | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)  | [C++](Algorithms/MergeKSortedLists/mergeKSortedLists.cc) | Hard | [ Divide and Conquer ][dnd], [ Linked List ][list], [Heap][heap] |
