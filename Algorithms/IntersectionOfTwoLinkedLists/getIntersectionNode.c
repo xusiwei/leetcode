@@ -9,6 +9,9 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
     struct ListNode* pA = headA, *pB = headB;
     int a = 0, b = 0;
     
+    // [A1, A2, ... ..., Am, C1, C2, ..., Cn][B1, B2, ..., Bk, C1, C2, ..., Cn]
+    // [B1, B2, ..., Bk, C1, C2, ..., Cn][A1, A2, ... ..., Am, C1, C2, ..., Cn]
+    //                                                         ^same
     while(pA && pB) {
         if(pA == pB) return pA;
         pA = pA->next;
