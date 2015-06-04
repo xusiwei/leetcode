@@ -201,7 +201,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 135  | Candy  |  | Hard |
 | 136  | Single Number  |  | Medium |
 | 137  | Single Number II  |  | Medium |
-| 138  | Copy List with Random Pointer  |  | Hard |
+| 138  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)  | [C++](Algorithms/CopyListWithRandomPointer/copyRandomList.cpp) | Hard | [Linked List][list], [Hash Table][hash] |
 | 139  | Word Break  |  | Medium |
 | 140  | Word Break II  |  | Hard |
 | 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)  | [C](Algorithms/LinkedListCycle/linkedListCycle.c), [C++](Algorithms/LinkedListCycle/linkedListCycle.cpp) | Medium |
