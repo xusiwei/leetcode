@@ -76,9 +76,9 @@ ListNode* array2List(int array[], int length)
 
 int main()
 {
-    // int ia[] = { 5, 6, 7, 8, 9, 1, 2, 3, 4, 10, 11 };
+    int ia[] = { 5, 6, 7, 8, 9, 1, 2, 3, 4, 10, 11 };
     // int ia[] = { 1 };
-    int ia[] = { 1, 1 };
+    // int ia[] = { 1, 1 };
     
     ListNode* L = array2List(ia, ARRAYSIZE(ia)); PRINTLIST(L);
 
