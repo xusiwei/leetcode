@@ -37,30 +37,33 @@ public:
         // the same Solution instance will be reused for each test case.
         if(head == NULL) return NULL;
         
+        // old:  O1 -> O2 ... -> On-1 -> On
+        // id:    1     2 ...     n-1     n
+        // new:  N1 -> N2 ... -> Nn-1 -> Nn
         int count = 0;
-        vector<RandomListNode*> id2ptr; // id -> new node.
-        unordered_map<RandomListNode*, int> ptr2id; // old node -> id.
+        vector<RandomListNode*> id2new; // id -> new node.
+        unordered_map<RandomListNode*, int> old2id; // old node -> id.
 
         // 0 <--> NULL
-        ptr2id[NULL] = 0;
-        id2ptr.push_back(NULL);
+        old2id[NULL] = 0;
+        id2new.push_back(NULL);
        
         RandomListNode fake(0), *tail = &fake;
         // dup list nodes.
         for(RandomListNode* p = head; p; p = p->next ) {
+            old2id[p] = ++count;
             RandomListNode* temp = new RandomListNode(p->label);
-            ptr2id[p] = ++count;
-            id2ptr.push_back(temp);
+            id2new.push_back(temp);
             tail->next = temp;
             tail = temp;
         }
         
         // dup random links.
-        for(RandomListNode* p = head; p; p = p->next ) { // convert random link to ptr2id pair.
-            int a = ptr2id[p];
+        for(RandomListNode* p = head; p; p = p->next ) {
+            int a = old2id[p];
             if(a) {
-                int b = ptr2id[p->random];
-                id2ptr[a]->random = id2ptr[b];
+                int b = old2id[p->random];
+                id2new[a]->random = id2new[b];
             }
         }
         
@@ -90,15 +93,15 @@ int printList(RandomListNode* head)
 
 RandomListNode* buildRandomList(int values[], int rlinks[], int length)
 {FUNC_TRACE
-    vector<RandomListNode*> id2ptr;
+    vector<RandomListNode*> id2new;
     
     // 0 <--> NULL
-    id2ptr.push_back(NULL);
+    id2new.push_back(NULL);
     
     RandomListNode fake(0), *tail = &fake;
     for(int i=0; i<length; ++i) {
         RandomListNode* temp = new RandomListNode(values[i]);
-        id2ptr.push_back(temp);
+        id2new.push_back(temp);
         
         tail->next = temp;
         tail = temp;
@@ -106,7 +109,7 @@ RandomListNode* buildRandomList(int values[], int rlinks[], int length)
     
     RandomListNode* p = fake.next;
     for(int i=0; i<length; ++i) {
-        p->random = id2ptr[rlinks[i]];
+        p->random = id2new[rlinks[i]];
         p = p->next;
     }
     
