@@ -141,7 +141,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 75  | Sort Colors  |  | Medium |
 | 76  | Minimum Window Substring  |  | Hard |
 | 77  | Combinations  |  | Medium |
-| 78  | Subsets  |  | Medium |
+| 78  | [Subsets](https://leetcode.com/problems/subsets/)  | [C++](Algorithms/Subsets/subsets.cpp) | Medium | [Array][array], [ Backtracking ][bt], [ Bit Manipulation ][bits] |
 | 79  | Word Search  |  | Medium |
 | 80  | Remove Duplicates from Sorted Array II  |  | Medium |
 | 81  | Search in Rotated Sorted Array II  |  | Medium |
