@@ -209,7 +209,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 143  | [Reorder List](https://leetcode.com/problems/reorder-list/)  | [C](Algorithms/ReoderList/reorderList.c) | Medium |  [ Linked List ][list] |
 | 144  | Binary Tree Preorder Traversal  |  | Medium |
 | 145  | Binary Tree Postorder Traversal  |  | Hard |
-| 146  | LRU Cache  |  | Hard |
+| 146  | LRU Cache  | [C++](Algorithms/LRUcache/lruCache.cpp), [Python](Algorithms/LRUcache/LRUCache.py) | Hard | [ Data Structure ][ds] |
 | 147  | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)  | [C](Algorithms/InsertionSortList/insertionSortList.c) | Medium |  [ Linked List ][list], [Sort][sort] |
 | 148  | [Sort List](https://leetcode.com/problems/sort-list/)  | [C++](Algorithms/SortList/sortList.cc) | Medium |  [ Linked List ][list], [Sort][sort] |
 | 149  | Max Points on a Line  |  | Hard |
