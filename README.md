@@ -199,7 +199,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 133  | Clone Graph  |  | Medium |
 | 134  | Gas Station  |  | Medium |
 | 135  | Candy  |  | Hard |
-| 136  | Single Number  | [C++](Algorithms/SingleNumber/singleNumber.cpp), [C](Algorithms/SingleNumber/singleNumber.c) | Medium | [ Hash Table ][hash], [ Bit Manipulation ][bits] |
+| 136  | [Single Number](https://leetcode.com/problems/single-number/)  | [C++](Algorithms/SingleNumber/singleNumber.cpp), [C](Algorithms/SingleNumber/singleNumber.c) | Medium | [ Hash Table ][hash], [ Bit Manipulation ][bits] |
 | 137  | Single Number II  |  | Medium |
 | 138  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)  | [C++](Algorithms/CopyListWithRandomPointer/copyRandomList.cpp) | Hard | [Linked List][list], [Hash Table][hash] |
 | 139  | Word Break  |  | Medium |
