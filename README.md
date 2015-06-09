@@ -200,7 +200,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 134  | Gas Station  |  | Medium |
 | 135  | Candy  |  | Hard |
 | 136  | [Single Number](https://leetcode.com/problems/single-number/)  | [C++](Algorithms/SingleNumber/singleNumber.cpp), [C](Algorithms/SingleNumber/singleNumber.c) | Medium | [ Hash Table ][hash], [ Bit Manipulation ][bits] |
-| 137  | Single Number II  |  | Medium |
+| 137  | [Single Number II](https://leetcode.com/problems/single-number-ii/)  | [C++](Algorithms/SingleNumberII/singleNumberII.cpp) | Medium | [ Bit Manipulation ][bits] |
 | 138  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)  | [C++](Algorithms/CopyListWithRandomPointer/copyRandomList.cpp) | Hard | [Linked List][list], [Hash Table][hash] |
 | 139  | Word Break  |  | Medium |
 | 140  | Word Break II  |  | Hard |
