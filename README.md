@@ -243,7 +243,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 187  | Repeated DNA Sequences  |  | Medium |
 | 188  | Best Time to Buy and Sell Stock IV  |  | Hard |
 | 189  | Rotate Array  |  | Easy |
-| 190  | Reverse Bits  |  | Easy |
+| 190  | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)  | [C](Algorithms/ReverseBits/reverseBits.c) | Easy | [Bit Manipulation][bits] |
 | 191  | Number of 1 Bits  |  | Easy |
 | 198  | House Robber  |  | Easy |
 | 199  | Binary Tree Right Side View  |  | Medium |
