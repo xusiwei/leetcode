@@ -141,7 +141,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 75  | Sort Colors  |  | Medium |
 | 76  | Minimum Window Substring  |  | Hard |
 | 77  | Combinations  |  | Medium |
-| 78  | Subsets  |  | Medium |
+| 78  | [Subsets](https://leetcode.com/problems/subsets/)  | [C++](Algorithms/Subsets/subsets.cpp) | Medium | [Array][array], [ Backtracking ][bt], [ Bit Manipulation ][bits] |
 | 79  | Word Search  |  | Medium |
 | 80  | Remove Duplicates from Sorted Array II  |  | Medium |
 | 81  | Search in Rotated Sorted Array II  |  | Medium |
@@ -199,8 +199,8 @@ If you have any ideas about my solution, welcome to post a comment.
 | 133  | Clone Graph  |  | Medium |
 | 134  | Gas Station  |  | Medium |
 | 135  | Candy  |  | Hard |
-| 136  | Single Number  |  | Medium |
-| 137  | Single Number II  |  | Medium |
+| 136  | [Single Number](https://leetcode.com/problems/single-number/)  | [C++](Algorithms/SingleNumber/singleNumber.cpp), [C](Algorithms/SingleNumber/singleNumber.c) | Medium | [ Hash Table ][hash], [ Bit Manipulation ][bits] |
+| 137  | [Single Number II](https://leetcode.com/problems/single-number-ii/)  | [C++](Algorithms/SingleNumberII/singleNumberII.cpp) | Medium | [ Bit Manipulation ][bits] |
 | 138  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)  | [C++](Algorithms/CopyListWithRandomPointer/copyRandomList.cpp) | Hard | [Linked List][list], [Hash Table][hash] |
 | 139  | Word Break  |  | Medium |
 | 140  | Word Break II  |  | Hard |
@@ -209,7 +209,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 143  | [Reorder List](https://leetcode.com/problems/reorder-list/)  | [C](Algorithms/ReoderList/reorderList.c) | Medium |  [ Linked List ][list] |
 | 144  | Binary Tree Preorder Traversal  |  | Medium |
 | 145  | Binary Tree Postorder Traversal  |  | Hard |
-| 146  | LRU Cache  |  | Hard |
+| 146  | [LRU Cache](https://leetcode.com/problems/lru-cache/)  | [C++](Algorithms/LRUcache/lruCache.cpp), [Python](Algorithms/LRUcache/LRUCache.py) | Hard | [ Data Structure ][ds] |
 | 147  | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)  | [C](Algorithms/InsertionSortList/insertionSortList.c) | Medium |  [ Linked List ][list], [Sort][sort] |
 | 148  | [Sort List](https://leetcode.com/problems/sort-list/)  | [C++](Algorithms/SortList/sortList.cc) | Medium |  [ Linked List ][list], [Sort][sort] |
 | 149  | Max Points on a Line  |  | Hard |
