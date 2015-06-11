@@ -244,7 +244,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 188  | Best Time to Buy and Sell Stock IV  |  | Hard |
 | 189  | Rotate Array  |  | Easy |
 | 190  | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)  | [C](Algorithms/ReverseBits/reverseBits.c) | Easy | [Bit Manipulation][bits] |
-| 191  | Number of 1 Bits  |  | Easy |
+| 191  | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)  | [C](Algorithms/NumberOf1Bits/numberOf1Bits.c) | Easy | [ Bit Manipulation ][bits] |
 | 198  | House Robber  |  | Easy |
 | 199  | Binary Tree Right Side View  |  | Medium |
 | 200  | Number of Islands  |  | Medium |
