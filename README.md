@@ -267,6 +267,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 217  | Contains Duplicate  |  | Easy |
 | 218  | The Skyline Problem  |  | Hard |
 | 219  | Contains Duplicate II  |  | Easy |
+| 226  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C++](Algorithms/InvertBinaryTree/invertBinaryTree.cpp) | Easy | [Tree][tree] |
 
 
 ----------
