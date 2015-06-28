@@ -240,7 +240,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 174  | Dungeon Game  |  | Hard |
 | 179  | Largest Number  |  | Medium |
 | 186  | Reverse Words in a String II  |  | Medium |
-| 187  | Repeated DNA Sequences  |  | Medium |
+| 187  | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)  | [C++](Algorithms/repeated-dna-sequences/findRepeatedDnaSequence.cc) | Medium | [Hash Table], [Bit Manipulation] |
 | 188  | Best Time to Buy and Sell Stock IV  |  | Hard |
 | 189  | Rotate Array  |  | Easy |
 | 190  | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)  | [C](Algorithms/ReverseBits/reverseBits.c) | Easy | [Bit Manipulation][bits] |
