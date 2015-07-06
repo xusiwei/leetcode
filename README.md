@@ -268,6 +268,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 218  | The Skyline Problem  |  | Hard |
 | 219  | Contains Duplicate II  |  | Easy |
 | 226  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C++](Algorithms/InvertBinaryTree/invertBinaryTree.cpp) | Easy | [Tree][tree] |
+| 231  | [Power of Two](https://leetcode.com/problems/power-of-two/) | [C++](Algorithms/PowerOfTwo/powerOf2.cc) | Easy | [Math][math], [Bit Manipulation][bits] |
 
 
 ----------
