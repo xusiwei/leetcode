@@ -232,7 +232,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 166  | Fraction to Recurring Decimal  |  | Medium |
 | 167  | Two Sum II - Input array is sorted  |  | Medium |
 | 168  | Excel Sheet Column Title  |  | Easy |
-| 169  | Majority Element  |  | Easy |
+| 169  | [Majority Element](https://leetcode.com/problems/majority-element/)  | [C++](Algorithms/MarjorityElement/majorityElement.cc) | Easy | [ Divide and Conquer ][dnd], [Array][array], [Bit Manipulation][bits] |
 | 170  | Two Sum III - Data structure design  |  | Easy |
 | 171  | Excel Sheet Column Number  |  | Easy |
 | 172  | Factorial Trailing Zeroes  |  | Easy |
