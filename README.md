@@ -66,7 +66,7 @@ If you have any ideas about my solution, welcome to post a comment.
 |---|-------|-----------|------------|------|
 | 1  | [Two Sum](https://leetcode.com/problems/two-sum/)  | [C++](Algorithms/TwoSum/twoSum.cc) | Medium | [Array][array], [Hash Table][hash] |
 | 2  | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)  | [C++](Algorithms/addTwoNumbers/addTwoNumbers.cc) | Medium | [ Linked List ][list], [Math][math] |
-| 3  | Longest Substring Without Repeating Characters  |  | Medium |
+| 3  | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)  | [C++](Algorithms/LongestSubstringWithoutRepeatingChars/lengthOfLongestSubstring.cc) | Medium | [Hash Table][hash], [String][string], [Two Pointers][pointer] |
 | 4  | Median of Two Sorted Arrays  |  | Hard |
 | 5  | Longest Palindromic Substring  |  | Medium |
 | 6  | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)  | [C++](Algorithms/ZigZagConversion/zigZagConvert.cc) | Easy | [String][string] |
