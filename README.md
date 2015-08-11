@@ -73,7 +73,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 7  | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)  | [C++](Algorithms/ReverseInteger/reverseInteger.cc) | Easy | [Math][math] |
 | 8  | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)  | [C++](Algorithms/atoi/atoi.cc) | Easy | [Math][math], [String][string] |
 | 9  | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)  | [C++](Algorithms/PalindromeNumber/palindromeNumber.cc) | Easy | [Math][math] |
-| 10  | Regular Expression Matching  |  | Hard |
+| 10  | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)  | [C](Algorithms/RegularExpressionMatch/reMatch.c) | Hard | [Dynamic Programming][dp], [Backtracking][bt], [String][string] |
 | 11  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)  | [C++](Algorithms/ContainMostWater/containMostWater.cc) | Medium | [Array][array], [Two Pointers][pointer] |
 | 12  | Integer to Roman  |  | Medium |
 | 13  | Roman to Integer  |  | Easy |
