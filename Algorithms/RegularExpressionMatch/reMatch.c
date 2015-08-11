@@ -27,57 +27,57 @@ isMatch("aab", "c*a*b") → true
 /*
 do it by hand:
 mat(aa\0, a*\0)
-0:	mat(aa\0, \0)	false
+0:    mat(aa\0, \0)    false
 
 1:  aa\0, a*\0
     ^     ^
-	mat(a\0, \0)	false
+    mat(a\0, \0)    false
 
-2:	aa\0, a*\0
+2:    aa\0, a*\0
      ^    ^
-	mat(\0, \0)		true
+    mat(\0, \0)        true
 */
 
 #include <stdio.h>
 #include <stdbool.h>
 
 #ifdef DEBUG
-	#define debug printf
+    #define debug printf
 #else // DEBUG
-	#define debug
+    #define debug
 #endif // DEBUG
 
 bool isMatch(char* s, char* p) {
-	debug("isMatch %s(%p), %s(%p)\n", s, s, p, p);
-	if(s == NULL || p == NULL) return false;
+    debug("isMatch %s(%p), %s(%p)\n", s, s, p, p);
+    if(s == NULL || p == NULL) return false;
     if(*p == '\0') return *s == '\0'; // for 0, 0;  N, 0.
-	
-	if(p[1] == '*') {
-		int i;
-		if(isMatch(s, p+2)) return true; // match zero element
-		for(i = 0; s[i] && p[0]; i++) {  // match more
-			debug("isMatch %d: %c, %c,  %s(%p)\n", i, s[i], p[0], s, s);
-			if(s[i] == p[0] || p[0] == '.') {
-				if(isMatch(s+i+1, p+2)) return true;
-			}
-			else return false;
-		}
-	}
-	else if(*s == *p || *s != '\0' && *p == '.') { // go ahead.
-		return isMatch(s+1, p+1);
-	}
-	return false;
+    
+    if(p[1] == '*') {
+        int i;
+        if(isMatch(s, p+2)) return true; // match zero element
+        for(i = 0; s[i] && p[0]; i++) {  // match more
+            debug("isMatch %d: %c, %c,  %s(%p)\n", i, s[i], p[0], s, s);
+            if(s[i] == p[0] || p[0] == '.') {
+                if(isMatch(s+i+1, p+2)) return true;
+            }
+            else return false;
+        }
+    }
+    else if(*s == *p || *s != '\0' && *p == '.') { // go ahead.
+        return isMatch(s+1, p+1);
+    }
+    return false;
 }
 
 bool test(char* s, char* p) {
-	printf("isMatch(%s, %s) -> %s\n", s, p, isMatch(s, p) ? "true" : "false");
+    printf("isMatch(%s, %s) -> %s\n", s, p, isMatch(s, p) ? "true" : "false");
 }
 
 #define isMatch test
 
 int main(int argc, char* argv[])
 {
-	int i;
+    int i;
 #if CASE
 isMatch("aa","a");
 isMatch("aa","aa");
@@ -95,9 +95,9 @@ isMatch("aaaaaaaaaaaaaaaaaaaaa", "a*a*a*aa");
 isMatch("", "..*");
 #endif
 
-	for(i = 1; i < argc; i += 2) {
-		isMatch(argv[i], argv[i+1]);
-	}
-	return 0;
+    for(i = 1; i < argc; i += 2) {
+        isMatch(argv[i], argv[i+1]);
+    }
+    return 0;
 }
 
