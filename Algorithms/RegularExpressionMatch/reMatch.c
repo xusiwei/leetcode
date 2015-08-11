@@ -78,7 +78,7 @@ bool test(char* s, char* p) {
 int main(int argc, char* argv[])
 {
     int i;
-#if CASE
+#ifdef CASE
 isMatch("aa","a");
 isMatch("aa","aa");
 isMatch("aaa","aa");
