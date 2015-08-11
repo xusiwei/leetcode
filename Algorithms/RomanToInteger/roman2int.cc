@@ -17,6 +17,7 @@ static int value[256];
 class Solution {
 public:
     Solution() {
+	    // refers to: https://en.wikipedia.org/wiki/Roman_numerals
         value['I'] = 1;
         value['V'] = 5;
         value['X'] = 10;
