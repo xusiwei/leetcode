@@ -68,7 +68,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 2  | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)  | [C++](Algorithms/addTwoNumbers/addTwoNumbers.cc) | Medium | [ Linked List ][list], [Math][math] |
 | 3  | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)  | [C++](Algorithms/LongestSubstringWithoutRepeatingChars/lengthOfLongestSubstring.cc) | Medium | [Hash Table][hash], [String][string], [Two Pointers][pointer] |
 | 4  | Median of Two Sorted Arrays  |  | Hard |
-| 5  | Longest Palindromic Substring  |  | Medium |
+| 5  | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)  | [C++](Algorithms/longestPalindrome/longestPalindrome.cc) | Medium | [String][string] |
 | 6  | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)  | [C++](Algorithms/ZigZagConversion/zigZagConvert.cc) | Easy | [String][string] |
 | 7  | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)  | [C++](Algorithms/ReverseInteger/reverseInteger.cc) | Easy | [Math][math] |
 | 8  | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)  | [C++](Algorithms/atoi/atoi.cc) | Easy | [Math][math], [String][string] |
