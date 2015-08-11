@@ -17,7 +17,7 @@ static int value[256];
 class Solution {
 public:
     Solution() {
-	    // refers to: https://en.wikipedia.org/wiki/Roman_numerals
+        // refers to: https://en.wikipedia.org/wiki/Roman_numerals
         value['I'] = 1;
         value['V'] = 5;
         value['X'] = 10;
@@ -27,8 +27,8 @@ public:
         value['M'] = 1000;
     }
 
-	// I  II  III  IV  V  VI  VII  VIII  IX  X
-	// XI XII XIII XIV XV XVI XVII XVIII XIX XX
+    // I  II  III  IV  V  VI  VII  VIII  IX  X
+    // XI XII XIII XIV XV XVI XVII XVIII XIX XX
     int romanToInt(string s) {
         if(s.length() == 0) return 0;
         int res = 0;
@@ -50,8 +50,8 @@ public:
 
 int main()
 {
-	string roman;
-	while(cin >> roman) {
-		cout << roman << ": " << Solution().romanToInt(roman) << endl;
-	}
+    string roman;
+    while(cin >> roman) {
+        cout << roman << ": " << Solution().romanToInt(roman) << endl;
+    }
 }

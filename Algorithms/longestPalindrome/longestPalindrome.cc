@@ -19,7 +19,7 @@ public:
         int maxlen = 1, start = 0, length = s.length();
         
         for(int i = 0; i < length; ++i) {
-        	printf("i: %d\n", i);
+            printf("i: %d\n", i);
             // for odd
             for(int l=i-1, r=i+1; l >= 0 && r < length; l--, r++) {
                 if(s[l] == s[r]) {
@@ -50,9 +50,9 @@ public:
 
 int main()
 {
-	string s = "caba";
-	cin >> s;
-	cout << Solution().longestPalindrome(s) << endl;
-	return 0;
+    string s = "caba";
+    cin >> s;
+    cout << Solution().longestPalindrome(s) << endl;
+    return 0;
 }
 

@@ -56,7 +56,7 @@ class Solution {
 //            printf("> %d %d %c\n", i, mask, c);
             res += c;
         }
-//		printf("decrypt(%05x): %s\n", n, res.c_str());
+//        printf("decrypt(%05x): %s\n", n, res.c_str());
         return res;
     }
     
@@ -80,11 +80,11 @@ public:
 #ifdef TEST
 int main(int argc, char* argv[])
 {
-	string s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT";
-	auto result = Solution().findRepeatedDnaSequences(s);
-	for(string s: result) {
-		cout << s << endl;
-	}
-	return 0;
+    string s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT";
+    auto result = Solution().findRepeatedDnaSequences(s);
+    for(string s: result) {
+        cout << s << endl;
+    }
+    return 0;
 }
 #endif

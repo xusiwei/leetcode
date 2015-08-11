@@ -28,9 +28,9 @@ public:
         
         for(int i = 0; i < len; ++i) {
             for(int j = i+1; j <= len; ++j) {
-            	int L = j - i;
-             	bool isp = isPalindrome(s, i, j);
-             	// printf("%d, %d: %s -> %s\n", i, j, s.substr(i, j-i).c_str(), isp ? "true" : "false");
+                int L = j - i;
+                 bool isp = isPalindrome(s, i, j);
+                 // printf("%d, %d: %s -> %s\n", i, j, s.substr(i, j-i).c_str(), isp ? "true" : "false");
                 if(isp && L > max) {
                     max = L;
                     beg = i;
@@ -45,9 +45,9 @@ public:
 
 int main()
 {
-	string s;
-	cin >> s;
-	cout << Solution().longestPalindrome(s) << endl;
-	return 0;
+    string s;
+    cin >> s;
+    cout << Solution().longestPalindrome(s) << endl;
+    return 0;
 }
 
