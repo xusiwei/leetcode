@@ -14,19 +14,22 @@ using namespace std;
 
 static int value[256];
 
+static int Initor() {
+    // refers to: https://en.wikipedia.org/wiki/Roman_numerals
+    value['I'] = 1;
+    value['V'] = 5;
+    value['X'] = 10;
+    value['L'] = 50;
+    value['C'] = 100;
+    value['D'] = 500;
+    value['M'] = 1000;
+    return 0;
+}
+
+static int initor = Initor();
+
 class Solution {
 public:
-    Solution() {
-        // refers to: https://en.wikipedia.org/wiki/Roman_numerals
-        value['I'] = 1;
-        value['V'] = 5;
-        value['X'] = 10;
-        value['L'] = 50;
-        value['C'] = 100;
-        value['D'] = 500;
-        value['M'] = 1000;
-    }
-
     // I  II  III  IV  V  VI  VII  VIII  IX  X
     // XI XII XIII XIV XV XVI XVII XVIII XIX XX
     int romanToInt(string s) {
