@@ -77,7 +77,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 11  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)  | [C++](Algorithms/ContainMostWater/containMostWater.cc) | Medium | [Array][array], [Two Pointers][pointer] |
 | 12  | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)  | [C++](Algorithms/IntegerToRoman/int2roman.cc) | Medium | [Math][math], [String][string] |
 | 13  | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)  | [C++](Algorithms/RomanToInteger/roman2int.cc) | Easy | [String][string], [Math][math] |
-| 14  | Longest Common Prefix  |  | Easy |
+| 14  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)  | [C++](Algorithms/LongestCommonPrefix/longestCommonPrefix.cc) | Easy | [String][string] |
 | 15  | 3Sum  |  | Medium |
 | 16  | 3Sum Closest  |  | Medium |
 | 17  | Letter Combinations of a Phone Number  |  | Medium |
