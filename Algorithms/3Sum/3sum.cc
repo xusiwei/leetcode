@@ -26,12 +26,6 @@ The solution set must not contain duplicate triplets.
 #include <stdio.h>
 using namespace std;
 
-#ifdef DEBUG
-#define trace printf
-#else
-#define trace
-#endif
-
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -39,30 +33,29 @@ public:
         
         std::sort(nums.begin(), nums.end());
         for(int i = 0, sz = nums.size(); i < sz-1; ++i) {
-            int target = -nums[i];
+            int a = nums[i];
             int front = i+1;
             int back = sz-1;
             
             // find: nums[front] + nums[back] == sum
             while(front < back) {
-                int sum = nums[front] + nums[back];
-                if(sum == target){
-                    vector<int> t(3, 0);
-                    t[0] = nums[i];
-                    t[1] = nums[front];
-                    t[2] = nums[back];
-                    
-                    result.push_back(t);
+                int b = nums[front];
+                int c = nums[back];
+                int sum = a + b + c;
+                if(sum == 0){
+                    result.push_back({a, b, c});
                     
                     // for duplicate Number 2, 3.
-                    while(front < back && nums[front] == t[1]) front++;
-                    while(front < back && nums[back] == t[2]) back--;
+                    while(front < back && nums[front+1] == nums[front]) front++;
+                    while(front < back && nums[back-1] == nums[back]) back--;
+                    front++;
+                    back--;
                 }
-                else if(sum < target) {
+                else if(sum < 0) {
                     while(front < back && nums[front+1] == nums[front]) front++;
                     front++;
                 }
-                else { // if(sum > target)
+                else { // if(sum > 0)
                     while(front < back && nums[back-1] == nums[back]) back--;
                     back--;
                 }
