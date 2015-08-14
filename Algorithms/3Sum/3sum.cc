@@ -81,9 +81,7 @@ public:
 			// find: nums[front] + nums[back] == sum
 			while(front < back) {
 				int sum = nums[front] + nums[back];
-				if(sum < target) front++;
-				else if(sum > target) back--;
-				else {
+				if(sum == target){
 					vector<int> t(3, 0);
 					t[0] = nums[i];
 					t[1] = nums[front];
@@ -94,6 +92,14 @@ public:
 					// for duplicate Number 2, 3.
 					while(front < back && nums[front] == t[1]) front++;
 					while(front < back && nums[back] == t[2]) back--;
+				}
+				else if(sum < target) {
+					while(front < back && nums[front+1] == t[front]) front++;
+					front++;
+				}
+				else { // if(sum > target)
+					while(front < back && nums[back-1] == t[back]) back--;
+					back--;
 				}
 			}
 			
