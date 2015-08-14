@@ -17,46 +17,107 @@ The solution set must not contain duplicate quadruplets.
     (-2,  0, 0, 2)
 */
 
+#include <stdio.h>
+#include <map>
+#include <tuple>
+#include <vector>
+#include <unordered_set>
+#include <algorithm>
+#include <iostream>
+
+using namespace std;
+
+#ifdef DEBUG
+#define trace printf
+#else
+#define trace
+#endif
+
 class Solution {
-	static void sort4(int& a, int& b, int& c, int& d) {
-		int tmp[4];
-		if(a > b) std::swap(a, b);
-		if(c > d) std::swap(c, d);
-		
-		if(a < c) {
-			tmp[0] = a;
-			tmp[1] = b < c ? b : c;
-		}
-		else {
-			
-		}
-	}
 public:
+	static vector<vector<int>> threeSum(vector<int>& nums, int target) {
+        vector<vector<int>> result;
+        
+        std::sort(nums.begin(), nums.end());
+        for(int i = 0, sz = nums.size(); i < sz-1; ++i) {
+            int a = nums[i];
+            int front = i+1;
+            int back = sz-1;
+            
+            // find: nums[front] + nums[back] == sum
+            while(front < back) {
+                int b = nums[front];
+                int c = nums[back];
+                int sum = a + b + c;
+                if(sum == target){
+                    result.push_back({a, b, c});
+                    
+                    // for duplicate Number 2, 3.
+                    while(front < back && nums[front+1] == nums[front]) front++;
+                    while(front < back && nums[back-1] == nums[back]) back--;
+                    front++;
+                    back--;
+                }
+                else if(sum < target) {
+                    while(front < back && nums[front+1] == nums[front]) front++;
+                    front++;
+                }
+                else { // if(sum > 0)
+                    while(front < back && nums[back-1] == nums[back]) back--;
+                    back--;
+                }
+            }
+            
+            // for duplicate Number 1.
+            while(i+1 < sz && nums[i+1] == nums[i]) i++;
+        }
+        return result;
+    }
+        
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
         vector<vector<int>> result;
-        multimap<int, tuple<int, int>> dict;
-		
-		sort(nums.begin(), nums.end());
-        for(int i = 0, sz = nums.size(); i < sz-1; i++) {
-			for(int j = i - 1; j < sz; j++) {
-				int c = nums[i];
-				int d = nums[j];
-				int sum = c + d;
-				
-				auto it = dict.find(-sum);
-				if(it != dict.end()) {
-					for(; it->first + sum == 0; ++it) {
-						int a = std::get<0>(it->second);
-						int b = std::get<1>(it->second);
-						
-					}
-				}
-				else {
-					dict[sum] = make_tuple(c, d);
-				}
-			}
-		}
+        if(nums.size() < 4) return result;
+        
+        sort(nums.begin(), nums.end());
+        for(int i = 0, sz = nums.size(); i < sz-3; ++i) {
+            if (i>0 && nums[i-1] == nums[i]) continue;
+        	vector<int> rest(nums.begin()+i+1, nums.end());
+        	auto mat = threeSum(rest, target-nums[i]);
+        	for(int j = 0, nm = mat.size(); j < nm; j++) {
+	        	mat[j].insert(mat[j].begin(), nums[i]);
+  		        result.push_back(mat[j]);
+	        }
+        }
         
         return result;
     }
 };
+
+
+template<typename Vector>
+void printVector(Vector v)
+{
+	cout << "[";
+	for(int i = 0, sz = v.size(); i < sz; i++) {
+		cout << v[i] << (i+1 == sz ? "]\n" : ",");
+	}
+}
+
+int main()
+{
+	int target, n;
+	vector<int> nums;
+	
+	cin >> target;
+	while(cin >> n) {
+		nums.push_back(n);
+	}
+	
+	cout << "nums: ";
+	printVector(nums);
+	cout << "target:" << target << "\n\n";
+	
+	auto result = Solution().fourSum(nums, target);
+	for(auto v: result) { cout << v[0] + v[1] + v[2] + v[3] << ": "; printVector(v); }
+	return 0;
+}
