@@ -3,60 +3,6 @@ What's [LeetCode](https://leetcode.com)?
 from [leetcode.com](https://leetcode.com):
 > LeetCode OJ is a platform for preparing technical coding interviews. Pick from an expanding library of more than 190 questions, code and submit your solution to see if you have solved it correctly. It is that easy!
 
-Categories
-=============================
-You can use Tag to list Problems as categories:
-
-| Tag | Number of Problems |
-|-----|--------------------|
-| [ Array ][array] | 61 |
-| [ Hash Table ][hash] | 22 |
-| [ Linked List ][list] | 21 |
-| [ Math ][math] | 21 |
-| [ Two Pointers ][pointer] | 23 |
-| [ String ][string] | 39 |
-| [ Binary Search ][search] | 15 |
-| [ Divide and Conquer ][dnd] | 6 |
-| [ Dynamic Programming ][dp] | 27 |
-| [ Backtracking ][bt] | 24 |
-| [ Stack ][stack] | 12 |
-| [ Heap ][heap] | 3 |
-| [ Greedy ][greedy] | 6 |
-| [ Sort ][sort] | 7 |
-| [ Bit Manipulation ][bits] | 8 |
-| [ Tree ][tree] | 28 |
-| [ Depth-first Search ][dfs] | 23 |
-| [ Breadth-first Search ][bfs] | 11 |
-| [ Graph ][graph] | 3 |
-| [ Data Structure ][ds] | 5 |
-| [ Topological Sort ][ts] | 2 |
-| [ Trie ][trie] | 3 |
-| [ Binary Search Tree  ][bst] | 1 |
-
-[array]: https://leetcode.com/tag/array/
-[hash]: https://leetcode.com/tag/hash-table/
-[list]: https://leetcode.com/tag/linked-list/
-[math]: https://leetcode.com/tag/math/
-[pointer]: https://leetcode.com/tag/two-pointers/
-[string]: https://leetcode.com/tag/string/
-[search]: https://leetcode.com/tag/binary-search/
-[dnd]: https://leetcode.com/tag/divide-and-conquer/
-[dp]: https://leetcode.com/tag/dynamic-programming/
-[bt]: https://leetcode.com/tag/backtracking/
-[stack]: https://leetcode.com/tag/stack/
-[heap]: https://leetcode.com/tag/heap/
-[greedy]: https://leetcode.com/tag/greedy/
-[sort]: https://leetcode.com/tag/sort/
-[bits]: https://leetcode.com/tag/bit-manipulation/
-[tree]: https://leetcode.com/tag/tree/
-[dfs]: https://leetcode.com/tag/depth-first-search/
-[bfs]: https://leetcode.com/tag/breadth-first-search/
-[graph]: https://leetcode.com/tag/graph/
-[ds]: https://leetcode.com/tag/data-structure/
-[ts]: https://leetcode.com/tag/topological-sort/
-[trie]: https://leetcode.com/tag/trie/
-[bst]: https://leetcode.com/tag/binary-search-tree/
-
 Problems & Solutions
 ============================
 Here's my solutions of leetcode problems, and I'll keep it up to date.
@@ -67,8 +13,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 1  | [Two Sum](https://leetcode.com/problems/two-sum/)  | [C++](Algorithms/TwoSum/twoSum.cc) | Medium | [Array][array], [Hash Table][hash] |
 | 2  | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)  | [C++](Algorithms/addTwoNumbers/addTwoNumbers.cc) | Medium | [ Linked List ][list], [Math][math] |
 | 3  | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)  | [C++](Algorithms/LongestSubstringWithoutRepeatingChars/lengthOfLongestSubstring.cc) | Medium | [Hash Table][hash], [String][string], [Two Pointers][pointer] |
-| 4  | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)  | [C](Algorithms/MedianOfTwoSortedArrays/cmedianOf2Arrays.cc) | Hard |  [Divide and Conquer][dnd], [Array][array], [Binary Search][search]
-
+| 4  | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)  | [C](Algorithms/MedianOfTwoSortedArrays/cmedianOf2Arrays.cc) | Hard |  [Divide and Conquer][dnd], [Array][array], [Binary Search][bsearch]
 | 5  | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)  | [C++](Algorithms/longestPalindrome/longestPalindrome.cc) | Medium | [String][string] |
 | 6  | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)  | [C++](Algorithms/ZigZagConversion/zigZagConvert.cc) | Easy | [String][string] |
 | 7  | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)  | [C++](Algorithms/ReverseInteger/reverseInteger.cc) | Easy | [Math][math] |
@@ -271,6 +216,29 @@ If you have any ideas about my solution, welcome to post a comment.
 | 226  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C++](Algorithms/InvertBinaryTree/invertBinaryTree.cpp) | Easy | [Tree][tree] |
 | 231  | [Power of Two](https://leetcode.com/problems/power-of-two/) | [C++](Algorithms/PowerOfTwo/powerOf2.cc) | Easy | [Math][math], [Bit Manipulation][bits] |
 
+[array]: https://leetcode.com/tag/array/
+[hash]: https://leetcode.com/tag/hash-table/
+[list]: https://leetcode.com/tag/linked-list/
+[math]: https://leetcode.com/tag/math/
+[pointer]: https://leetcode.com/tag/two-pointers/
+[string]: https://leetcode.com/tag/string/
+[bsearch]: https://leetcode.com/tag/binary-search/
+[dnd]: https://leetcode.com/tag/divide-and-conquer/
+[dp]: https://leetcode.com/tag/dynamic-programming/
+[bt]: https://leetcode.com/tag/backtracking/
+[stack]: https://leetcode.com/tag/stack/
+[heap]: https://leetcode.com/tag/heap/
+[greedy]: https://leetcode.com/tag/greedy/
+[sort]: https://leetcode.com/tag/sort/
+[bits]: https://leetcode.com/tag/bit-manipulation/
+[tree]: https://leetcode.com/tag/tree/
+[dfs]: https://leetcode.com/tag/depth-first-search/
+[bfs]: https://leetcode.com/tag/breadth-first-search/
+[graph]: https://leetcode.com/tag/graph/
+[ds]: https://leetcode.com/tag/data-structure/
+[ts]: https://leetcode.com/tag/topological-sort/
+[trie]: https://leetcode.com/tag/trie/
+[bst]: https://leetcode.com/tag/binary-search-tree/
 
 ----------
 **copyright xu(xusiwei1236@163.com), all right reserved.**
