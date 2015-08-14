@@ -36,17 +36,17 @@ class Solution {
 public:
     vector<string> combineProxy(const char* digs) {
         static const char* mapping[] = {
-			"", // 0
-			"", // 1
-			"abc", // 2
-			"def", // 3
-			"ghi", // 4
-			"jkl", // 5
-			"mno", // 6
-			"pqrs", // 7
-			"tuv", // 8
-			"wxyz", // 9
-		};
+            "", // 0
+            "", // 1
+            "abc", // 2
+            "def", // 3
+            "ghi", // 4
+            "jkl", // 5
+            "mno", // 6
+            "pqrs", // 7
+            "tuv", // 8
+            "wxyz", // 9
+        };
     
         vector<string> result;
         
@@ -58,17 +58,17 @@ public:
         int len = strlen(str);
         
         if(digs[1] == '\0') {
-        	for(int i = 0; i < len; ++i) {
-        		result.push_back(string(1, str[i]));
-        	}
-        	return result;
+            for(int i = 0; i < len; ++i) {
+                result.push_back(string(1, str[i]));
+            }
+            return result;
         }
         
         vector<string> last = combineProxy(digs + 1);
         for(int i = 0; i < len; ++i) {
-	        trace("get %c from %d\n", str[i], num);
+            trace("get %c from %d\n", str[i], num);
             for(int j = 0, sz = last.size(); j < sz; ++j) {
-            	trace(" add %c + %s\n", str[i], last[j].c_str());
+                trace(" add %c + %s\n", str[i], last[j].c_str());
                 result.push_back(str[i] + last[j]);
             }
         }
@@ -83,13 +83,13 @@ public:
 
 int main()
 {
-	string digs;
-	Solution().letterCombinations("");
-	while(cin >> digs) {
-		auto result = Solution().letterCombinations(digs);
-		cout << "{";
-		for_each(result.begin(), result.end(), [](string s){ cout << s << ","; });
-		cout << "}\n";
-	}
-	return 0;
+    string digs;
+    Solution().letterCombinations("");
+    while(cin >> digs) {
+        auto result = Solution().letterCombinations(digs);
+        cout << "{";
+        for_each(result.begin(), result.end(), [](string s){ cout << s << ","; });
+        cout << "}\n";
+    }
+    return 0;
 }
