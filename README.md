@@ -26,7 +26,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 14  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)  | [C++](Algorithms/LongestCommonPrefix/longestCommonPrefix.cc) | Easy | [String][string] |
 | 15  | [3Sum](https://leetcode.com/problems/3sum/)  | [C++](Algorithms/3Sum/3sum.cc) | Medium | [Array][array], [Two Pointer][pointer] |
 | 16  | [3Sum Closest](https://leetcode.com/problems/median-of-two-sorted-arrays/)  | [C++](Algorithms/3SumClosest/3sumClosest.cc) | Medium |  [Divide and Conquer][dnd], [Array][array], [Binary Search][bsearch] |
-| 17  | Letter Combinations of a Phone Number  |  | Medium |
+| 17  | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)  | [C++](Algorithms/LetterCombinationsOfAPhoneNumber/letterCombine.cc) | Medium | [Backtracking][bt], [String][string] |
 | 18  | 4Sum  |  | Medium |
 | 19  | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)  | [C++](Algorithms/RemoveNthNodeFromEndOfList/removeNthNodeFromEndOfList.cc) | Easy | [ Linked List ][list], [Two Pointers][pointer] |
 | 20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)  | [C++](Algorithms/ValidParentheses/isValid.cpp) | Easy | [String][string], [Stack][stack] |
