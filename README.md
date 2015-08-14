@@ -67,7 +67,8 @@ If you have any ideas about my solution, welcome to post a comment.
 | 1  | [Two Sum](https://leetcode.com/problems/two-sum/)  | [C++](Algorithms/TwoSum/twoSum.cc) | Medium | [Array][array], [Hash Table][hash] |
 | 2  | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)  | [C++](Algorithms/addTwoNumbers/addTwoNumbers.cc) | Medium | [ Linked List ][list], [Math][math] |
 | 3  | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)  | [C++](Algorithms/LongestSubstringWithoutRepeatingChars/lengthOfLongestSubstring.cc) | Medium | [Hash Table][hash], [String][string], [Two Pointers][pointer] |
-| 4  | Median of Two Sorted Arrays  |  | Hard |
+| 4  | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)  | [C](Algorithms/MedianOfTwoSortedArrays/cmedianOf2Arrays.cc) | Hard |  [Divide and Conquer][dnd], [Array][array], [Binary Search][search]
+
 | 5  | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)  | [C++](Algorithms/longestPalindrome/longestPalindrome.cc) | Medium | [String][string] |
 | 6  | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)  | [C++](Algorithms/ZigZagConversion/zigZagConvert.cc) | Easy | [String][string] |
 | 7  | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)  | [C++](Algorithms/ReverseInteger/reverseInteger.cc) | Easy | [Math][math] |
