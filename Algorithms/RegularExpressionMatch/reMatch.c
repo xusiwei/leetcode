@@ -53,20 +53,14 @@ bool isMatch(char* s, char* p) {
     if(*p == '\0') return *s == '\0'; // for 0, 0;  N, 0.
     
     if(p[1] == '*') {
-        int i;
         if(isMatch(s, p+2)) return true; // match zero element
-        for(i = 0; s[i] && p[0]; i++) {  // match more
-            debug("isMatch %d: %c, %c,  %s(%p)\n", i, s[i], p[0], s, s);
-            if(s[i] == p[0] || p[0] == '.') {
-                if(isMatch(s+i+1, p+2)) return true;
-            }
-            else return false;
+        while(*s == *p || *s != '\0' && *p == '.') {  // match more
+            if(isMatch(s+1, p+2)) return true;
+            s++;
         }
+        return false;
     }
-    else if(*s == *p || *s != '\0' && *p == '.') { // go ahead.
-        return isMatch(s+1, p+1);
-    }
-    return false;
+    return (*s == *p || *s != '\0' && *p == '.') && isMatch(s+1, p+1);
 }
 
 bool test(char* s, char* p) {
