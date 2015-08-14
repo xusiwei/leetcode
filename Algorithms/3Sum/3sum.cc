@@ -55,11 +55,11 @@ public:
                     while(front < back && nums[back] == t[2]) back--;
                 }
                 else if(sum < target) {
-                    while(front < back && nums[front+1] == t[front]) front++;
+                    while(front < back && nums[front+1] == nums[front]) front++;
                     front++;
                 }
                 else { // if(sum > target)
-                    while(front < back && nums[back-1] == t[back]) back--;
+                    while(front < back && nums[back-1] == nums[back]) back--;
                     back--;
                 }
             }
