@@ -75,7 +75,7 @@ finish:
 int strStr(char* text, char* pat) {
 #ifdef BF
 	return strStrBF(text, pat);
-#else if(defined STD)
+#elif(defined STD)
 	char* m = strstr(text, pat);
 	return m ? m-text : -1;
 #else
