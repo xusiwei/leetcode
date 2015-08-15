@@ -35,7 +35,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 23  | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)  | [C++](Algorithms/MergeKSortedLists/mergeKSortedLists.cc) | Hard | [ Divide and Conquer ][dnd], [ Linked List ][list], [Heap][heap] |
 | 24  | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  | [C++](Algorithms/SwapNodesInPairs/swapNodeInPairs.cc) | Medium | [ Linked List ][list] |
 | 25  | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)  | [C++](Algorithms/ReverseNodesInK-Group/reverseNodesInGroups.cc) | Hard | [ Linked List ][list] |
-| 26  | Remove Duplicates from Sorted Array  |  | Easy |
+| 26  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)  | [C++](Algorithms/RemoveDuplicatesFromSortedArray/removeDuplicates.cc) | Easy | [Array][array], [Two Pointer][pointer] |
 | 27  | [Remove Element](https://leetcode.com/problems/remove-element/)  | [C++](Algorithms/RemoveElement/removeElement.cc) | Easy | [Array][array], [Two Pointer][pointer] |
 | 28  | Implement strStr()  |  | Easy |
 | 29  | Divide Two Integers  |  | Medium |
