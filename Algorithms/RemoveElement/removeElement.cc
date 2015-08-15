@@ -46,6 +46,7 @@ int main()
 		nums.push_back(n);
 	}
 	printVector(nums);
+	cout << "val: " << val << endl;
 	
 	Solution().removeElement(nums, val);
 	printVector(nums);
