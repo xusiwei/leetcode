@@ -31,7 +31,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 19  | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)  | [C++](Algorithms/RemoveNthNodeFromEndOfList/removeNthNodeFromEndOfList.cc) | Easy | [ Linked List ][list], [Two Pointers][pointer] |
 | 20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)  | [C++](Algorithms/ValidParentheses/isValid.cpp) | Easy | [String][string], [Stack][stack] |
 | 21  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)  | [C++](Algorithms/MergeTwoSortedList/mergeTwoSortedList.cc) | Easy | [ Linked List ][list] |
-| 22  | Generate Parentheses  |  | Medium |
+| 22  | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)  | [C++](Algorithms/GenerateParentheses/generatePatentheses.cc) | Medium | [Backtracking][bt], [String][string] |
 | 23  | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)  | [C++](Algorithms/MergeKSortedLists/mergeKSortedLists.cc) | Hard | [ Divide and Conquer ][dnd], [ Linked List ][list], [Heap][heap] |
 | 24  | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  | [C++](Algorithms/SwapNodesInPairs/swapNodeInPairs.cc) | Medium | [ Linked List ][list] |
 | 25  | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)  | [C++](Algorithms/ReverseNodesInK-Group/reverseNodesInGroups.cc) | Hard | [ Linked List ][list] |
