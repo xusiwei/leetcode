@@ -37,7 +37,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 25  | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)  | [C++](Algorithms/ReverseNodesInK-Group/reverseNodesInGroups.cc) | Hard | [ Linked List ][list] |
 | 26  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)  | [C++](Algorithms/RemoveDuplicatesFromSortedArray/removeDuplicates.cc) | Easy | [Array][array], [Two Pointer][pointer] |
 | 27  | [Remove Element](https://leetcode.com/problems/remove-element/)  | [C++](Algorithms/RemoveElement/removeElement.cc) | Easy | [Array][array], [Two Pointer][pointer] |
-| 28  | Implement strStr()  | [C](Algorithms/ImplementStrstr/strstr.cc) | Easy | [String][string] |
+| 28  | [Implement strStr()](https://leetcode.com/problems/implement-strstr/)  | [C](Algorithms/ImplementStrstr/strstr.cc) | Easy | [String][string] |
 | 29  | Divide Two Integers  |  | Medium |
 | 30  | Substring with Concatenation of All Words  |  | Hard |
 | 31  | Next Permutation  |  | Medium |
