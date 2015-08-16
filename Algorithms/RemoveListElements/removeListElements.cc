@@ -1,6 +1,9 @@
 /*
 copyright xu(xusiwei1236@163.com), all right reserved.
 
+Remove Linked List Elements
+============================
+
 Remove all elements from a linked list of integers that have value val.
 
 Example
