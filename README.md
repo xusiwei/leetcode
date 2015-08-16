@@ -40,7 +40,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 28  | [Implement strStr()](https://leetcode.com/problems/implement-strstr/)  | [C](Algorithms/ImplementStrstr/strstr.cc) | Easy | [String][string] |
 | 29  | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)  | [C](Algorithms/DivideTwoIntegers/divde.c) | Medium | [Math], [Binary Search][bsearch] |
 | 30  | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)  | [C++](Algorithms/SubstringWithConcatenationOfAllWords/substrWithCatAllWord.cc) | Hard | [Hash Table][hash], [Two Pointer][pointer], [String][string] |
-| 31  | Next Permutation  |  | Medium |
+| 31  | [Next Permutation](https://leetcode.com/problems/next-permutation/)  | [C++](Algorithms/NextPermutation/nextPermutation.cc) | Medium | [Array][array] |
 | 32  | Longest Valid Parentheses  |  | Hard |
 | 33  | Search in Rotated Sorted Array  |  | Hard |
 | 34  | Search for a Range  |  | Medium |
