@@ -38,7 +38,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 26  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)  | [C++](Algorithms/RemoveDuplicatesFromSortedArray/removeDuplicates.cc) | Easy | [Array][array], [Two Pointer][pointer] |
 | 27  | [Remove Element](https://leetcode.com/problems/remove-element/)  | [C++](Algorithms/RemoveElement/removeElement.cc) | Easy | [Array][array], [Two Pointer][pointer] |
 | 28  | [Implement strStr()](https://leetcode.com/problems/implement-strstr/)  | [C](Algorithms/ImplementStrstr/strstr.cc) | Easy | [String][string] |
-| 29  | Divide Two Integers  |  | Medium |
+| 29  | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)  | [C](Algorithms/DivideTwoIntegers/divde.c) | Medium | [Math], [Binary Search][bsearch] |
 | 30  | Substring with Concatenation of All Words  |  | Hard |
 | 31  | Next Permutation  |  | Medium |
 | 32  | Longest Valid Parentheses  |  | Hard |
