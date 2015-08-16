@@ -1,4 +1,6 @@
 /*
+copyright xu(xusiwei1236@163.com), all right reserved.
+
 Power of Two
 ==============
 
