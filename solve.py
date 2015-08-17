@@ -13,8 +13,7 @@ newdir = "./Algorithms/"
 fname = ""
 suffix = ".cc"
 
-template = 
-'''/*
+template = '''/*
 copyright xu(xusiwei1236@163.com), all right reserved.
 
 {0}
