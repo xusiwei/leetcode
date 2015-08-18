@@ -45,7 +45,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 33  | Search in Rotated Sorted Array  |  | Hard |
 | 34  | [Search for a Range](https://leetcode.com/problems/search-for-a-range/)  | [C++](Algorithms/SearchForARange/searchForARange.cc) | Medium | [Array][array], [Binary Search][bsearch] |
 | 35  | [Search Insert Position](https://leetcode.com/problems/search-insert-position/)  | [C++](Algorithms/SearchInsertPosition/searchInsertPosition.cc) | Medium |  [Array][array], [Binary Search][bsearch] |
-| 36  | Valid Sudoku  |  | Easy |
+| 36  | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)  | [C++](Algorithms/ValidSudoku/validSudoku.cc) | Easy | [Hash Table](hash) |
 | 37  | Sudoku Solver  |  | Hard |
 | 38  | Count and Say  |  | Easy |
 | 39  | Combination Sum  |  | Medium |
