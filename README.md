@@ -44,7 +44,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 32  | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)  | [C++](Algorithms/LongestValidParentheses/longestValidParentheses.cc) | Hard | [Dynamic Programming][dp], [String][string] |
 | 33  | Search in Rotated Sorted Array  |  | Hard |
 | 34  | [Search for a Range](https://leetcode.com/problems/search-for-a-range/)  | [C++](Algorithms/SearchForARange/searchForARange.cc) | Medium | [Array][array], [Binary Search][bsearch] |
-| 35  | Search Insert Position  |  | Medium |
+| 35  | [Search Insert Position](https://leetcode.com/problems/search-insert-position/)  | [C++](Algorithms/SearchInsertPosition/searchInsertPosition.cc) | Medium |  [Array][array], [Binary Search][bsearch] |
 | 36  | Valid Sudoku  |  | Easy |
 | 37  | Sudoku Solver  |  | Hard |
 | 38  | Count and Say  |  | Easy |
