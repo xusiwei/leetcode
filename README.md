@@ -42,7 +42,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 30  | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)  | [C++](Algorithms/SubstringWithConcatenationOfAllWords/substrWithCatAllWord.cc) | Hard | [Hash Table][hash], [Two Pointer][pointer], [String][string] |
 | 31  | [Next Permutation](https://leetcode.com/problems/next-permutation/)  | [C++](Algorithms/NextPermutation/nextPermutation.cc) | Medium | [Array][array] |
 | 32  | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)  | [C++](Algorithms/LongestValidParentheses/longestValidParentheses.cc) | Hard | [Dynamic Programming], [String][string] |
-| 33  | Search in Rotated Sorted Array  |  | Hard |
+| 33  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)  | [C++](Algorithms/SearchInRotatedSortedArray/searchInRotatedSortedArray.cc) | Hard | [Array][array], [Binary Search][bsearch] |
 | 34  | Search for a Range  |  | Medium |
 | 35  | Search Insert Position  |  | Medium |
 | 36  | Valid Sudoku  |  | Easy |
