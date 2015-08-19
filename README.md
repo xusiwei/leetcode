@@ -47,7 +47,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 35  | [Search Insert Position](https://leetcode.com/problems/search-insert-position/)  | [C++](Algorithms/SearchInsertPosition/searchInsertPosition.cc) | Medium |  [Array][array], [Binary Search][bsearch] |
 | 36  | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)  | [C++](Algorithms/ValidSudoku/validSudoku.cc) | Easy | [Hash Table](hash) |
 | 37  | Sudoku Solver  |  | Hard |
-| 38  | Count and Say  |  | Easy |
+| 38  | [Count and Say](https://leetcode.com/problems/count-and-say/)  | [C++](Algorithms/CountAndSay/countAndSay.cc) | Easy | [String][string] |
 | 39  | Combination Sum  |  | Medium |
 | 40  | Combination Sum II  |  | Medium |
 | 41  | First Missing Positive  |  | Hard |
