@@ -56,15 +56,15 @@ public:
 
 int main()
 {
-	vector<int> nums;
-	
-	int n, target;
-	
-	cin >> target;
-	while(cin >> n) {
-		nums.push_back(n);
-	}
-	
-	cout << Solution().threeSumClosest(nums, target) << endl;
-	return 0;
+    vector<int> nums;
+    
+    int n, target;
+    
+    cin >> target;
+    while(cin >> n) {
+        nums.push_back(n);
+    }
+    
+    cout << Solution().threeSumClosest(nums, target) << endl;
+    return 0;
 }

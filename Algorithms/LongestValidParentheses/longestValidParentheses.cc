@@ -49,7 +49,7 @@ public:
 
 int main(int argc, char* argv[])
 {
-	string s = ")()()";
-	cout << Solution().longestValidParentheses(s) << endl;
-	return 0;
+    string s = ")()()";
+    cout << Solution().longestValidParentheses(s) << endl;
+    return 0;
 }

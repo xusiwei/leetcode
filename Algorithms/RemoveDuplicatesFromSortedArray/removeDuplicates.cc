@@ -26,10 +26,10 @@ public:
 
         int count = 1, last = nums[0];
         for(int i = 1, sz = nums.size(); i < sz; ++i) {
-        	if(nums[i] != last) {
-        		nums[count++] = nums[i];
-        		last = nums[i];
-        	}
+            if(nums[i] != last) {
+                nums[count++] = nums[i];
+                last = nums[i];
+            }
         }
         nums.resize(count);
         return count;
@@ -39,25 +39,25 @@ public:
 template<typename Vector>
 void printVector(Vector v)
 {
-	cout << "[";
-	for(int i = 0, sz = v.size(); i < sz; i++) {
-		cout << v[i] << (i+1 == sz ? "]\n" : ",");
-	}
+    cout << "[";
+    for(int i = 0, sz = v.size(); i < sz; i++) {
+        cout << v[i] << (i+1 == sz ? "]\n" : ",");
+    }
 }
 
 int main()
 {
-	int n;
-	vector<int> nums;
-	
-	while(cin >> n) {
-		nums.push_back(n);
-	}
-	printVector(nums);
-	
-	cout << Solution().removeDuplicates(nums) << ": ";
-	printVector(nums);
-	
-	return 0;
+    int n;
+    vector<int> nums;
+    
+    while(cin >> n) {
+        nums.push_back(n);
+    }
+    printVector(nums);
+    
+    cout << Solution().removeDuplicates(nums) << ": ";
+    printVector(nums);
+    
+    return 0;
 }
 

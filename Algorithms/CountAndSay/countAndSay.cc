@@ -23,17 +23,17 @@ using namespace std;
 class Solution {
 public:
     string countAndSay(int n) {
-    	const static char* tab[] = {"", "1", "11", "21", "1211", "111221"};
-    	if(n <= 5) return tab[n];
+        const static char* tab[] = {"", "1", "11", "21", "1211", "111221"};
+        if(n <= 5) return tab[n];
         
         string result = "";
         string last = countAndSay(n-1);
         for(int i = 0; i < last.length(); ) {
-	        int sames = 1;
-        	while(last[i + sames] == last[i]) sames++;
-        	result += "0123456789"[sames];
-        	result += last[i];
-        	i += sames;
+            int sames = 1;
+            while(last[i + sames] == last[i]) sames++;
+            result += "0123456789"[sames];
+            result += last[i];
+            i += sames;
         }
         return result;
     }
@@ -41,11 +41,11 @@ public:
 
 int main(int argc, char* argv[])
 {
-	int n = 10;
-	if(argc > 1) n = atoi(argv[1]);
-	
-	for(int i = 1; i < n; ++i) {
-		cout << Solution().countAndSay(i) << endl;
-	}
-	return 0;
+    int n = 10;
+    if(argc > 1) n = atoi(argv[1]);
+    
+    for(int i = 1; i < n; ++i) {
+        cout << Solution().countAndSay(i) << endl;
+    }
+    return 0;
 }

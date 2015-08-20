@@ -64,25 +64,25 @@ template<typename Matrix>
 void printMatrix(Matrix m)
 {
     for(int i = 0; i < m.size(); i++) {
-		for(int j = 0; j < m[i].size(); j++) {
-			cout << m[i][j];
-		}
-		cout << "\n";
+        for(int j = 0; j < m[i].size(); j++) {
+            cout << m[i][j];
+        }
+        cout << "\n";
     }
     cout << endl;
 }
 
 int main(int argc, char* argv[])
 {
-	vector<vector<char> > board;
-	string row;
-	
-	while(cin >> row) {
-		board.push_back(vector<char>(row.begin(), row.end()));
-	}
-	printMatrix(board);
-	
-	cout << boolalpha << Solution().isValidSudoku(board) << endl;
-	
-	return 0;
+    vector<vector<char> > board;
+    string row;
+    
+    while(cin >> row) {
+        board.push_back(vector<char>(row.begin(), row.end()));
+    }
+    printMatrix(board);
+    
+    cout << boolalpha << Solution().isValidSudoku(board) << endl;
+    
+    return 0;
 }

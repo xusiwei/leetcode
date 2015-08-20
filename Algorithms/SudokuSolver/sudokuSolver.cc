@@ -28,10 +28,10 @@ template<typename Matrix>
 void printMatrix(Matrix m);
 
 class Solution {
-	static const int kSize = 9;
-	bool rowMask[kSize][kSize];
-	bool colMask[kSize][kSize];
-	bool areaMask[kSize][kSize];
+    static const int kSize = 9;
+    bool rowMask[kSize][kSize];
+    bool colMask[kSize][kSize];
+    bool areaMask[kSize][kSize];
 public:
     bool isValidSudoku(vector<vector<char> >& board) {
         int rows = board.size();
@@ -49,7 +49,7 @@ public:
                 int idx = board[r][c] - '1';
                 int area = (r/3) * 3 + (c/3);
                 if(rowMask[r][idx] || colMask[idx][c] || areaMask[area][idx]) {
-                	return false;
+                    return false;
                 }
                 
                 rowMask[r][idx] = colMask[idx][c] = areaMask[area][idx] = true;
@@ -59,35 +59,35 @@ public:
     }
     
     bool solve(vector<vector<char> >& board, int r, int c) {
-    	if(r >= kSize) return true;
-    	if(c >= kSize) return solve(board, r+1, 0);
-    	if(isdigit(board[r][c])) return solve(board, r, c+1);
-    	
-    	// empty cell, select a num fill it.
-    	for(int idx = 0; idx < kSize; ++idx) {
-    		int area = (r/3) * 3 + (c/3);
-    		if(rowMask[r][idx] || colMask[idx][c] || areaMask[area][idx]) {
-    			continue;
-    		}
-    		
-    		// emplace idx + '1'
-    		board[r][c] = idx + '1';
-    		rowMask[r][idx] = colMask[idx][c] = areaMask[area][idx] = true;
-    		
-//    		printf("placed %d, %d  %c:\n", r, c, idx+'1'); printMatrix(board);
-    		
-    		// continous placing...
-    		if(solve(board, r, c+1)) return true;
-    		
-    		// can not continue to place, backtrack.
-    		board[r][c] = '.';
-    		rowMask[r][idx] = colMask[idx][c] = areaMask[area][idx] = false;
-    	}
-    	return false;
+        if(r >= kSize) return true;
+        if(c >= kSize) return solve(board, r+1, 0);
+        if(isdigit(board[r][c])) return solve(board, r, c+1);
+        
+        // empty cell, select a num fill it.
+        for(int idx = 0; idx < kSize; ++idx) {
+            int area = (r/3) * 3 + (c/3);
+            if(rowMask[r][idx] || colMask[idx][c] || areaMask[area][idx]) {
+                continue;
+            }
+            
+            // emplace idx + '1'
+            board[r][c] = idx + '1';
+            rowMask[r][idx] = colMask[idx][c] = areaMask[area][idx] = true;
+            
+//            printf("placed %d, %d  %c:\n", r, c, idx+'1'); printMatrix(board);
+            
+            // continous placing...
+            if(solve(board, r, c+1)) return true;
+            
+            // can not continue to place, backtrack.
+            board[r][c] = '.';
+            rowMask[r][idx] = colMask[idx][c] = areaMask[area][idx] = false;
+        }
+        return false;
     }
 
     void solveSudoku(vector<vector<char> >& board) {
-    	if(!isValidSudoku(board)) return;
+        if(!isValidSudoku(board)) return;
         solve(board, 0, 0);
     }
 };
@@ -96,26 +96,26 @@ template<typename Matrix>
 void printMatrix(Matrix m)
 {
     for(int i = 0; i < m.size(); i++) {
-		for(int j = 0; j < m[i].size(); j++) {
-			cout << m[i][j];
-		}
-		cout << "\n";
+        for(int j = 0; j < m[i].size(); j++) {
+            cout << m[i][j];
+        }
+        cout << "\n";
     }
     cout << endl;
 }
 
 int main(int argc, char* argv[])
 {
-	vector<vector<char> > board;
-	string row;
-	
-	while(cin >> row) {
-		board.push_back(vector<char>(row.begin(), row.end()));
-	}
-	printMatrix(board);
-	
-	Solution().solveSudoku(board);
-	printMatrix(board);
-	
-	return 0;
+    vector<vector<char> > board;
+    string row;
+    
+    while(cin >> row) {
+        board.push_back(vector<char>(row.begin(), row.end()));
+    }
+    printMatrix(board);
+    
+    Solution().solveSudoku(board);
+    printMatrix(board);
+    
+    return 0;
 }

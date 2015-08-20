@@ -35,7 +35,7 @@ using namespace std;
 
 class Solution {
 public:
-	static vector<vector<int>> threeSum(vector<int>& nums, int target) {
+    static vector<vector<int>> threeSum(vector<int>& nums, int target) {
         vector<vector<int>> result;
         
         std::sort(nums.begin(), nums.end());
@@ -81,12 +81,12 @@ public:
         sort(nums.begin(), nums.end());
         for(int i = 0, sz = nums.size(); i < sz-3; ++i) {
             if (i>0 && nums[i-1] == nums[i]) continue;
-        	vector<int> rest(nums.begin()+i+1, nums.end());
-        	auto mat = threeSum(rest, target-nums[i]);
-        	for(int j = 0, nm = mat.size(); j < nm; j++) {
-	        	mat[j].insert(mat[j].begin(), nums[i]);
-  		        result.push_back(mat[j]);
-	        }
+            vector<int> rest(nums.begin()+i+1, nums.end());
+            auto mat = threeSum(rest, target-nums[i]);
+            for(int j = 0, nm = mat.size(); j < nm; j++) {
+                mat[j].insert(mat[j].begin(), nums[i]);
+                  result.push_back(mat[j]);
+            }
         }
         
         return result;
@@ -97,27 +97,27 @@ public:
 template<typename Vector>
 void printVector(Vector v)
 {
-	cout << "[";
-	for(int i = 0, sz = v.size(); i < sz; i++) {
-		cout << v[i] << (i+1 == sz ? "]\n" : ",");
-	}
+    cout << "[";
+    for(int i = 0, sz = v.size(); i < sz; i++) {
+        cout << v[i] << (i+1 == sz ? "]\n" : ",");
+    }
 }
 
 int main()
 {
-	int target, n;
-	vector<int> nums;
-	
-	cin >> target;
-	while(cin >> n) {
-		nums.push_back(n);
-	}
-	
-	cout << "nums: ";
-	printVector(nums);
-	cout << "target:" << target << "\n\n";
-	
-	auto result = Solution().fourSum(nums, target);
-	for(auto v: result) { cout << v[0] + v[1] + v[2] + v[3] << ": "; printVector(v); }
-	return 0;
+    int target, n;
+    vector<int> nums;
+    
+    cin >> target;
+    while(cin >> n) {
+        nums.push_back(n);
+    }
+    
+    cout << "nums: ";
+    printVector(nums);
+    cout << "target:" << target << "\n\n";
+    
+    auto result = Solution().fourSum(nums, target);
+    for(auto v: result) { cout << v[0] + v[1] + v[2] + v[3] << ": "; printVector(v); }
+    return 0;
 }

@@ -62,34 +62,34 @@ public:
         return low;
     }
     
-    static int upperBound(vector<int>& A, int low, int high, int target) {    	
-    	int mid;
-    	while(low <= high) {
-    		mid = low + (high - low)/2;
-    		if(A[mid] > target) {
-    			high = mid-1;
-    		}
-    		else {
-    			low = mid+1;
-    		}
-    	}
-    	return high;
+    static int upperBound(vector<int>& A, int low, int high, int target) {        
+        int mid;
+        while(low <= high) {
+            mid = low + (high - low)/2;
+            if(A[mid] > target) {
+                high = mid-1;
+            }
+            else {
+                low = mid+1;
+            }
+        }
+        return high;
     }
 
     vector<int> searchRange(vector<int>& nums, int target) {
-    	vector<int> result;
-    	
-    	int low = lowerBound(nums, target);
-    	if(nums[low] != target) {
-    		result.push_back(-1);
-    		result.push_back(-1);
-    	}
-    	else {
-    		result.push_back(low);
-    		result.push_back(upperBound(nums, low, nums.size()-1, target));
-    	}
-    	
-    	return result;
+        vector<int> result;
+        
+        int low = lowerBound(nums, target);
+        if(nums[low] != target) {
+            result.push_back(-1);
+            result.push_back(-1);
+        }
+        else {
+            result.push_back(low);
+            result.push_back(upperBound(nums, low, nums.size()-1, target));
+        }
+        
+        return result;
     }
 };
 
@@ -106,15 +106,15 @@ void printVector(Vector v)
 
 int main(int argc, char* argv[])
 {
-	int target, n;
-	vector<int> nums;
-	
-	cin >> target;
-	while(cin >> n) {
-		nums.push_back(n);
-	}
-	PrintVector(nums);
-	
-	PrintVector(Solution().searchRange(nums, target));
-	return 0;
+    int target, n;
+    vector<int> nums;
+    
+    cin >> target;
+    while(cin >> n) {
+        nums.push_back(n);
+    }
+    PrintVector(nums);
+    
+    PrintVector(Solution().searchRange(nums, target));
+    return 0;
 }

@@ -16,11 +16,11 @@ using namespace std;
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
-    	int count = 0;
+        int count = 0;
         for(int i = 0, sz = nums.size(); i < sz; ++i) {
-        	if(nums[i] != val) {
-        		nums[count++] = nums[i];
-        	}
+            if(nums[i] != val) {
+                nums[count++] = nums[i];
+            }
         }
         nums.resize(count);
         return count;
@@ -30,26 +30,26 @@ public:
 template<typename Vector>
 void printVector(Vector v)
 {
-	cout << "[";
-	for(int i = 0, sz = v.size(); i < sz; i++) {
-		cout << v[i] << (i+1 == sz ? "]\n" : ",");
-	}
+    cout << "[";
+    for(int i = 0, sz = v.size(); i < sz; i++) {
+        cout << v[i] << (i+1 == sz ? "]\n" : ",");
+    }
 }
 
 int main()
 {
-	int val, n;
-	vector<int> nums;
-	
-	cin >> val;
-	while(cin >> n) {
-		nums.push_back(n);
-	}
-	printVector(nums);
-	cout << "val: " << val << endl;
-	
-	Solution().removeElement(nums, val);
-	printVector(nums);
-	
-	return 0;
+    int val, n;
+    vector<int> nums;
+    
+    cin >> val;
+    while(cin >> n) {
+        nums.push_back(n);
+    }
+    printVector(nums);
+    cout << "val: " << val << endl;
+    
+    Solution().removeElement(nums, val);
+    printVector(nums);
+    
+    return 0;
 }

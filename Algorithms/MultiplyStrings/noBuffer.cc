@@ -22,25 +22,25 @@ using namespace std;
 
 void add(string& result, int num, int exp)
 {
-	trace("result: %s, num: %d, exp: %d\n", result.c_str(), num, exp);
-	const int rlen = result.length();
+    trace("result: %s, num: %d, exp: %d\n", result.c_str(), num, exp);
+    const int rlen = result.length();
     int acc = 0;
     
     if(num && exp > rlen) result.insert(0, exp-rlen, '0');
     for(int i = rlen-1-exp; num || acc; ) {
-    	if(i >= 0) {
-    		acc += (result[i] - '0') + num % 10;
-        	result[i] = (acc % 10)+'0';
-        	--i;
-    	}
-    	else {
-    		acc += num % 10;
-    		result.insert(result.begin(), (acc % 10)+'0');
-    	}
+        if(i >= 0) {
+            acc += (result[i] - '0') + num % 10;
+            result[i] = (acc % 10)+'0';
+            --i;
+        }
+        else {
+            acc += num % 10;
+            result.insert(result.begin(), (acc % 10)+'0');
+        }
         acc /= 10;
         num /= 10;
     }
-	trace("result: %s\n\n", result.c_str());
+    trace("result: %s\n\n", result.c_str());
 }
 
 class Solution {
