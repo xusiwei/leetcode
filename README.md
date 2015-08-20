@@ -52,7 +52,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 40  | Combination Sum II  |  | Medium |
 | 41  | First Missing Positive  |  | Hard |
 | 42  | Trapping Rain Water  |  | Hard |
-| 43  | Multiply Strings  |  | Medium |
+| 43  | [Multiply Strings](https://leetcode.com/problems/multiply-strings/)  | [C++](Algorithms/MultiplyStrings/multiplyStrings.cc) | Medium | [Math][String] |
 | 44  | Wildcard Matching  |  | Hard |
 | 45  | Jump Game II  |  | Hard |
 | 46  | Permutations  |  | Medium |
