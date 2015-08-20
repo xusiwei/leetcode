@@ -46,7 +46,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 34  | [Search for a Range](https://leetcode.com/problems/search-for-a-range/)  | [C++](Algorithms/SearchForARange/searchForARange.cc) | Medium | [Array][array], [Binary Search][bsearch] |
 | 35  | [Search Insert Position](https://leetcode.com/problems/search-insert-position/)  | [C++](Algorithms/SearchInsertPosition/searchInsertPosition.cc) | Medium |  [Array][array], [Binary Search][bsearch] |
 | 36  | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)  | [C++](Algorithms/ValidSudoku/validSudoku.cc) | Easy | [Hash Table](hash) |
-| 37  | Sudoku Solver  |  | Hard |
+| 37  | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)  | [C++](Algorithms/SudokuSolver/sudokuSolver.cc) | Hard | [Backtracking], [Hash Table][hash] |
 | 38  | [Count and Say](https://leetcode.com/problems/count-and-say/)  | [C++](Algorithms/CountAndSay/countAndSay.cc) | Easy | [String][string] |
 | 39  | Combination Sum  |  | Medium |
 | 40  | Combination Sum II  |  | Medium |
