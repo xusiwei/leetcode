@@ -29,13 +29,13 @@ If you have any ideas about my solution, welcome to post a comment.
 | 17  | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)  | [C++](Algorithms/LetterCombinationsOfAPhoneNumber/letterCombine.cc) | Medium | [Backtracking][bt], [String][string] |
 | 18  | [4Sum](https://leetcode.com/problems/4sum/)  | [C++](Algorithms/4Sum/4sum.cc) | Medium | [Array][array], [Hash Table][hash], [Two Pointers][pointer] |
 | 19  | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)  | [C++](Algorithms/RemoveNthNodeFromEndOfList/removeNthNodeFromEndOfList.cc) | Easy | [ Linked List ][list], [Two Pointers][pointer] |
-| 20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)  | [C++](Algorithms/ValidParentheses/isValid.cpp) | Easy | [String][string], [Stack][stack] |
+| 20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)  | [C++](Algorithms/ValidParentheses/isValid.cc) | Easy | [String][string], [Stack][stack] |
 | 21  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)  | [C++](Algorithms/MergeTwoSortedList/mergeTwoSortedList.cc) | Easy | [ Linked List ][list] |
 | 22  | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)  | [C++](Algorithms/GenerateParentheses/generatePatentheses.cc) | Medium | [Backtracking][bt], [String][string] |
 | 23  | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)  | [C++](Algorithms/MergeKSortedLists/mergeKSortedLists.cc) | Hard | [ Divide and Conquer ][dnd], [ Linked List ][list], [Heap][heap] |
 | 24  | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  | [C++](Algorithms/SwapNodesInPairs/swapNodeInPairs.cc) | Medium | [ Linked List ][list] |
 | 25  | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)  | [C++](Algorithms/ReverseNodesInK-Group/reverseNodesInGroups.cc) | Hard | [ Linked List ][list] |
-| 26  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)  | [C++](Algorithms/RemoveDuplicatesFromSortedArray/removeDuplicates.cc) | Easy | [Array][array], [Two Pointer][pointer] |
+| 26  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)  | [C++](Algorithms/RemoveDuplicatesFromSortedArray/removeDuplicateslicates.cc) | Easy | [Array][array], [Two Pointer][pointer] |
 | 27  | [Remove Element](https://leetcode.com/problems/remove-element/)  | [C++](Algorithms/RemoveElement/removeElement.cc) | Easy | [Array][array], [Two Pointer][pointer] |
 | 28  | [Implement strStr()](https://leetcode.com/problems/implement-strstr/)  | [C](Algorithms/ImplementStrstr/strstr.cc) | Easy | [String][string] |
 | 29  | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)  | [C](Algorithms/DivideTwoIntegers/divde.c) | Medium | [Math], [Binary Search][bsearch] |
@@ -87,15 +87,15 @@ If you have any ideas about my solution, welcome to post a comment.
 | 75  | Sort Colors  |  | Medium |
 | 76  | Minimum Window Substring  |  | Hard |
 | 77  | Combinations  |  | Medium |
-| 78  | [Subsets](https://leetcode.com/problems/subsets/)  | [C++](Algorithms/Subsets/subsets.cpp) | Medium | [Array][array], [ Backtracking ][bt], [ Bit Manipulation ][bits] |
+| 78  | [Subsets](https://leetcode.com/problems/subsets/)  | [C++](Algorithms/Subsets/subsets.cc) | Medium | [Array][array], [ Backtracking ][bt], [ Bit Manipulation ][bits] |
 | 79  | Word Search  |  | Medium |
 | 80  | Remove Duplicates from Sorted Array II  |  | Medium |
 | 81  | Search in Rotated Sorted Array II  |  | Medium |
-| 82  | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)  | [C++](Algorithms/RemoveDumplicatesII/removeDup2.cc) | Medium |  [ Linked List ][list] |
-| 83  | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  | [C++](Algorithms/RemoveDuplicates/removeDup.cpp) | Easy | [Linked List][list] |
+| 82  | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)  | [C++](Algorithms/RemoveDumplicatesII/removeDuplicates2.cc) | Medium |  [ Linked List ][list] |
+| 83  | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  | [C++](Algorithms/RemoveDuplicates/removeDuplicates.cc) | Easy | [Linked List][list] |
 | 84  | Largest Rectangle in Histogram  |  | Hard |
 | 85  | Maximal Rectangle  |  | Hard |
-| 86  | [Partition List](https://leetcode.com/problems/partition-list/)  | [C++](Algorithms/PartitionList/partitionList.cpp) | Medium | [Linked List][list], [Two Pointers][pointer] |
+| 86  | [Partition List](https://leetcode.com/problems/partition-list/)  | [C++](Algorithms/PartitionList/partitionList.cc) | Medium | [Linked List][list], [Two Pointers][pointer] |
 | 87  | Scramble String  |  | Hard |
 | 88  | Merge Sorted Array  |  | Easy |
 | 89  | Gray Code  |  | Medium |
@@ -145,17 +145,17 @@ If you have any ideas about my solution, welcome to post a comment.
 | 133  | Clone Graph  |  | Medium |
 | 134  | Gas Station  |  | Medium |
 | 135  | Candy  |  | Hard |
-| 136  | [Single Number](https://leetcode.com/problems/single-number/)  | [C++](Algorithms/SingleNumber/singleNumber.cpp), [C](Algorithms/SingleNumber/singleNumber.c) | Medium | [ Hash Table ][hash], [ Bit Manipulation ][bits] |
-| 137  | [Single Number II](https://leetcode.com/problems/single-number-ii/)  | [C++](Algorithms/SingleNumberII/singleNumberII.cpp) | Medium | [ Bit Manipulation ][bits] |
-| 138  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)  | [C++](Algorithms/CopyListWithRandomPointer/copyRandomList.cpp) | Hard | [Linked List][list], [Hash Table][hash] |
+| 136  | [Single Number](https://leetcode.com/problems/single-number/)  | [C++](Algorithms/SingleNumber/singleNumber.cc), [C](Algorithms/SingleNumber/singleNumber.c) | Medium | [ Hash Table ][hash], [ Bit Manipulation ][bits] |
+| 137  | [Single Number II](https://leetcode.com/problems/single-number-ii/)  | [C++](Algorithms/SingleNumberII/singleNumberII.cc) | Medium | [ Bit Manipulation ][bits] |
+| 138  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)  | [C++](Algorithms/CopyListWithRandomPointer/copyRandomList.cc) | Hard | [Linked List][list], [Hash Table][hash] |
 | 139  | Word Break  |  | Medium |
 | 140  | Word Break II  |  | Hard |
-| 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)  | [C](Algorithms/LinkedListCycle/linkedListCycle.c), [C++](Algorithms/LinkedListCycle/linkedListCycle.cpp) | Medium |
-| 142  | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)  | [C++](Algorithms/LinkedListCycleII/linkedListCycleII.cpp) | Medium |  [ Linked List ][list], [Two Pointers][pointer] |
+| 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)  | [C](Algorithms/LinkedListCycle/linkedListCycle.c), [C++](Algorithms/LinkedListCycle/linkedListCycle.cc) | Medium |
+| 142  | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)  | [C++](Algorithms/LinkedListCycleII/linkedListCycleII.cc) | Medium |  [ Linked List ][list], [Two Pointers][pointer] |
 | 143  | [Reorder List](https://leetcode.com/problems/reorder-list/)  | [C](Algorithms/ReoderList/reorderList.c) | Medium |  [ Linked List ][list] |
 | 144  | Binary Tree Preorder Traversal  |  | Medium |
 | 145  | Binary Tree Postorder Traversal  |  | Hard |
-| 146  | [LRU Cache](https://leetcode.com/problems/lru-cache/)  | [C++](Algorithms/LRUcache/lruCache.cpp), [Python](Algorithms/LRUcache/LRUCache.py) | Hard | [ Data Structure ][ds] |
+| 146  | [LRU Cache](https://leetcode.com/problems/lru-cache/)  | [C++](Algorithms/LRUcache/lruCache.cc), [Python](Algorithms/LRUcache/LRUCache.py) | Hard | [ Data Structure ][ds] |
 | 147  | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)  | [C](Algorithms/InsertionSortList/insertionSortList.c) | Medium |  [ Linked List ][list], [Sort][sort] |
 | 148  | [Sort List](https://leetcode.com/problems/sort-list/)  | [C++](Algorithms/SortList/sortList.cc) | Medium |  [ Linked List ][list], [Sort][sort] |
 | 149  | Max Points on a Line  |  | Hard |
@@ -169,7 +169,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 157  | Read N Characters Given Read4  |  | Easy |
 | 158  | Read N Characters Given Read4 II - Call multiple times  |  | Hard |
 | 159  | Longest Substring with At Most Two Distinct Characters  |  | Hard |
-| 160  | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)  | [C](Algorithms/IntersectionOfTwoLinkedLists/getIntersectionNode.c), [C++](Algorithms/IntersectionOfTwoLinkedLists/getIntersectionNode.cpp) | Easy | [Linked List][list] |
+| 160  | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)  | [C](Algorithms/IntersectionOfTwoLinkedLists/getIntersectionNode.c), [C++](Algorithms/IntersectionOfTwoLinkedLists/getIntersectionNode.cc) | Easy | [Linked List][list] |
 | 161  | One Edit Distance  |  | Medium |
 | 162  | Find Peak Element  |  | Medium |
 | 163  | Missing Ranges  |  | Medium |
@@ -213,7 +213,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 217  | Contains Duplicate  |  | Easy |
 | 218  | The Skyline Problem  |  | Hard |
 | 219  | Contains Duplicate II  |  | Easy |
-| 226  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C++](Algorithms/InvertBinaryTree/invertBinaryTree.cpp) | Easy | [Tree][tree] |
+| 226  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C++](Algorithms/InvertBinaryTree/invertBinaryTree.cc) | Easy | [Tree][tree] |
 | 231  | [Power of Two](https://leetcode.com/problems/power-of-two/) | [C++](Algorithms/PowerOfTwo/powerOf2.cc) | Easy | [Math][math], [Bit Manipulation][bits] |
 
 [array]: https://leetcode.com/tag/array/
