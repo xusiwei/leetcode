@@ -49,7 +49,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 37  | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)  | [C++](Algorithms/SudokuSolver/sudokuSolver.cc) | Hard | [Backtracking][bt], [Hash Table][hash] |
 | 38  | [Count and Say](https://leetcode.com/problems/count-and-say/)  | [C++](Algorithms/CountAndSay/countAndSay.cc) | Easy | [String][string] |
 | 39  | [Combination Sum](https://leetcode.com/problems/combination-sum/)  | [C++](Algorithms/CombinationSum/combinationSum.cc) | Medium | [Array][array], [Backtracking][bt] |
-| 40  | Combination Sum II  |  | Medium |
+| 40  | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)  | [c++](Algorithms/CombinationSumII/combinationSumII.cc) | Medium | [Array][array], [Backtracking][bt] |
 | 41  | First Missing Positive  |  | Hard |
 | 42  | Trapping Rain Water  |  | Hard |
 | 43  | [Multiply Strings](https://leetcode.com/problems/multiply-strings/)  | [C++](Algorithms/MultiplyStrings/multiplyStrings.cc) | Medium | [Math][String] |
