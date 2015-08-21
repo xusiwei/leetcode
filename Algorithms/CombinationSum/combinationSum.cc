@@ -11,7 +11,7 @@ The same repeated number may be chosen from C unlimited number of times.
 Note:
 
     All numbers (including target) will be positive integers.
-    Elements in a combination (a1, a2, ¡­ , ak) must be in non-descending order. (ie, a1 ¡Ü a2 ¡Ü ¡­ ¡Ü ak).
+    Elements in a combination (a1, a2, â€¦ , ak) must be in non-descending order. (ie, a1 â‰¤ a2 â‰¤ â€¦ â‰¤ ak).
     The solution set must not contain duplicate combinations.
 
 For example, given candidate set 2,3,6,7 and target 7,
@@ -27,42 +27,34 @@ A solution set is:
 using namespace std;
 
 class Solution {
-    int uniques_;
-    int* times_;
-    int* candidates_;
-    vector<vector<int> >* result_;
 public:
-    void backtracking(int target, int index) {
+    void backtracking(vector<int>& num, vector<int>& times, vector<vector<int> >& result, int target, int index) {
         if(target < 0) return;
         if(target == 0) { // found an answer.
             vector<int> answer;
-            for(int i = 0; i < uniques_; ++i) {
-                answer.insert(answer.end(), times_[i], candidates_[i]);
+            for(int i = 0, sz = times.size(); i < sz; ++i) {
+                answer.insert(answer.end(), times[i], num[i]);
             }
-            result_->push_back(answer);
+            result.push_back(answer);
             return;
         }
-        if(index >= uniques_) return;
+        if(index >= times.size()) return;
         
-        // select some candidates[index].
-        for(int t = 0, tMax = target / candidates_[index]; t <= tMax; t++) {
-            times_[index] = t;
-            backtracking(target - t * candidates_[index], index+1);
+        // select some num[index].
+        for(int t = 0, tMax = target / num[index]; t <= tMax; t++) {
+            times[index] = t;
+            backtracking(num, times, result, target - t * num[index], index + 1);
         }
     }
-
-    vector<vector<int> > combinationSum(vector<int>& candidates, int target) {
+    
+    vector<vector<int> > combinationSum(vector<int>& num, int target) {
         vector<vector<int> > result;
         
-        sort(candidates.begin(), candidates.end());
-        uniques_ = unique(candidates.begin(), candidates.end()) - candidates.begin();
-        vector<int> times(uniques_, 0);
+        sort(num.begin(), num.end());
+        int count = unique(num.begin(), num.end()) - num.begin();
+        vector<int> times(count, 0);
         
-        result_ = &result;
-        times_  = &times[0];
-        candidates_ = &candidates[0];
-        
-        backtracking(target, 0);
+        backtracking(num, times, result, target, 0);
         return result;
     }
 };
