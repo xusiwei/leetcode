@@ -40,11 +40,9 @@ content = template.format(title, "=" * (1+len(title)))
 
 for i in range(1, len(sys.argv)):
 	w = sys.argv[i]
-	newdir = newdir + string.capitalize(w)
-	if i == 1:
-		fname = fname + string.lower(w[0]) + w[1:]
-	else:
-		fname = fname + string.capitalize(w)
+	newdir = newdir + string.capitalize(w[0]) + w[1:]
+	first = string.lower(w[0]) if i == 1 else string.capitalize(w[0])
+	fname = fname + first + w[1:]
 
 fname = newdir + "/" + fname + suffix
 
@@ -54,9 +52,11 @@ if os.path.exists(newdir):
 	exit(-2)
 
 # crate dir
+print "create dir:", newdir
 os.mkdir(newdir)
 
 # crate file
+print "create file:", fname
 fo = file(fname, 'w')
 if fo == None:
 	print "touch file:", fname, "failed!"
