@@ -35,7 +35,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 23  | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)  | [C++](Algorithms/MergeKSortedLists/mergeKSortedLists.cc) | Hard | [ Divide and Conquer ][dnd], [ Linked List ][list], [Heap][heap] |
 | 24  | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  | [C++](Algorithms/SwapNodesInPairs/swapNodeInPairs.cc) | Medium | [ Linked List ][list] |
 | 25  | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)  | [C++](Algorithms/ReverseNodesInK-Group/reverseNodesInGroups.cc) | Hard | [ Linked List ][list] |
-| 26  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)  | [C++](Algorithms/RemoveDuplicatesFromSortedArray/removeDuplicateslicates.cc) | Easy | [Array][array], [Two Pointer][pointer] |
+| 26  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)  | [C++](Algorithms/RemoveDuplicatesFromSortedArray/removeDuplicates.cc) | Easy | [Array][array], [Two Pointer][pointer] |
 | 27  | [Remove Element](https://leetcode.com/problems/remove-element/)  | [C++](Algorithms/RemoveElement/removeElement.cc) | Easy | [Array][array], [Two Pointer][pointer] |
 | 28  | [Implement strStr()](https://leetcode.com/problems/implement-strstr/)  | [C](Algorithms/ImplementStrstr/strstr.cc) | Easy | [String][string] |
 | 29  | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)  | [C](Algorithms/DivideTwoIntegers/divde.c) | Medium | [Math], [Binary Search][bsearch] |
@@ -91,7 +91,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 79  | Word Search  |  | Medium |
 | 80  | Remove Duplicates from Sorted Array II  |  | Medium |
 | 81  | Search in Rotated Sorted Array II  |  | Medium |
-| 82  | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)  | [C++](Algorithms/RemoveDumplicatesII/removeDuplicates2.cc) | Medium |  [ Linked List ][list] |
+| 82  | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)  | [C++](Algorithms/RemoveDuplicatesII/removeDuplicatesII.cc) | Medium |  [ Linked List ][list] |
 | 83  | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  | [C++](Algorithms/RemoveDuplicates/removeDuplicates.cc) | Easy | [Linked List][list] |
 | 84  | Largest Rectangle in Histogram  |  | Hard |
 | 85  | Maximal Rectangle  |  | Hard |
