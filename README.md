@@ -50,7 +50,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 38  | [Count and Say](https://leetcode.com/problems/count-and-say/)  | [C++](Algorithms/CountAndSay/countAndSay.cc) | Easy | [String][string] |
 | 39  | [Combination Sum](https://leetcode.com/problems/combination-sum/)  | [C++](Algorithms/CombinationSum/combinationSum.cc) | Medium | [Array][array], [Backtracking][bt] |
 | 40  | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)  | [c++](Algorithms/CombinationSumII/combinationSumII.cc) | Medium | [Array][array], [Backtracking][bt] |
-| 41  | First Missing Positive  |  | Hard |
+| 41  | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)  | [C++](Algorithms/FirstMissingPositive/firstMissingPositive.cc) | Hard | [Array][array] |
 | 42  | Trapping Rain Water  |  | Hard |
 | 43  | [Multiply Strings](https://leetcode.com/problems/multiply-strings/)  | [C++](Algorithms/MultiplyStrings/multiplyStrings.cc) | Medium | [Math][String] |
 | 44  | Wildcard Matching  |  | Hard |
