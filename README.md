@@ -51,7 +51,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 39  | [Combination Sum](https://leetcode.com/problems/combination-sum/)  | [C++](Algorithms/CombinationSum/combinationSum.cc) | Medium | [Array][array], [Backtracking][bt] |
 | 40  | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)  | [c++](Algorithms/CombinationSumII/combinationSumII.cc) | Medium | [Array][array], [Backtracking][bt] |
 | 41  | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)  | [C++](Algorithms/FirstMissingPositive/firstMissingPositive.cc) | Hard | [Array][array] |
-| 42  | Trapping Rain Water  |  | Hard |
+| 42  | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)  | [C++](Algorithms/TrappingRainWater/trappingRainWater.cc) | Hard | [Array][array], [Stack][stack], [Two Pointer][pointer] |
 | 43  | [Multiply Strings](https://leetcode.com/problems/multiply-strings/)  | [C++](Algorithms/MultiplyStrings/multiplyStrings.cc) | Medium | [Math][String] |
 | 44  | Wildcard Matching  |  | Hard |
 | 45  | Jump Game II  |  | Hard |
