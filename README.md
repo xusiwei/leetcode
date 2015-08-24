@@ -53,7 +53,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 41  | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)  | [C++](Algorithms/FirstMissingPositive/firstMissingPositive.cc) | Hard | [Array][array] |
 | 42  | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)  | [C++](Algorithms/TrappingRainWater/trappingRainWater.cc) | Hard | [Array][array], [Stack][stack], [Two Pointer][pointer] |
 | 43  | [Multiply Strings](https://leetcode.com/problems/multiply-strings/)  | [C++](Algorithms/MultiplyStrings/multiplyStrings.cc) | Medium | [Math][String] |
-| 44  | Wildcard Matching  |  | Hard |
+| 44  | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)  | [C++](Algorithms/WildcardMatching/wildcardMatching.cc) | Hard | [Dynamic Programming][dp], [Backtracking][bt], [Greedy][greedy], [String][string] |
 | 45  | Jump Game II  |  | Hard |
 | 46  | Permutations  |  | Medium |
 | 47  | Permutations II  |  | Hard |
