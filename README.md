@@ -60,7 +60,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 48  | Rotate Image  |  | Medium |
 | 49  | Anagrams  |  | Medium |
 | 50  | Pow(x, n)  |  | Medium |
-| 51  | N-Queens  |  | Hard |
+| 51  | [N-Queens](https://leetcode.com/problems/n-queens/)  | [C++](Algorithms/N-Queens/n-Queens.cc) | Hard | [Backtracking][bt] |
 | 52  | N-Queens II  |  | Hard |
 | 53  | Maximum Subarray  |  | Medium |
 | 54  | Spiral Matrix  |  | Medium |
