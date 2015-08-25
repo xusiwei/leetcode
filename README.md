@@ -57,7 +57,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 45  | Jump Game II  |  | Hard |
 | 46  | Permutations  |  | Medium |
 | 47  | Permutations II  |  | Hard |
-| 48  | Rotate Image  |  | Medium |
+| 48  | [Rotate Image](https://leetcode.com/problems/rotate-image/)  | [C++](Algorithms/RotateImage/rotateImage.cc) | Medium | [Array][array] |
 | 49  | Anagrams  |  | Medium |
 | 50  | Pow(x, n)  |  | Medium |
 | 51  | [N-Queens](https://leetcode.com/problems/n-queens/)  | [C++](Algorithms/N-Queens/n-Queens.cc) | Hard | [Backtracking][bt] |
