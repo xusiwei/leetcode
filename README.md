@@ -61,7 +61,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 49  | Anagrams  |  | Medium |
 | 50  | Pow(x, n)  |  | Medium |
 | 51  | [N-Queens](https://leetcode.com/problems/n-queens/)  | [C++](Algorithms/N-Queens/n-Queens.cc) | Hard | [Backtracking][bt] |
-| 52  | N-Queens II  |  | Hard |
+| 52  | [N-Queens II](https://leetcode.com/problems/n-queens-ii/)  | [C++](Algorithms/N-QueensII/n-QueensII.cc) | Hard | [Backtracking][bt] |
 | 53  | Maximum Subarray  |  | Medium |
 | 54  | Spiral Matrix  |  | Medium |
 | 55  | Jump Game  |  | Medium |
