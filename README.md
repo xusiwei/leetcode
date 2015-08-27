@@ -55,7 +55,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 43  | [Multiply Strings](https://leetcode.com/problems/multiply-strings/)  | [C++](Algorithms/MultiplyStrings/multiplyStrings.cc) | Medium | [Math][String] |
 | 44  | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)  | [C++](Algorithms/WildcardMatching/wildcardMatching.cc) | Hard | [Dynamic Programming][dp], [Backtracking][bt], [Greedy][greedy], [String][string] |
 | 45  | [Jump Game II](https://leetcode.com/problems/jump-game-ii/)  | [C++](Algorithms/JumpGameII/jumpGameII.cc) | Hard | [Array][array], [Greedy][greedy] |
-| 46  | Permutations  |  | Medium |
+| 46  | [Permutations](https://leetcode.com/problems/permutations/)  | [C++](Algorithms/Permutations/permutations.cc) | Medium | [Backtracking][bt] |
 | 47  | Permutations II  |  | Hard |
 | 48  | [Rotate Image](https://leetcode.com/problems/rotate-image/)  | [C++](Algorithms/RotateImage/rotateImage.cc) | Medium | [Array][array] |
 | 49  | Anagrams  |  | Medium |
