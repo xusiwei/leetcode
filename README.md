@@ -63,7 +63,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 51  | [N-Queens](https://leetcode.com/problems/n-queens/)  | [C++](Algorithms/N-Queens/n-Queens.cc) | Hard | [Backtracking][bt] |
 | 52  | [N-Queens II](https://leetcode.com/problems/n-queens-ii/)  | [C++](Algorithms/N-QueensII/n-QueensII.cc) | Hard | [Backtracking][bt] |
 | 53  | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)  | [C++](Algorithms/MaximumSubarray/maximumSubarray.cc) | Medium | [Divide and Conquer][dnd], [Array][array], [Dynmic Programming][dp] |
-| 54  | Spiral Matrix  |  | Medium |
+| 54  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)  | [C++](Algorithms/SpiralMatrix/spiralMatrix.cc) | Medium | [Array][array] |
 | 55  | Jump Game  |  | Medium |
 | 56  | Merge Intervals  |  | Hard |
 | 57  | Insert Interval  |  | Hard |
