@@ -62,7 +62,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 50  | [Pow(x, n)](https://leetcode.com/problems/powx-n/)  | [C++](Algorithms/Pow/pow.cc) | Medium | [Math][math], [Binary][bsearch] |
 | 51  | [N-Queens](https://leetcode.com/problems/n-queens/)  | [C++](Algorithms/N-Queens/n-Queens.cc) | Hard | [Backtracking][bt] |
 | 52  | [N-Queens II](https://leetcode.com/problems/n-queens-ii/)  | [C++](Algorithms/N-QueensII/n-QueensII.cc) | Hard | [Backtracking][bt] |
-| 53  | Maximum Subarray  |  | Medium |
+| 53  | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)  | [C++](Algorithms/MaximumSubarray/maximumSubarray.cc) | Medium | [Divide and Conquer][dnd], [Array][array], [Dynmic Programming][dp] |
 | 54  | Spiral Matrix  |  | Medium |
 | 55  | Jump Game  |  | Medium |
 | 56  | Merge Intervals  |  | Hard |
