@@ -58,7 +58,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 46  | [Permutations](https://leetcode.com/problems/permutations/)  | [C++](Algorithms/Permutations/permutations.cc) | Medium | [Backtracking][bt] |
 | 47  | [Permutations II](https://leetcode.com/problems/permutations-ii/)  | [C++](Algorithms/PermutationsII/permutationsII.cc) | Hard | [Backtracking][bt] |
 | 48  | [Rotate Image](https://leetcode.com/problems/rotate-image/)  | [C++](Algorithms/RotateImage/rotateImage.cc) | Medium | [Array][array] |
-| 49  | Anagrams  |  | Medium |
+| 49  | [Group Anagrams](https://leetcode.com/problems/anagrams/)  | [C++](Algorithms/GroupAnagrams/groupAnagrams.cc) | Medium | [Hash Table][hash], [String][string] |
 | 50  | [Pow(x, n)](https://leetcode.com/problems/powx-n/)  | [C++](Algorithms/Pow/pow.cc) | Medium | [Math][math], [Binary][bsearch] |
 | 51  | [N-Queens](https://leetcode.com/problems/n-queens/)  | [C++](Algorithms/N-Queens/n-Queens.cc) | Hard | [Backtracking][bt] |
 | 52  | [N-Queens II](https://leetcode.com/problems/n-queens-ii/)  | [C++](Algorithms/N-QueensII/n-QueensII.cc) | Hard | [Backtracking][bt] |
