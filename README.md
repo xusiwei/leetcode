@@ -56,7 +56,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 44  | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)  | [C++](Algorithms/WildcardMatching/wildcardMatching.cc) | Hard | [Dynamic Programming][dp], [Backtracking][bt], [Greedy][greedy], [String][string] |
 | 45  | [Jump Game II](https://leetcode.com/problems/jump-game-ii/)  | [C++](Algorithms/JumpGameII/jumpGameII.cc) | Hard | [Array][array], [Greedy][greedy] |
 | 46  | [Permutations](https://leetcode.com/problems/permutations/)  | [C++](Algorithms/Permutations/permutations.cc) | Medium | [Backtracking][bt] |
-| 47  | Permutations II  |  | Hard |
+| 47  | [Permutations II](https://leetcode.com/problems/permutations-ii/)  | [C++](Algorithms/PermutationsII/permutationsII.cc) | Hard | [Backtracking][bt] |
 | 48  | [Rotate Image](https://leetcode.com/problems/rotate-image/)  | [C++](Algorithms/RotateImage/rotateImage.cc) | Medium | [Array][array] |
 | 49  | Anagrams  |  | Medium |
 | 50  | [Pow(x, n)](https://leetcode.com/problems/powx-n/)  | [C++](Algorithms/Pow/pow.cc) | Medium | [Math][math], [Binary][bsearch] |
