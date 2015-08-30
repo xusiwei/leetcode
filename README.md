@@ -67,7 +67,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 55  | Jump Game  |  | Medium |
 | 56  | Merge Intervals  |  | Hard |
 | 57  | Insert Interval  |  | Hard |
-| 58  | Length of Last Word  |  | Easy |
+| 58  | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)  | [C++](Algorithms/LengthOfLastWord/lengthOfLastWord.cc) | Easy | [String][string] |
 | 59  | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)  | [C++](Algorithms/SpiralMatrixII/spiralMatrixII.cc) | Medium | [Array][array] |
 | 60  | Permutation Sequence  |  | Medium |
 | 61  | [Rotate List](https://leetcode.com/problems/rotate-list/)  | [C++](Algorithms/RotateList/rotateList.cc) | Medium | [ Linked List ][list], [Two Pointers][pointer] |
