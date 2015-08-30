@@ -73,7 +73,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 61  | [Rotate List](https://leetcode.com/problems/rotate-list/)  | [C++](Algorithms/RotateList/rotateList.cc) | Medium | [ Linked List ][list], [Two Pointers][pointer] |
 | 62  | Unique Paths  |  | Medium |
 | 63  | Unique Paths II  |  | Medium |
-| 64  | Minimum Path Sum  |  | Medium |
+| 64  | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)  | [C++](Algorithms/MinimumPathSum/minimumPathSum.cc) | Medium | [Array][array], [Dynamic Programming][dp] |
 | 65  | Valid Number  |  | Hard |
 | 66  | Plus One  |  | Easy |
 | 67  | Add Binary  |  | Easy |
