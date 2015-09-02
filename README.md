@@ -64,7 +64,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 52  | [N-Queens II](https://leetcode.com/problems/n-queens-ii/)  | [C++](Algorithms/N-QueensII/n-QueensII.cc) | Hard | [Backtracking][bt] |
 | 53  | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)  | [C++](Algorithms/MaximumSubarray/maximumSubarray.cc) | Medium | [Divide and Conquer][dnd], [Array][array], [Dynmic Programming][dp] |
 | 54  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)  | [C++](Algorithms/SpiralMatrix/spiralMatrix.cc) | Medium | [Array][array] |
-| 55  | Jump Game  |  | Medium |
+| 55  | [Jump Game](https://leetcode.com/problems/jump-game/)  | [C++](Algorithms/JumpGame/jumpGame.cc) | Medium | [Array][array], [Greedy][greedy] |
 | 56  | [Merge Intervals](https://leetcode.com/problems/merge-intervals/)  | [C++](Algorithms/MergeIntervals/mergeIntervals.cc) | Hard | [Array][array], [Sort][sort] |
 | 57  | Insert Interval  |  | Hard |
 | 58  | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)  | [C++](Algorithms/LengthOfLastWord/lengthOfLastWord.cc) | Easy | [String][string] |
