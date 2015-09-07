@@ -71,8 +71,8 @@ If you have any ideas about my solution, welcome to post a comment.
 | 59  | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)  | [C++](Algorithms/SpiralMatrixII/spiralMatrixII.cc) | Medium | [Array][array] |
 | 60  | Permutation Sequence  |  | Medium |
 | 61  | [Rotate List](https://leetcode.com/problems/rotate-list/)  | [C++](Algorithms/RotateList/rotateList.cc) | Medium | [ Linked List ][list], [Two Pointers][pointer] |
-| 62  | Unique Paths  |  | Medium |
-| 63  | Unique Paths II  |  | Medium |
+| 62  | [Unique Paths](https://leetcode.com/problems/unique-paths/)  | [C++](Algorithms/UniquePaths/uniquePaths.cc) | Medium | [Array][array], [Dynamic Programming][dp] |
+| 63  | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)  | [C++](Algorithms/UniquePathsII/uniquePathsII.cc) | Medium | [Array][array], [Dynamic Programming][dp] |
 | 64  | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)  | [C++](Algorithms/MinimumPathSum/minimumPathSum.cc) | Medium | [Array][array], [Dynamic Programming][dp] |
 | 65  | Valid Number  |  | Hard |
 | 66  | Plus One  |  | Easy |
