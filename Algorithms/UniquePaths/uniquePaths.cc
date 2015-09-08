@@ -18,10 +18,21 @@ Note: m and n will be at most 100.
 
 class Solution {
 public:
-    int uniquePaths(int m, int n) {
-        static int tab[100][100] = {0};
-        if(tab[m][n]) return tab[m][n];
-        if(1 == m || 1 == n) return tab[m][n] = 1;
-        return tab[m][n] = uniquePaths(m-1, n) + uniquePaths(m, n-1);
+    int uniquePaths(int row, int col) {
+        //vector<vector<int>> dp(row, vector<int>(col));
+        vector<int> dp(col); // space optimized.
+        
+        for(int r = row-1; r >= 0; r--) {
+            for(int c = col-1; c >= 0; c--) {
+                if(r == row-1 || c == col-1) {
+                    dp[c] = 1;
+                }
+                else {
+                    dp[c] = dp[c] + dp[c+1];
+                }
+            }
+        }
+        
+        return dp[0];
     }
 };
