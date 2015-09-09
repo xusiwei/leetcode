@@ -69,7 +69,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 57  | [Insert Interval](https://leetcode.com/problems/insert-interval/)  | [C++](Algorithms/InsertInterval/insertInterval.cc) | Hard | [Array][array], [Sort][sort] |
 | 58  | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)  | [C++](Algorithms/LengthOfLastWord/lengthOfLastWord.cc) | Easy | [String][string] |
 | 59  | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)  | [C++](Algorithms/SpiralMatrixII/spiralMatrixII.cc) | Medium | [Array][array] |
-| 60  | Permutation Sequence  |  | Medium |
+| 60  | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)  | [C++](Algorithms/PermutationSequence/permutationSequence.cc) | Medium | [Backtracking ][bt], [Math][math] |
 | 61  | [Rotate List](https://leetcode.com/problems/rotate-list/)  | [C++](Algorithms/RotateList/rotateList.cc) | Medium | [ Linked List ][list], [Two Pointers][pointer] |
 | 62  | [Unique Paths](https://leetcode.com/problems/unique-paths/)  | [C++](Algorithms/UniquePaths/uniquePaths.cc) | Medium | [Array][array], [Dynamic Programming][dp] |
 | 63  | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)  | [C++](Algorithms/UniquePathsII/uniquePathsII.cc) | Medium | [Array][array], [Dynamic Programming][dp] |
