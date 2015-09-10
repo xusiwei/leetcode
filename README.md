@@ -76,7 +76,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 64  | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)  | [C++](Algorithms/MinimumPathSum/minimumPathSum.cc) | Medium | [Array][array], [Dynamic Programming][dp] |
 | 65  | Valid Number  |  | Hard |
 | 66  | [Plus One](https://leetcode.com/problems/plus-one/)  | [C++](Algorithms/PlusOne/plusOne.cc) | Easy | [Array][array], [Math][math] |
-| 67  | Add Binary  |  | Easy |
+| 67  | [Add Binary](https://leetcode.com/problems/add-binary/)  | [C++](Algorithms/AddBinary/addBinary.cc) | Easy | [Math][math], [String][string] |
 | 68  | Text Justification  |  | Hard |
 | 69  | Sqrt(x)  |  | Medium |
 | 70  | Climbing Stairs  |  | Easy |
