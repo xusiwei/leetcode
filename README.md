@@ -75,7 +75,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 63  | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)  | [C++](Algorithms/UniquePathsII/uniquePathsII.cc) | Medium | [Array][array], [Dynamic Programming][dp] |
 | 64  | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)  | [C++](Algorithms/MinimumPathSum/minimumPathSum.cc) | Medium | [Array][array], [Dynamic Programming][dp] |
 | 65  | Valid Number  |  | Hard |
-| 66  | Plus One  |  | Easy |
+| 66  | [Plus One](https://leetcode.com/problems/plus-one/)  | [C++](Algorithms/PlusOne/plusOne.cc) | Easy | [Array][array], [Math][math] |
 | 67  | Add Binary  |  | Easy |
 | 68  | Text Justification  |  | Hard |
 | 69  | Sqrt(x)  |  | Medium |
