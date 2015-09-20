@@ -80,7 +80,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 68  | [Text Justification](https://leetcode.com/problems/text-justification/)  | [C++](Algorithms/TextJustification/textJustification.cc) | Hard | [String][string] |
 | 69  | [Sqrt(x)](https://leetcode.com/problems/sqrtx/)  | [C++](Algorithms/SqrtX/sqrtX.cc) | Medium | [Math][math], [Binary Search][bsearch] |
 | 70  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)  | [C++](Algorithms/ClimbingStairs/climbingStairs.cc) | Easy |  [Dynamic Programming][dp] |
-| 71  | Simplify Path  |  | Medium |
+| 71  | [Simplify Path](https://leetcode.com/problems/simplify-path/)  | [C++](Algorithms/SimplifyPath/simplifyPath.cc) | Medium | [Stack][stack], [String][string] |
 | 72  | Edit Distance  |  | Hard |
 | 73  | Set Matrix Zeroes  |  | Medium |
 | 74  | Search a 2D Matrix  |  | Medium |
