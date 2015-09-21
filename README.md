@@ -82,7 +82,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 70  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)  | [C++](Algorithms/ClimbingStairs/climbingStairs.cc) | Easy |  [Dynamic Programming][dp] |
 | 71  | [Simplify Path](https://leetcode.com/problems/simplify-path/)  | [C++](Algorithms/SimplifyPath/simplifyPath.cc) | Medium | [Stack][stack], [String][string] |
 | 72  | Edit Distance  |  | Hard |
-| 73  | Set Matrix Zeroes  |  | Medium |
+| 73  | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)  | [C++](Algorithms/SetMatrixZeroes/setMatrixZeroes.cc) | Medium | [Array][array] |
 | 74  | Search a 2D Matrix  |  | Medium |
 | 75  | Sort Colors  |  | Medium |
 | 76  | Minimum Window Substring  |  | Hard |
