@@ -23,6 +23,7 @@ If n = 4 and k = 2, a solution is:
 #include <algorithm>
 using namespace std;
 
+#ifdef RECUSIVE
 class Solution {
 public:
     void backtrack(vector<vector<int>>& res, vector<int>& cur, int n, int k) {
@@ -46,6 +47,41 @@ public:
         return res;
     }
 };
+// recusive solution.
+// refers: https://github.com/haoel/leetcode/blob/master/algorithms/combinations/combinations.cpp
+#else // RECUSIVE
+// iterative solution.
+// refers: http://stackoverflow.com/questions/9430568/generating-combinations-in-c
+class Solution {
+public:
+    vector<vector<int>> combine(int n, int k) {
+        vector<int> cur;
+        vector<vector<int>> res;
+        
+        for(int i = 1; i <= k; ++i) { // fill the 1st answer.
+            cur.push_back(i);
+        }
+        
+        int generated = 0;
+        bool comleted = n < 1 || k > n;
+        while(!comleted) {
+            res.push_back(cur);
+            comleted = true;
+            for(int i = k-1; i >= 0; --i) {
+                if(cur[i] < n - k + i + 1) {
+                    int j = cur[i] + 1;
+                    while(i < k) cur[i++] = j++;
+                    comleted = false;
+                    ++generated;
+                    break;
+                }
+            }
+        }
+        
+        return res;
+    }
+};
+#endif
 
 int main(int argc, char* argv[])
 {
