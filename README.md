@@ -89,7 +89,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 77  | [Combinations](https://leetcode.com/problems/combinations/)  | [C++](Algorithms/Combinations/combinations.cc) | Medium | [Backtracking][bt] |
 | 78  | [Subsets](https://leetcode.com/problems/subsets/)  | [C++](Algorithms/Subsets/subsets.cc) | Medium | [Array][array], [ Backtracking ][bt], [ Bit Manipulation ][bits] |
 | 79  | [Word Search](https://leetcode.com/problems/word-search/)  | [C++](Algorithms/WordSearch/wordSearch.cc) | Medium | [Array][array], [Backtracking][bt] |
-| 80  | Remove Duplicates from Sorted Array II  |  | Medium |
+| 80  | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)  | [C++](Algorithms/RemoveDuplicatesFromSortedArrayII/removeDuplicatesFromSortedArrayII.cc) | Medium | [Array][array], [Two Pointers][pointer] |
 | 81  | Search in Rotated Sorted Array II  |  | Medium |
 | 82  | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)  | [C++](Algorithms/RemoveDuplicatesII/removeDuplicatesII.cc) | Medium |  [ Linked List ][list] |
 | 83  | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  | [C++](Algorithms/RemoveDuplicates/removeDuplicates.cc) | Easy | [Linked List][list] |
