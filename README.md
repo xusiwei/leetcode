@@ -97,8 +97,8 @@ If you have any ideas about my solution, welcome to post a comment.
 | 85  | Maximal Rectangle  |  | Hard |
 | 86  | [Partition List](https://leetcode.com/problems/partition-list/)  | [C++](Algorithms/PartitionList/partitionList.cc) | Medium | [Linked List][list], [Two Pointers][pointer] |
 | 87  | Scramble String  |  | Hard |
-| 88  | Merge Sorted Array  |  | Easy |
-| 89  | Gray Code  |  | Medium |
+| 88  | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)  | [C++](Algorithms/MergeSortedArray/mergeSortedArray.cc) | Easy | [Array][array], [Two Pointers][pointer] |
+| 89  | [Gray Code](https://leetcode.com/problems/gray-code/)  | [C++](Algorithms/GrayCode/grayCode.cc) | Medium | [Backtracking][bt] |
 | 90  | Subsets II  |  | Medium |
 | 91  | Decode Ways  |  | Medium |
 | 92  | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)  | [C++](Algorithms/ReverseLinkedListII/reverseLinkedListII.cc) | Medium |  [ Linked List ][list] |  [ Linked List ][list] |
