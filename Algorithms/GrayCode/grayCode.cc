@@ -40,9 +40,10 @@ For example, [0,2,3,1] is also a valid gray code sequence according to the above
 class Solution {
 public:
     vector<int> grayCode(int n) {
-        if(0 == n) return vector<int>(1, 0); // null set.
-        vector<int> result{0, 1};
-        if(1 == n ) return result;
+        vector<int> result(1u, 0);
+        if(0 == n) return result;
+        result.push_back(1);
+        if(1 == n) return result;
         
         for(int i = 1; i < n; ++i) {
             int mask = 1 << i;
