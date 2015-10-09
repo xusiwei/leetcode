@@ -36,7 +36,7 @@ public:
         }
         if(k > P[n]) return ""; // for invalid k.
 
-        // now we stand on the root of a premutation tree.
+        // now we stand on the root of a permutation tree.
         // we'll step down to the leaf node, that path is the result.
         // initial branches:
         vector<int> branches(n, 0);
