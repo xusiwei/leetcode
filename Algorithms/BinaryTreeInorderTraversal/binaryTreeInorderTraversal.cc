@@ -106,7 +106,6 @@ int main(int argc, char* argv[])
 {
     int root = 0;
     TreeNode* nodes[20] = {0};
-    typedef int branch[2];
     
     for(int i = 1; i < sizeof(nodes)/sizeof(nodes[0]); i++) {
         nodes[i] = new TreeNode(i);
