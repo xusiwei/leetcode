@@ -105,7 +105,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 93 | Restore IP Addresses  |  | Medium |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)  | [C++](Algorithms/BinaryTreeInorderTraversal/binaryTreeInorderTraversal.cc) | Medium |
 | 95 | Unique Binary Search Trees II  |  | Medium |
-| 96 | Unique Binary Search Trees  |  | Medium |
+| 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)  | [C++](Algorithms/UniqueBinarySearchTrees/uniqueBinarySearchTrees.cc) | Medium |
 | 97 | Interleaving String  |  | Hard |
 | 98 | Validate Binary Search Tree  |  | Medium |
 | 99 | Recover Binary Search Tree  |  | Hard |
