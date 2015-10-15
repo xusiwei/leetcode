@@ -104,7 +104,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)  | [C++](Algorithms/ReverseLinkedListII/reverseLinkedListII.cc) | Medium |
 | 93 | Restore IP Addresses  |  | Medium |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)  | [C++](Algorithms/BinaryTreeInorderTraversal/binaryTreeInorderTraversal.cc) | Medium |
-| 95 | Unique Binary Search Trees II  |  | Medium |
+| 95 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)  | [C++](Algorithms/UniqueBinarySearchTreesII/uniqueBinarySearchTreesII.cc) | Medium |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)  | [C++](Algorithms/UniqueBinarySearchTrees/uniqueBinarySearchTrees.cc) | Medium |
 | 97 | Interleaving String  |  | Hard |
 | 98 | Validate Binary Search Tree  |  | Medium |
