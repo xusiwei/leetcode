@@ -110,7 +110,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 98 | Validate Binary Search Tree  |  | Medium |
 | 99 | Recover Binary Search Tree  |  | Hard |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/)  | [C++](Algorithms/SameTree/sameTree.cc) | Easy |
-| 101 | Symmetric Tree  |  | Easy |
+| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)  | [C++](Algorithms/SymmetricTree/symmetricTree.cc) | Easy |
 | 102 | Binary Tree Level Order Traversal  |  | Easy |
 | 103 | Binary Tree Zigzag Level Order Traversal  |  | Medium |
 | 104 | Maximum Depth of Binary Tree  |  | Easy |
