@@ -86,5 +86,5 @@ int main(int argc, char* argv[])
     }
     
     printMatrix(Solution().combinationSum2(nums, target));
-	return 0;
+    return 0;
 }

@@ -53,30 +53,30 @@ The above binary tree is serialized as "{1,2,3,#,#,4,#,#,5}".
 class Solution {
 public:
     vector<vector<int> > levelOrder(TreeNode *root) {
-		vector<vector<int> > result;
-		if(root == NULL) return result;
-		
+        vector<vector<int> > result;
+        if(root == NULL) return result;
+        
         deque<TreeNode*> queue;
-		TreeNode* last = root; // last node of current level.
-		int level = 0; // current level.
-		
-		queue.push_back(root);
-		result.push_back(vector<int>()); // 1st level buffer.
-		while(!queue.empty()) {
-			TreeNode *node = queue.front();
-			queue.pop_front();
-			
-			result[level].push_back(node->val);
-			if(node->left) queue.push_back(node->left);
-			if(node->right) queue.push_back(node->right);
-			
-			if(node == last) {
-				level++;
-				last = queue.back();
-				result.push_back(vector<int>()); 
-			}
-		}
-		result.pop_back();
-		return result;
+        TreeNode *last = root; // last node of current level.
+        int level = 0; // current level.
+        
+        queue.push_back(root);
+        result.push_back(vector<int>()); // 1st level buffer.
+        while(!queue.empty()) {
+            TreeNode *node = queue.front();
+            queue.pop_front();
+            
+            result[level].push_back(node->val);
+            if(node->left) queue.push_back(node->left);
+            if(node->right) queue.push_back(node->right);
+            
+            if(node == last) {
+                level++;
+                last = queue.back();
+                result.push_back(vector<int>()); 
+            }
+        }
+        result.pop_back();
+        return result;
     }
 };

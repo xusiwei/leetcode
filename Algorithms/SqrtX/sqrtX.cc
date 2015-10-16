@@ -45,9 +45,9 @@ public:
         // > f'(x) = 2*x
         //   x1 = x0 - (x0*x0 - A)/(2*x0)
         //      = (x0*x0 + A)/(2*x0)
-		double x = A;
-		if(A == 0) return 0;
-		do{
+        double x = A;
+        if(A == 0) return 0;
+        do{
             x = (x + A/x)/2;
         }while(std::fabs(x*x - A) > 0.25);
         return (int)x;

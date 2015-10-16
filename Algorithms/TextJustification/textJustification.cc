@@ -51,7 +51,7 @@ public:
             
             // attempt to put some words to line.
             for(int i = left+1; i < words.size(); i++) {
-            	// at least one space between each word.
+                // at least one space between each word.
                 if(total + count + words[i].length() > maxWidth) break;
                 total += words[i].length();
                 count++;
@@ -90,24 +90,24 @@ public:
 
 int main(int argc, char* argv[])
 {
-	// ["What","must","be","shall","be."], 12
-	// ["Imagination","is","more","important","than","knowledge."], 14
-	// ["This", "is", "an", "example", "of", "text", "justification."], 16
-	vector<string> words{"Imagination","is","more","important","than","knowledge."};
-	int len = 14;
-	
-	if(argc > 1) len = atoi(argv[1]);
-	if(argc > 2) {
-		words.clear();
-		for(int i = 2; i < argc; i++) {
-			words.push_back(argv[i]);
-		}
-	}
-	
-	auto just = Solution().fullJustify(words, len);
-	for_each(just.begin(), just.end(),
-		[](string& s) {
-			cout << "\"" << s << "\"" << endl;
-		});
+    // ["What","must","be","shall","be."], 12
+    // ["Imagination","is","more","important","than","knowledge."], 14
+    // ["This", "is", "an", "example", "of", "text", "justification."], 16
+    vector<string> words{"Imagination","is","more","important","than","knowledge."};
+    int len = 14;
+    
+    if(argc > 1) len = atoi(argv[1]);
+    if(argc > 2) {
+        words.clear();
+        for(int i = 2; i < argc; i++) {
+            words.push_back(argv[i]);
+        }
+    }
+    
+    auto just = Solution().fullJustify(words, len);
+    for_each(just.begin(), just.end(),
+        [](string& s) {
+            cout << "\"" << s << "\"" << endl;
+        });
     return 0;
 }
