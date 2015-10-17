@@ -113,7 +113,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)  | [C++](Algorithms/SymmetricTree/symmetricTree.cc) | Easy |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)  | [C++](Algorithms/BinaryTreeLevelOrderTraversal/binaryTreeLevelOrderTraversal.cc) | Easy |
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)  | [C++](Algorithms/BinaryTreeZigzagLevelOrderTraversal/binaryTreeZigzagLevelOrderTraversal.cc) | Medium |
-| 104 | Maximum Depth of Binary Tree  |  | Easy |
+| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)  | [C++](Algorithms/MaximumDepthOfBinaryTree/maximumDepthOfBinaryTree.cc) | Easy |
 | 105 | Construct Binary Tree from Preorder and Inorder Traversal  |  | Medium |
 | 106 | Construct Binary Tree from Inorder and Postorder Traversal  |  | Medium |
 | 107 | Binary Tree Level Order Traversal II  |  | Easy |
