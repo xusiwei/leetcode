@@ -108,7 +108,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)  | [C++](Algorithms/UniqueBinarySearchTrees/uniqueBinarySearchTrees.cc) | Medium |
 | 97 | Interleaving String  |  | Hard |
 | 98 | Validate Binary Search Tree  |  | Medium |
-| 99 | Recover Binary Search Tree  |  | Hard |
+| 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)  | [C++](Algorithms/RecoverBinarySearchTree/recoverBinarySearchTree.cc) | Hard |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/)  | [C++](Algorithms/SameTree/sameTree.cc) | Easy |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)  | [C++](Algorithms/SymmetricTree/symmetricTree.cc) | Easy |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)  | [C++](Algorithms/BinaryTreeLevelOrderTraversal/binaryTreeLevelOrderTraversal.cc) | Easy |
