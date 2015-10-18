@@ -1,8 +1,17 @@
 # find TAB in source code
 find . -name *.cc | xargs grep -P "\t" --color=auto
 
-# replace TAB with 4-SPACE
-find . -name *.cc | xargs sed -i "s/\t/    /g"
+## one step:
+grep -R --include=*.cc -P '\t' .
 
-# replace `reseved` -> `reserved` in all files.
-grep -lr reseved . | xargs sed -i "s/reseved/reserved/g"
+## cutdown filename:
+grep -R --include=*.cc -P '\t' . | cut -d: -f1
+# or:
+grep -lR --include=*.cc -P '\t' .
+
+# replace TAB with 4-SPACE
+grep -lR --include=*.cc -P '\t' . | xargs sed -i "s/\t/    /g"
+
+#correct some word:
+# replace `wrong` -> `crorrect` in all files.
+grep -lr wrong . | xargs sed -i "s/wrong/crorrect/g"
