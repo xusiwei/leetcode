@@ -19,14 +19,11 @@ There is a more generic way of solving this problem.
 
 */
 
-#include <cmath> // log10, pow10
-#include <cstdlib> // labs
-#include <ext/numeric> // __gnu_cxx::power
+#include <cmath> // log10, pow
 #include <cstdio>
 #include <iostream>
 
 using namespace std;
-using namespace __gnu_cxx;
 
 class Solution {
 public:
@@ -35,8 +32,9 @@ public:
     }
 
     bool isPalindrome(int x) {
-        int len = static_cast<int>(log10(x)) + 1;
         if(x < 0) return false;
+
+        int len = static_cast<int>(log10(x)) + 1;
         for(int i = 0, j = len-1; i < j; i++, j--) {
             if(getDigit(x, i) != getDigit(x, j)) return false;
         }
