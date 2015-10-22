@@ -77,9 +77,8 @@ int main(int argc, char* argv[])
         printTree(Solution().buildTree(v1, v2)); }
 
     int a1[] = {1, 2, 3};
-    int a2[] = {1, 2, 3};
+    int a2[] = {2, 1, 3};
     TEST(a1, a2);
-    
     
     return 0;
 }
