@@ -123,7 +123,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  | [C++](Algorithms/MinimumDepthOfBinaryTree/minimumDepthOfBinaryTree.cc) | Easy |
 | 112 | Path Sum  |  | Easy |
 | 113 | Path Sum II  |  | Medium |
-| 114 | Flatten Binary Tree to Linked List  |  | Medium |
+| 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)  | [C++](Algorithms/FlattenBinaryTreeToLinkedList/flattenBinaryTreeToLinkedList.cc) | Medium |
 | 115 | Distinct Subsequences  |  | Hard |
 | 116 | Populating Next Right Pointers in Each Node  |  | Medium |
 | 117 | Populating Next Right Pointers in Each Node II  |  | Hard |
