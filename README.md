@@ -125,7 +125,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 113 | Path Sum II  |  | Medium |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)  | [C++](Algorithms/FlattenBinaryTreeToLinkedList/flattenBinaryTreeToLinkedList.cc) | Medium |
 | 115 | Distinct Subsequences  |  | Hard |
-| 116 | Populating Next Right Pointers in Each Node  |  | Medium |
+| 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)  | [C++](Algorithms/PopulatingNextRightPointersInEachNode/populatingNextRightPointersInEachNode.cc) | Medium |
 | 117 | Populating Next Right Pointers in Each Node II  |  | Hard |
 | 118 | Pascal's Triangle  |  | Easy |
 | 119 | Pascal's Triangle II  |  | Easy |
