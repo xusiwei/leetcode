@@ -121,7 +121,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)  | [C++](Algorithms/ConvertSortedListToBST/convertListToBST.cc) | Medium |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)  | [C++](Algorithms/BalancedBinaryTree/balancedBinaryTree.cc) | Easy |
 | 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  | [C++](Algorithms/MinimumDepthOfBinaryTree/minimumDepthOfBinaryTree.cc) | Easy |
-| 112 | Path Sum  |  | Easy |
+| 112 | [Path Sum](https://leetcode.com/problems/path-sum/)  | [C++](Algorithms/PathSum/pathSum.cc) | Easy |
 | 113 | Path Sum II  |  | Medium |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)  | [C++](Algorithms/FlattenBinaryTreeToLinkedList/flattenBinaryTreeToLinkedList.cc) | Medium |
 | 115 | Distinct Subsequences  |  | Hard |
