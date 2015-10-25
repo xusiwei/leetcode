@@ -27,16 +27,14 @@ using namespace std;
 
 class Solution {
 public:
-    static inline int getDigit(int x, int d) {
-        return ( x / static_cast<int>(pow(10, d)) ) % 10;
-    }
-
     bool isPalindrome(int x) {
         if(x < 0) return false;
 
-        int len = static_cast<int>(log10(x)) + 1;
+        int len = (int)log10(x) + 1;
         for(int i = 0, j = len-1; i < j; i++, j--) {
-            if(getDigit(x, i) != getDigit(x, j)) return false;
+            int a = x / (int)pow(10, i) % 10;
+            int b = x / (int)pow(10, j) % 10;
+            if(a != b) return false;
         }
         return true;
     }
