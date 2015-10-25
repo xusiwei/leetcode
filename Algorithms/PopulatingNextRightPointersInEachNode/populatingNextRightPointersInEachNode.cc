@@ -90,6 +90,42 @@ public:
             }
         }
     }
+
+    // constant space
+    // key point: we can use `next` pointer to help us represent
+    //      the buffering queue of level order traversal.
+    void connect2(TreeLinkNode *root) {
+        if(root == NULL) return;
+
+        TreeLinkNode *head, *tail;
+        TreeLinkNode *prev, *last;
+
+        head = tail = NULL;
+        prev = last = root;
+
+#define push(p) \
+    if(head == NULL) { head = tail = p; } \
+    else { tail->next = p; tail = p; }
+        push(root);
+        while(head != NULL) {
+            TreeLinkNode* p = head;
+            head = head->next; // pop
+
+            prev->next = p;
+            if(p->left ) push(p->left);
+            if(p->right) push(p->right);
+
+            if(p == last) {
+                last = tail;
+                p->next = NULL; // cut down.
+                prev = head;
+            }
+            else {
+                prev = p;
+            }
+        }
+#undef push
+    }
 };
 
 void printLinkTree(TreeLinkNode* root) {
@@ -115,7 +151,11 @@ int main(int argc, char* argv[])
                             new TreeLinkNode(3,
                                 new TreeLinkNode(6),
                                 new TreeLinkNode(7)));
+#ifdef CONST_SPACE
+    Solution().connect2(root);
+#else
     Solution().connect(root);
+#endif
     printLinkTree(root);
     return 0;
 }
