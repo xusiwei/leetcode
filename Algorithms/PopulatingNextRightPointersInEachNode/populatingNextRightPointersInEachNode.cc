@@ -79,7 +79,8 @@ public:
             if(p->left ) q.push(p->left);
             if(p->right) q.push(p->right);
 
-            if(p == last) {
+            if(p == last) { // meets last of current level
+                // now, q contains all nodes of next level
                 last = q.back();
                 p->next = NULL; // cut down.
                 prev = q.front();
