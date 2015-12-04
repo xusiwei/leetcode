@@ -100,7 +100,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)  | [C++](Algorithms/MergeSortedArray/mergeSortedArray.cc) | Easy |
 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/)  | [C++](Algorithms/GrayCode/grayCode.cc) | Medium |
 | 90 | Subsets II  |  | Medium |
-| 91 | Decode Ways  |  | Medium |
+| 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/)  | [C++](Algorithms/DecodeWays/decodeWays.cc) | Medium |
 | 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)  | [C++](Algorithms/ReverseLinkedListII/reverseLinkedListII.cc) | Medium |
 | 93 | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)  | [C++](Algorithms/RestoreIPAddresses/restoreIPAddresses.cc) | Medium |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)  | [C++](Algorithms/BinaryTreeInorderTraversal/binaryTreeInorderTraversal.cc) | Medium |
