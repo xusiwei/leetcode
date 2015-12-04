@@ -65,13 +65,8 @@ vector<string> split(string str, vector<int> &vec) {
     vector<string> result;
     
     int took = 0;
-    string sub = str.substr(took, vec[0]);
-    result.push_back(sub);
-    took += vec[0];
-    
-    for (int i = 1; i < vec.size(); ++i) {
-        sub = str.substr(took, vec[i]);
-        result.push_back(sub);
+    for (int i = 0; i < vec.size(); ++i) {
+        result.push_back(str.substr(took, vec[i]));
         took += vec[i];
     }
     return result;
