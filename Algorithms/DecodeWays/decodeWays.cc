@@ -42,16 +42,18 @@ public:
         // dp[n] is numDecodings(s[0...n])
         // if s[n-1], s[n] jionable, there are two ways:
         //    decode(s[0...n-2]) + mapping(jion(s[n-1], s[n]))
-        //    decode(s[n...n-1]) + mapping(s[n])
-        // else if s[n] != 0:
+        //    if s[n] != '0':
+        //       decode(s[n...n-1]) + mapping(s[n])
+        // else if s[n] != '0':
         //    decode(s[0...n-1]) + mapping(s[n])
         // else:
         //    unexpected case.
-        // => dp[n] = dp[n-1] + dp[n-2] if joinable(s[n-1], s[n])
-        //          = dp[n-1] else if s[n] != '0';
+        // => dp[n] = dp[n-2] if joinable(s[n-1], s[n])
+        //                   + dp[n-1] if s[n] != '0'
+        //          = dp[n-1] else if s[n] != '0'
         if (s.length() == 0) return 0;
         
-        vector<int> dp(s.length(), 0);
+        vector<int> dp(s.length());
         dp[0] = (nzero(s[0]) ? 1 : 0);
         if (s.length() == 1) return dp[0];
         
