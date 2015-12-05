@@ -1,0 +1,147 @@
+/*
+copyright xu(xusiwei1236@163.com), all right reserved.
+
+Populating Next Right Pointers in Each Node II
+===============================================
+
+Follow up for problem "Populating Next Right Pointers in Each Node".
+
+What if the given tree could be any binary tree? Would your previous solution still work?
+
+Note:
+
+You may only use constant extra space.
+For example,
+Given the following binary tree,
+         1
+       /  \
+      2    3
+     / \    \
+    4   5    7
+After calling your function, the tree should look like:
+         1 -> NULL
+       /  \
+      2 -> 3 -> NULL
+     / \    \
+    4-> 5 -> 7 -> NULL
+*/
+#include <queue>
+#include <stdio.h>
+using namespace std;
+
+struct TreeLinkNode {
+    int val;
+    TreeLinkNode *left, *right, *next;
+    TreeLinkNode(int x) : val(x), left(NULL), right(NULL), next(NULL) {}
+    TreeLinkNode(int x, TreeLinkNode* L, TreeLinkNode* R) 
+        : val(x), left(L), right(R), next(NULL) {}
+};
+
+
+/**
+ * Definition for binary tree with next pointer.
+ * struct TreeLinkNode {
+ *  int val;
+ *  TreeLinkNode *left, *right, *next;
+ *  TreeLinkNode(int x) : val(x), left(NULL), right(NULL), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    void connect(TreeLinkNode *root) {
+        if(root == NULL) return;
+        
+        queue<TreeLinkNode*> q;
+        TreeLinkNode *prev, *last;
+        prev = last = root;
+        
+        q.push(root);
+        while(!q.empty()) {
+            TreeLinkNode* p = q.front();
+            q.pop();
+
+            prev->next = p;
+            if(p->left ) q.push(p->left);
+            if(p->right) q.push(p->right);
+
+            if(p == last) { // meets last of current level
+                // now, q contains all nodes of next level
+                last = q.back();
+                p->next = NULL; // cut down.
+                prev = q.front();
+            }
+            else {
+                prev = p;
+            }
+        }
+    }
+
+    // constant space
+    // key point: we can use `next` pointer to help us represent
+    //      the buffering queue of level order traversal.
+    void connect2(TreeLinkNode *root) {
+        if(root == NULL) return;
+
+        TreeLinkNode *head, *tail;
+        TreeLinkNode *prev, *last;
+
+        head = tail = NULL;
+        prev = last = root;
+
+#define push(p) \
+    if(head == NULL) { head = tail = p; } \
+    else { tail->next = p; tail = p; }
+        push(root);
+        while(head != NULL) {
+            TreeLinkNode* p = head;
+            head = head->next; // pop
+
+            prev->next = p;
+            if(p->left ) push(p->left);
+            if(p->right) push(p->right);
+
+            if(p == last) {
+                last = tail;
+                p->next = NULL; // cut down.
+                prev = head;
+            }
+            else {
+                prev = p;
+            }
+        }
+#undef push
+    }
+};
+
+void printLinkTree(TreeLinkNode* root) {
+    TreeLinkNode *head = root, *p = root;
+    while(p) {
+        printf("%d%s", p->val, (p->next) ? "->" : "\n");
+        if(p->next != NULL) {
+            p = p->next;
+        }
+        else {
+            head = head->left;
+            p = head;
+        }
+    }
+}
+
+int main(int argc, char* argv[])
+{
+    TreeLinkNode* root = new TreeLinkNode(1,
+                            new TreeLinkNode(2,
+                                new TreeLinkNode(4),
+                                new TreeLinkNode(5)),
+                            new TreeLinkNode(3,
+                                new TreeLinkNode(6),
+                                new TreeLinkNode(7)));
+#ifdef CONST_SPACE
+    Solution().connect2(root);
+#else
+    Solution().connect(root);
+#endif
+    printLinkTree(root);
+    return 0;
+}
+
