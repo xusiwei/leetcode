@@ -39,7 +39,7 @@ content = template.format(title, "=" * (1+len(title)))
 #print "prepare content:\n", content
 
 for i in range(1, len(sys.argv)):
-	w = sys.argv[i]
+	w = sys.argv[i].replace("'", "")
 	newdir = newdir + string.capitalize(w[0]) + w[1:]
 	first = string.lower(w[0]) if i == 1 else string.capitalize(w[0])
 	fname = fname + first + w[1:]

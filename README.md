@@ -128,7 +128,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)  | [C++](Algorithms/PopulatingNextRightPointersInEachNode/populatingNextRightPointersInEachNode.cc) | Medium |
 | 117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)  | [C++](Algorithms/PopulatingNextRightPointersInEachNodeII/populatingNextRightPointersInEachNodeII.cc) | Hard |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)  | [C++](Algorithms/PascalsTriangle/pascalsTriangle.cc) | Easy |
-| 119 | Pascal's Triangle II  |  | Easy |
+| 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)  | [C++](Algorithms/PascalsTriangleII/pascalsTriangleII.cc) | Easy |
 | 120 | Triangle  |  | Medium |
 | 121 | Best Time to Buy and Sell Stock  |  | Medium |
 | 122 | Best Time to Buy and Sell Stock II  |  | Medium |
