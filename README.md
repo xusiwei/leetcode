@@ -93,7 +93,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)  | [C++](Algorithms/SearchInRotatedSortedArrayII/searchInRotatedSortedArrayII.cc) | Medium |
 | 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)  | [C++](Algorithms/RemoveDuplicatesII/removeDuplicatesII.cc) | Medium |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  | [C++](Algorithms/RemoveDuplicates/removeDuplicates.cc) | Easy |
-| 84 | Largest Rectangle in Histogram  |  | Hard |
+| 84 | [Largest Rectangle in Histogram]()  | [C++](Algorithms/LargestRectangleInHistogram/largestRectangleInHistogram.cc) | Hard |
 | 85 | Maximal Rectangle  |  | Hard |
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/)  | [C++](Algorithms/PartitionList/partitionList.cc) | Medium |
 | 87 | Scramble String  |  | Hard |
