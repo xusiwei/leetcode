@@ -28,15 +28,20 @@ If nums = [1,2,3], a solution is:
 class Solution {
 public:
     vector<vector<int> > subsets(vector<int> &S) {
-        // IMPORTANT: Please reset any member data you declared, as
-        // the same Solution instance will be reused for each test case.
-        vector<vector<int> > res;
+        if (rand() % 2) {
+            return subsets1(S);
+        } else {
+            return subsets2(S);
+        }
+    }
+    
+    vector<vector<int> > subsets1(vector<int> &S) {
         vector<bool> mask(S.size(), false);
         
         sort(S.begin(), S.end());
         
         while(1) {
-            // recorde current subset by mask.
+            // generate current subset by mask.
             int true_count=0;
             vector<int> cur;
             for(int i=0; i<mask.size(); i++) {
@@ -57,4 +62,31 @@ public:
         }
         return res;
     }
+    
+    vector<vector<int> > subsets2(vector<int> &S) {
+        vector<vector<int> > result;
+        vector<int> t;
+        int n = S.size();
+        for (int k = 0; k <= n; ++k) {
+            vector<vector<int> > c;
+            combine(c, S, n, k, t);
+            result.insert(result.end(), c.begin(), c.end());
+        }
+        return result;
+    }
+    
+    void combine(vector<vector<int> >& out, vector<int>& v, int n, int k, vector<int>& t) {
+        if (k == 0) {
+            vector<int> cp(t);
+            sort(cp.begin(), cp.end());
+            out.push_back(cp);
+        } else {
+            for (int i = 0; i < n; ++i) {
+                t.push_back(v[i]);
+                combine(out, v, i, k-1, t);
+                t.pop_back();
+            }
+        }
+    }
 };
+
