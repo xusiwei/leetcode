@@ -93,13 +93,13 @@ If you have any ideas about my solution, welcome to post a comment.
 | 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)  | [C++](Algorithms/SearchInRotatedSortedArrayII/searchInRotatedSortedArrayII.cc) | Medium |
 | 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)  | [C++](Algorithms/RemoveDuplicatesII/removeDuplicatesII.cc) | Medium |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  | [C++](Algorithms/RemoveDuplicates/removeDuplicates.cc) | Easy |
-| 84 | [Largest Rectangle in Histogram]()  | [C++](Algorithms/LargestRectangleInHistogram/largestRectangleInHistogram.cc) | Hard |
+| 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)  | [C++](Algorithms/LargestRectangleInHistogram/largestRectangleInHistogram.cc) | Hard |
 | 85 | Maximal Rectangle  |  | Hard |
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/)  | [C++](Algorithms/PartitionList/partitionList.cc) | Medium |
 | 87 | Scramble String  |  | Hard |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)  | [C++](Algorithms/MergeSortedArray/mergeSortedArray.cc) | Easy |
 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/)  | [C++](Algorithms/GrayCode/grayCode.cc) | Medium |
-| 90 | Subsets II  |  | Medium |
+| 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/)  | [C++](Algorithms/SubsetsII/subsetsII.cc) | Medium |
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/)  | [C++](Algorithms/DecodeWays/decodeWays.cc) | Medium |
 | 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)  | [C++](Algorithms/ReverseLinkedListII/reverseLinkedListII.cc) | Medium |
 | 93 | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)  | [C++](Algorithms/RestoreIPAddresses/restoreIPAddresses.cc) | Medium |
