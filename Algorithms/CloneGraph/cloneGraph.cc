@@ -107,7 +107,7 @@ void printGraph(UndirectedGraphNode* node) {
 }
 
 UndirectedGraphNode* buildGraph(int edges[][2], int size) {
-    auto nodes = new UndirectedGraphNode*[size];
+    vector<UndirectedGraphNode*> nodes(size);
     
     for(int i = 0; i < size; i++) {
         nodes[i] = new UndirectedGraphNode(i);
@@ -121,11 +121,7 @@ UndirectedGraphNode* buildGraph(int edges[][2], int size) {
         nodes[n0]->neighbors.push_back(nodes[n1]);
         nodes[n1]->neighbors.push_back(nodes[n0]);
     }
-    
-    auto ret = nodes[0];
-    delete [] nodes;
-    
-    return ret;
+    return nodes[0];
 }
 
 #define ARRAYSIZE(a) sizeof(a)/sizeof(a[0])
