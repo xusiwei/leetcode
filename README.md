@@ -96,7 +96,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)  | [C++](Algorithms/LargestRectangleInHistogram/largestRectangleInHistogram.cc) | Hard |
 | 85 | Maximal Rectangle  |  | Hard |
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/)  | [C++](Algorithms/PartitionList/partitionList.cc) | Medium |
-| 87 | Scramble String  |  | Hard |
+| 87 | [Scramble String](https://leetcode.com/problems/scramble-string/)  | [C++](Algorithms/ScrambleString/scrambleString.cc) | Hard |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)  | [C++](Algorithms/MergeSortedArray/mergeSortedArray.cc) | Easy |
 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/)  | [C++](Algorithms/GrayCode/grayCode.cc) | Medium |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/)  | [C++](Algorithms/SubsetsII/subsetsII.cc) | Medium |
