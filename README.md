@@ -94,7 +94,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)  | [C++](Algorithms/RemoveDuplicatesII/removeDuplicatesII.cc) | Medium |
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  | [C++](Algorithms/RemoveDuplicates/removeDuplicates.cc) | Easy |
 | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)  | [C++](Algorithms/LargestRectangleInHistogram/largestRectangleInHistogram.cc) | Hard |
-| 85 | Maximal Rectangle  |  | Hard |
+| 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)  | [C++](Algorithms/MaximalRectangle/maximalRectangle.cc) | Hard |
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/)  | [C++](Algorithms/PartitionList/partitionList.cc) | Medium |
 | 87 | [Scramble String](https://leetcode.com/problems/scramble-string/)  | [C++](Algorithms/ScrambleString/scrambleString.cc) | Hard |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)  | [C++](Algorithms/MergeSortedArray/mergeSortedArray.cc) | Easy |
@@ -122,7 +122,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)  | [C++](Algorithms/BalancedBinaryTree/balancedBinaryTree.cc) | Easy |
 | 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  | [C++](Algorithms/MinimumDepthOfBinaryTree/minimumDepthOfBinaryTree.cc) | Easy |
 | 112 | [Path Sum](https://leetcode.com/problems/path-sum/)  | [C++](Algorithms/PathSum/pathSum.cc) | Easy |
-| 113 | Path Sum II  |  | Medium |
+| 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/)  | [C++](Algorithms/PathSumII/pathSumII.cc) | Medium |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)  | [C++](Algorithms/FlattenBinaryTreeToLinkedList/flattenBinaryTreeToLinkedList.cc) | Medium |
 | 115 | Distinct Subsequences  |  | Hard |
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)  | [C++](Algorithms/PopulatingNextRightPointersInEachNode/populatingNextRightPointersInEachNode.cc) | Medium |
