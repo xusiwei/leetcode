@@ -131,7 +131,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)  | [C++](Algorithms/PascalsTriangleII/pascalsTriangleII.cc) | Easy |
 | 120 | [Triangle](https://leetcode.com/problems/triangle/)  | [C++](Algorithms/Triangle/triangle.cc) | Medium |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)  | [C++](Algorithms/BestTimeToBuyAndSellStock/bestTimeToBuyAndSellStock.cc) | Medium |
-| 122 | Best Time to Buy and Sell Stock II  |  | Medium |
+| 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)  | [C++](Algorithms/TimeToBuyAndSellStockII/timeToBuyAndSellStockII.cc) | Medium |
 | 123 | Best Time to Buy and Sell Stock III  |  | Hard |
 | 124 | Binary Tree Maximum Path Sum  |  | Hard |
 | 125 | Valid Palindrome  |  | Easy |
