@@ -94,7 +94,7 @@ if __name__ == '__main__':
 	for i in range(0, len(twords)):
 		w = twords[i].replace("'", "")
 		basedir = basedir + string.capitalize(w[0]) + w[1:]
-		first = string.lower(w[0]) if i == 1 else string.capitalize(w[0])
+		first = string.lower(w[0]) if i == 0 else string.capitalize(w[0])
 		filename = filename + first + w[1:]
 	filename = basedir + "/" + filename + suffix
 
