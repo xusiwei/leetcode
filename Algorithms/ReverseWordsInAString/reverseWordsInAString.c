@@ -32,6 +32,7 @@ How about multiple spaces between two words?
 Reduce them to a single space in the reversed string.
 */
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 // reverse range [b, e)
@@ -75,11 +76,12 @@ int main(int argc, char* argv[])
     reverse(s, s + strlen(s));
     puts(s);
 
-#define TEST(str) do {   \
-    s = strdup(str);      \
+#define TEST(str) do {     \
+    char* s = strdup(str); \
     printf("\"%s\"\n", s); \
     reverseWords(s);       \
     printf("\"%s\"\n", s); \
+    free(s);               \
     } while (0)
     
     TEST("  the   blue  sky  is blue    ");
