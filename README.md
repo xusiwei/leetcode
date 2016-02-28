@@ -158,7 +158,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/)  | [C++](Algorithms/LRUcache/lruCache.cc), [Python](Algorithms/LRUcache/LRUCache.py) | Hard |
 | 147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)  | [C](Algorithms/InsertionSortList/insertionSortList.c) | Medium |
 | 148 | [Sort List](https://leetcode.com/problems/sort-list/)  | [C++](Algorithms/SortList/sortList.cc) | Medium |
-| 149 | Max Points on a Line  |  | Hard |
+| 149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)  | [C++](Algorithms/MaxPointsOnALine/maxPointsOnALine.cc) | Hard |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)  | [C++](Algorithms/EvaluateReversePolishNotation/evaluateReversePolishNotation.cc) | Medium |
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)  | [C++](Algorithms/ReverseWordsInAString/reverseWordsInAString.cc) | Medium |
 | 152 | Maximum Product Subarray  |  | Medium |
