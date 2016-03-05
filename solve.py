@@ -119,9 +119,10 @@ if __name__ == '__main__':
 	lines = f.readlines()
 	for i in range(len(lines)):
 		L = lines[i]
+		title_wrap = '| ' + title + '  |'
 		if L.find(title) != -1:
 			print 'found problem line in README.md:', L
-			L = L.replace(title,  '[%s](%s)' % (title, URL))
+			L = L.replace(title_wrap,  '| [%s](%s)  |' % (title, URL))
 			L = L.replace('|  |', '| [C++](%s) |' % filename)
 			lines[i] = L
 			print 'replaced with:', L
