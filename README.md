@@ -138,7 +138,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)  | [C++](Algorithms/WordLadderII/wordLadderII.cc) | Hard |
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/)  | [C++](Algorithms/WordLadder/wordLadder.cc) | Medium |
 | 128 | Longest Consecutive Sequence  |  | Hard |
-| 129 | Sum Root to Leaf Numbers  |  | Medium |
+| 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)  | [C++](Algorithms/SumRootToLeafNumbers/sumRootToLeafNumbers.cc) | Medium |
 | 130 | Surrounded Regions  |  | Medium |
 | 131 | Palindrome Partitioning  |  | Medium |
 | 132 | Palindrome Partitioning II  |  | Hard |
