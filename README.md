@@ -164,7 +164,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 152 | Maximum Product Subarray  |  | Medium |
 | 153 | Find Minimum in Rotated Sorted Array  |  | Medium |
 | 154 | Find Minimum in Rotated Sorted Array II  |  | Hard |
-| 155 | Min Stack  |  | Easy |
+| 155 | [Min Stack](https://leetcode.com/problems/min-stack/)  | [C++](Algorithms/MinStack/minStack.cc) | Easy |
 | 156 | Binary Tree Upside Down  |  | Medium |
 | 157 | Read N Characters Given Read4  |  | Easy |
 | 158 | Read N Characters Given Read4 II - Call multiple times  |  | Hard |
