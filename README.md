@@ -11,13 +11,13 @@ If you have any ideas about my solution, welcome to post a comment.
 | # | Title | Solutions | Difficulty |
 |---|-------|-----------|------------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/)  | [C++](Algorithms/TwoSum/twoSum.cc) | Medium |
-| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)  | [C++](Algorithms/addTwoNumbers/addTwoNumbers.cc) | Medium |
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)  | [C++](Algorithms/AddTwoNumbers/addTwoNumbers.cc) | Medium |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)  | [C++](Algorithms/LongestSubstringWithoutRepeatingChars/lengthOfLongestSubstring.cc) | Medium |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)  | [C](Algorithms/MedianOfTwoSortedArrays/cmedianOf2Arrays.cc) | Hard |
-| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)  | [C++](Algorithms/longestPalindrome/longestPalindrome.cc) | Medium |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)  | [C++](Algorithms/LongestPalindrome/longestPalindrome.cc) | Medium |
 | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)  | [C++](Algorithms/ZigZagConversion/zigZagConvert.cc) | Easy |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)  | [C++](Algorithms/ReverseInteger/reverseInteger.cc) | Easy |
-| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)  | [C++](Algorithms/atoi/atoi.cc) | Easy |
+| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)  | [C++](Algorithms/Atoi/atoi.cc) | Easy |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)  | [C++](Algorithms/PalindromeNumber/palindromeNumber.cc) | Easy |
 | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)  | [C](Algorithms/RegularExpressionMatch/reMatch.c) | Hard |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)  | [C++](Algorithms/ContainMostWater/containMostWater.cc) | Medium |
@@ -49,7 +49,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)  | [C++](Algorithms/SudokuSolver/sudokuSolver.cc) | Hard |
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say/)  | [C++](Algorithms/CountAndSay/countAndSay.cc) | Easy |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/)  | [C++](Algorithms/CombinationSum/combinationSum.cc) | Medium |
-| 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)  | [c++](Algorithms/CombinationSumII/combinationSumII.cc) | Medium |
+| 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)  | [C++](Algorithms/CombinationSumII/combinationSumII.cc) | Medium |
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)  | [C++](Algorithms/FirstMissingPositive/firstMissingPositive.cc) | Hard |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)  | [C++](Algorithms/TrappingRainWater/trappingRainWater.cc) | Hard |
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/)  | [C++](Algorithms/MultiplyStrings/multiplyStrings.cc) | Medium |
@@ -116,7 +116,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)  | [C++](Algorithms/MaximumDepthOfBinaryTree/maximumDepthOfBinaryTree.cc) | Easy |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)  | [C++](Algorithms/ConstructBinaryTreeFromPreorderAndInorderTraversal/constructBinaryTreeFromPreorderAndInorderTraversal.cc) | Medium |
 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)  | [C++](Algorithms/ConstructBinaryTreeFromInorderAndPostorderTraversal/constructBinaryTreeFromInorderAndPostorderTraversal.cc) | Medium |
-| 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)  | [++](Algorithms/BinaryTreeLevelOrderTraversalII/binaryTreeLevelOrderTraversalII.cc) | Easy |
+| 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)  | [C++](Algorithms/BinaryTreeLevelOrderTraversalII/binaryTreeLevelOrderTraversalII.cc) | Easy |
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)  | [C++](Algorithms/ConvertSortedArrayToBinarySearchTree/convertSortedArrayToBinarySearchTree.cc) | Medium |
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)  | [C++](Algorithms/ConvertSortedListToBST/convertListToBST.cc) | Medium |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)  | [C++](Algorithms/BalancedBinaryTree/balancedBinaryTree.cc) | Easy |
@@ -131,7 +131,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)  | [C++](Algorithms/PascalsTriangleII/pascalsTriangleII.cc) | Easy |
 | 120 | [Triangle](https://leetcode.com/problems/triangle/)  | [C++](Algorithms/Triangle/triangle.cc) | Medium |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)  | [C++](Algorithms/BestTimeToBuyAndSellStock/bestTimeToBuyAndSellStock.cc) | Medium |
-| 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)  | [C++](Algorithms/TimeToBuyAndSellStockII/timeToBuyAndSellStockII.cc) | Medium |
+| 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)  | [C++](Algorithms/BestTimeToBuyAndSellStockII/BesttimeToBuyAndSellStockII.cc) | Medium |
 | 123 | Best Time to Buy and Sell Stock III  |  | Hard |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)  | [C++](Algorithms/BinaryTreeMaximumPathSum/binaryTreeMaximumPathSum.cc) | Hard |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)  | [C++](Algorithms/ValidPalindrome/validPalindrome.cc) | Easy |
