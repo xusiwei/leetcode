@@ -182,7 +182,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 170 | Two Sum III - Data structure design  |  | Easy |
 | 171 | Excel Sheet Column Number  |  | Easy |
 | 172 | Factorial Trailing Zeroes  |  | Easy |
-| 173 | Binary Search Tree Iterator  |  | Medium |
+| 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)  | [C++](Algorithms/BinarySearchTreeIterator/binarySearchTreeIterator.cc) | Medium |
 | 174 | Dungeon Game  |  | Hard |
 | 179 | Largest Number  |  | Medium |
 | 186 | Reverse Words in a String II  |  | Medium |
