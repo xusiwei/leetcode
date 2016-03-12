@@ -17,11 +17,10 @@ public:
         int result = 0, buy = prices[0];
         for (int i = 1; i < len; i++) {
             // try to sell out
-            int delta = prices[i] - buy;
-            if(delta > result) result = delta;
+            result = max(result, prices[i] - buy);
 
             // try to buy in
-            if(prices[i] < buy) buy = prices[i]; 
+            buy = min(buy, prices[i]);
         }
         return result;
     }
