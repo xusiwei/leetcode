@@ -31,22 +31,21 @@ public:
         for (e--; b < e; b++, e--) {
             if (s[b] != s[e]) return false;
         }
-
         return true;
     }
 
     void backtrack(vector<vector<string>>& r, const string& s, int n,
-                    vector<string>& parts, int last, int k) {
-        if (k == n) {
+                    vector<string>& parts, int last) {
+        if (last == n) {
             r.push_back(parts);
             // cout << endl;
         }
 
-        for (int i = k+1; i <= n; i++) {
+        for (int i = last+1; i <= n; i++) {
             if (palindrome(s, last, i)) {
                 parts.push_back(s.substr(last, i-last));
                 // cout << "push " << s.substr(last, i-last) << ", ";
-                backtrack(r, s, n, parts, i, i);
+                backtrack(r, s, n, parts, i);
                 parts.pop_back();
             }
         }
@@ -57,7 +56,7 @@ public:
         if (s.length() == 0) return result;
 
         vector<string> part;
-        backtrack(result, s, s.length(), part, 0, 0);
+        backtrack(result, s, s.length(), part, 0);
         return result;
     }
 };
