@@ -141,7 +141,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)  | [C++](Algorithms/SumRootToLeafNumbers/sumRootToLeafNumbers.cc) | Medium |
 | 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)  | [C++](Algorithms/SurroundedRegions/surroundedRegions.cc) | Medium |
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)  | [C++](Algorithms/PalindromePartitioning/palindromePartitioning.cc) | Medium |
-| 132 | Palindrome Partitioning II  |  | Hard |
+| 132 | [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)  | [C++](Algorithms/PalindromePartitioningII/palindromePartitioningII.cc) | Hard |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/)  | [C++](Algorithms/CloneGraph/cloneGraph.cc) | Medium |
 | 134 | Gas Station  |  | Medium |
 | 135 | Candy  |  | Hard |
