@@ -140,7 +140,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)  | [C++](Algorithms/LongestConsecutiveSequence/longestConsecutiveSequence.cc) | Hard |
 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)  | [C++](Algorithms/SumRootToLeafNumbers/sumRootToLeafNumbers.cc) | Medium |
 | 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)  | [C++](Algorithms/SurroundedRegions/surroundedRegions.cc) | Medium |
-| 131 | Palindrome Partitioning  |  | Medium |
+| 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)  | [C++](Algorithms/PalindromePartitioning/palindromePartitioning.cc) | Medium |
 | 132 | Palindrome Partitioning II  |  | Hard |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/)  | [C++](Algorithms/CloneGraph/cloneGraph.cc) | Medium |
 | 134 | Gas Station  |  | Medium |
