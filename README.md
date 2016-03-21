@@ -188,7 +188,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 186 | Reverse Words in a String II  |  | Medium |
 | 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)  | [C++](Algorithms/RepeatedDNASequences/repeatedDNASequences.cc) | Medium |
 | 188 | Best Time to Buy and Sell Stock IV  |  | Hard |
-| 189 | Rotate Array  |  | Easy |
+| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/)  | [C++](Algorithms/RotateArray/rotateArray.cc) | Easy |
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)  | [C](Algorithms/ReverseBits/reverseBits.c) | Easy |
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)  | [C](Algorithms/NumberOf1Bits/numberOf1Bits.c) | Easy |
 | 198 | House Robber  |  | Easy |
