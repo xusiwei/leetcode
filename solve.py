@@ -9,6 +9,10 @@ import urllib
 from HTMLParser import HTMLParser
 from operator import __mod__
 
+reload(sys)
+sys.setdefaultencoding('utf8')
+print "ecoding swtich to:", sys.getdefaultencoding()
+
 class QuestionParser(HTMLParser):
 	DEBUG = False
 
