@@ -197,7 +197,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)  | [C](Algorithms/BitwiseAndOfNumbersRange/rangedBitwiseAnd.c) | Medium |
 | 202 | Happy Number  |  | Easy |
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)  | [C++](Algorithms/RemoveListElements/removeListElements.cc) | Easy |
-| 204 | Count Primes  |  | Easy |
+| 204 | [Count Primes](https://leetcode.com/problems/count-primes/)  | [C++](Algorithms/CountPrimes/countPrimes.cc) | Easy |
 | 205 | Isomorphic Strings  |  | Easy |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)  | [C++](Algorithms/ReverseLinkedList/reverseLinkedList.cc) | Easy |
 | 207 | Course Schedule  |  | Medium |
