@@ -148,7 +148,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 136 | [Single Number](https://leetcode.com/problems/single-number/)  | [C++](Algorithms/SingleNumber/singleNumber.cc), [C](Algorithms/SingleNumber/singleNumber.c) | Medium |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/)  | [C++](Algorithms/SingleNumberII/singleNumberII.cc) | Medium |
 | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)  | [C++](Algorithms/CopyListWithRandomPointer/copyRandomList.cc) | Hard |
-| 139 | Word Break  |  | Medium |
+| 139 | [Word Break](https://leetcode.com/problems/word-break/)  | [C++](Algorithms/WordBreak/wordBreak.cc) | Medium |
 | 140 | Word Break II  |  | Hard |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)  | [C](Algorithms/LinkedListCycle/linkedListCycle.c), [C++](Algorithms/LinkedListCycle/linkedListCycle.cc) | Medium |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)  | [C++](Algorithms/LinkedListCycleII/linkedListCycleII.cc) | Medium |
