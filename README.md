@@ -181,7 +181,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/)  | [C++](Algorithms/MarjorityElement/majorityElement.cc) | Easy |
 | 170 | Two Sum III - Data structure design  |  | Easy |
 | 171 | Excel Sheet Column Number  |  | Easy |
-| 172 | Factorial Trailing Zeroes  |  | Easy |
+| 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)  | [C++](Algorithms/FactorialTrailingZeroes/factorialTrailingZeroes.cc) | Easy |
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)  | [C++](Algorithms/BinarySearchTreeIterator/binarySearchTreeIterator.cc) | Medium |
 | 174 | Dungeon Game  |  | Hard |
 | 179 | Largest Number  |  | Medium |
