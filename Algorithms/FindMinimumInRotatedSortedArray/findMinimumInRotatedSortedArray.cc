@@ -22,12 +22,9 @@ using namespace std;
 class Solution {
 public:
     int findMinHelper(vector<int>& A, int i, int j) {
+        if (j-i <= 1) return min(A[i], A[j]);
+
         int m = i + (j-i)/2;
-
-        if (i > j) return INT_MAX;
-        if (i == j) return A[i];
-        if (i+1 == j) return min(A[i], A[j]);
-
         if (A[i] < A[m]) { // A[i...m] is ordered, search in [m...j] and maybe A[i]
             return min(findMinHelper(A, m, j), A[i]);
         }
