@@ -171,7 +171,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 159 | Longest Substring with At Most Two Distinct Characters  |  | Hard |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)  | [C](Algorithms/IntersectionOfTwoLinkedLists/getIntersectionNode.c), [C++](Algorithms/IntersectionOfTwoLinkedLists/getIntersectionNode.cc) | Easy |
 | 161 | One Edit Distance  |  | Medium |
-| 162 | Find Peak Element  |  | Medium |
+| 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)  | [C++](Algorithms/FindPeakElement/findPeakElement.cc) | Medium |
 | 163 | Missing Ranges  |  | Medium |
 | 164 | Maximum Gap  |  | Hard |
 | 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)  | [C++](Algorithms/CompareVersionNumbers/compareVersionNumbers.cc) | Easy |
