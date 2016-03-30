@@ -198,7 +198,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/)  | [C++](Algorithms/HappyNumber/happyNumber.cc) | Easy |
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)  | [C++](Algorithms/RemoveListElements/removeListElements.cc) | Easy |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/)  | [C++](Algorithms/CountPrimes/countPrimes.cc) | Easy |
-| 205 | Isomorphic Strings  |  | Easy |
+| 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)  | [C++](Algorithms/IsomorphicStrings/isomorphicStrings.cc) | Easy |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)  | [C++](Algorithms/ReverseLinkedList/reverseLinkedList.cc) | Easy |
 | 207 | Course Schedule  |  | Medium |
 | 208 | Implement Trie (Prefix Tree)  |  | Medium |
