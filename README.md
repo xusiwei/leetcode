@@ -175,7 +175,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 163 | Missing Ranges  |  | Medium |
 | 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/)  | [C++](Algorithms/MaximumGap/maximumGap.cc) | Hard |
 | 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)  | [C++](Algorithms/CompareVersionNumbers/compareVersionNumbers.cc) | Easy |
-| 166 | Fraction to Recurring Decimal  |  | Medium |
+| 166 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)  | [C++](Algorithms/FractionToRecurringDecimal/fractionToRecurringDecimal.cc) | Medium |
 | 167 | Two Sum II - Input array is sorted  |  | Medium |
 | 168 | Excel Sheet Column Title  |  | Easy |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/)  | [C++](Algorithms/MarjorityElement/majorityElement.cc) | Easy |
