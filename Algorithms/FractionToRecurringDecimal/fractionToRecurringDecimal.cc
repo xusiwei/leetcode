@@ -74,8 +74,8 @@ public:
             }
             if (n) {
                 fpart.insert(start, "(");
+                fpart += ")";
             }
-            if (n) fpart += ")";
             result += fpart;
         }
         return result;
