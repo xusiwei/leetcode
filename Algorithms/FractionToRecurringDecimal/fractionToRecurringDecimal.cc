@@ -59,17 +59,16 @@ public:
                 int rem = n*10 % d;
                 q.push_back(n*10 / d);
                 r.push_back(rem);
-                n = rem;
-                if (n == n0) break;
+                if (rem == n0) break;
                 if (index.count(rem) > 0) {
                     start = index[rem];
                     break;
                 }
                 index[rem] = q.size();
+                n = rem;
             } while (n != 0);
             string fpart;
-            for (int i = 0; i < r.size(); i++) {
-                // if (n && i == start) fpart += "(";
+            for (int i = 0; i < q.size(); i++) {
                 fpart += to_string(q[i]);
             }
             if (n) {
