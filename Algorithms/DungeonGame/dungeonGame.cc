@@ -66,21 +66,21 @@ public:
         if (N == 0) return 0;
         
         const int M = D[0].size();
-        vector<vector<int>> H(N, vector<int>(M, 0));
+        vector<int> H(M, 0);
         for (int i = N-1; i >= 0; i--) {
             for (int j = M-1; j >= 0; j--) {
                 if (i+1 == N && j+1 == M) {
-                    H[i][j] = max(1 + -D[i][j], 1);
+                    H[j] = max(1 + -D[i][j], 1);
                 } else if (i+1 == N) {
-                    H[i][j] = max(H[i][j+1] + -D[i][j], 1);
+                    H[j] = max(H[j+1] + -D[i][j], 1);
                 } else if (j+1 == M) {
-                    H[i][j] = max(H[i+1][j] + -D[i][j], 1);
+                    H[j] = max(H[j] + -D[i][j], 1);
                 } else {
-                    H[i][j] = max(min(H[i][j+1], H[i+1][j]) + -D[i][j], 1);
+                    H[j] = max(min(H[j+1], H[j]) + -D[i][j], 1);
                 }
             }
         }
-        return H[0][0];
+        return H[0];
     }
 };
 
