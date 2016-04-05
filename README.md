@@ -191,7 +191,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/)  | [C++](Algorithms/RotateArray/rotateArray.cc) | Easy |
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)  | [C](Algorithms/ReverseBits/reverseBits.c) | Easy |
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)  | [C](Algorithms/NumberOf1Bits/numberOf1Bits.c) | Easy |
-| 198 | House Robber  |  | Easy |
+| 198 | [House Robber](https://leetcode.com/problems/house-robber/)  | [C++](Algorithms/HouseRobber/houseRobber.cc) | Easy |
 | 199 | Binary Tree Right Side View  |  | Medium |
 | 200 | Number of Islands  |  | Medium |
 | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/)  | [C](Algorithms/BitwiseAndOfNumbersRange/rangedBitwiseAnd.c) | Medium |
