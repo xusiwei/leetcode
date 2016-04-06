@@ -204,7 +204,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)  | [C++](Algorithms/ImplementTrie(PrefixTree)/implementTrie(PrefixTree).cc) | Medium |
 | 209 | Minimum Size Subarray Sum  |  | Medium |
 | 210 | Course Schedule II  |  | Medium |
-| 211 | Add and Search Word - Data structure design  |  | Medium |
+| 211 | [Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)  | [C++](Algorithms/AddAndSearchWord-DataStructureDesign/addAndSearchWord-DataStructureDesign.cc) | Medium |
 | 212 | Word Search II  |  | Hard |
 | 213 | House Robber II  |  | Medium |
 | 214 | Shortest Palindrome  |  | Hard |
