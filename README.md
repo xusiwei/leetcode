@@ -200,7 +200,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/)  | [C++](Algorithms/CountPrimes/countPrimes.cc) | Easy |
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)  | [C++](Algorithms/IsomorphicStrings/isomorphicStrings.cc) | Easy |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)  | [C++](Algorithms/ReverseLinkedList/reverseLinkedList.cc) | Easy |
-| 207 | Course Schedule  |  | Medium |
+| 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/)  | [C++](Algorithms/CourseSchedule/courseSchedule.cc) | Medium |
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)  | [C++](Algorithms/ImplementTrie(PrefixTree)/implementTrie(PrefixTree).cc) | Medium |
 | 209 | Minimum Size Subarray Sum  |  | Medium |
 | 210 | Course Schedule II  |  | Medium |
