@@ -77,6 +77,44 @@ public:
 };
 
 
+class Solution2 {
+public:
+    bool canFinish(int N, vector<pair<int, int>>& E) {
+        if (N == 0) return false;
+        if (N == 1) return true;
+
+        vector<int> indeg(N, 0);
+        vector<vector<int>> adjlist(N);
+        for (auto p : E) {
+            indeg[p.first]++;
+            adjlist[p.second].push_back(p.first);
+        }
+
+        queue<int> q; // store the zero indegree vertex
+        for (int i = 0; i < N; i++) {
+            if (indeg[i] == 0) {
+                q.push(i);
+            }
+        }
+
+        int count = 0;
+        vector<bool> vis(N, false);
+        while (!q.empty()) {
+            int start = q.front(); q.pop();
+            vis[start] = true;
+            count++;
+            for (auto e : adjlist[start]) {
+                if (!vis[e] && indeg[e]) {
+                    if (--indeg[e] == 0) {
+                        q.push(e);
+                    }
+                }
+            }
+        }
+        return count == N;
+    }
+};
+
 int main(int argc, char* argv[])
 {
     int n = 2;
@@ -103,5 +141,6 @@ int main(int argc, char* argv[])
     }
 
     cout << Solution().canFinish(n, edges) << endl;
+    cout << Solution2().canFinish(n, edges) << endl;
     return 0;
 }
