@@ -101,13 +101,10 @@ public:
         vector<bool> vis(N, false);
         while (!q.empty()) {
             int start = q.front(); q.pop();
-            vis[start] = true;
-            count++;
+            vis[start] = true; count++;
             for (auto e : adjlist[start]) {
-                if (!vis[e] && indeg[e]) {
-                    if (--indeg[e] == 0) {
-                        q.push(e);
-                    }
+                if (!vis[e] && --indeg[e] == 0) {
+                    q.push(e);
                 }
             }
         }
