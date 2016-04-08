@@ -203,7 +203,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/)  | [C++](Algorithms/CourseSchedule/courseSchedule.cc) | Medium |
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)  | [C++](Algorithms/ImplementTrie(PrefixTree)/implementTrie(PrefixTree).cc) | Medium |
 | 209 | Minimum Size Subarray Sum  |  | Medium |
-| 210 | Course Schedule II  |  | Medium |
+| 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)  | [C++](Algorithms/CourseScheduleII/courseScheduleII.cc) | Medium |
 | 211 | [Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)  | [C++](Algorithms/AddAndSearchWord-DataStructureDesign/addAndSearchWord-DataStructureDesign.cc) | Medium |
 | 212 | Word Search II  |  | Hard |
 | 213 | House Robber II  |  | Medium |
