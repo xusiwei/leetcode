@@ -210,7 +210,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 214 | Shortest Palindrome  |  | Hard |
 | 215 | Kth Largest Element in an Array  |  | Medium |
 | 216 | Combination Sum III  |  | Medium |
-| 217 | Contains Duplicate  |  | Easy |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  | [C++](Algorithms/ContainsDuplicate/containsDuplicate.cc) | Easy |
 | 218 | The Skyline Problem  |  | Hard |
 | 219 | Contains Duplicate II  |  | Easy |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C++](Algorithms/InvertBinaryTree/invertBinaryTree.cc) | Easy |
