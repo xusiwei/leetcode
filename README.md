@@ -213,6 +213,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  | [C++](Algorithms/ContainsDuplicate/containsDuplicate.cc) | Easy |
 | 218 | The Skyline Problem  |  | Hard |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)  | [C++](Algorithms/ContainsDuplicateII/containsDuplicateII.cc) | Easy |
+| 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | [C++](Algorithms/ContainsDuplicateIII/containsDuplicateIII.cc) | Medium |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C++](Algorithms/InvertBinaryTree/invertBinaryTree.cc) | Easy |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [C++](Algorithms/PowerOfTwo/powerOf2.cc) | Easy |
 
