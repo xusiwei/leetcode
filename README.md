@@ -212,7 +212,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 216 | Combination Sum III  |  | Medium |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  | [C++](Algorithms/ContainsDuplicate/containsDuplicate.cc) | Easy |
 | 218 | The Skyline Problem  |  | Hard |
-| 219 | Contains Duplicate II  |  | Easy |
+| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)  | [C++](Algorithms/ContainsDuplicateII/containsDuplicateII.cc) | Easy |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C++](Algorithms/InvertBinaryTree/invertBinaryTree.cc) | Easy |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [C++](Algorithms/PowerOfTwo/powerOf2.cc) | Easy |
 
