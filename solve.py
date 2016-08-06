@@ -19,7 +19,6 @@ class QuestionParser(HTMLParser):
 	def __init__(self):
 		HTMLParser.__init__(self)
 		self.start_title_flag = None
-		self.title_block_start = None
 		self.start_content_flag = None
 		self.question_title = ''
 		self.question_content = ''
@@ -27,9 +26,7 @@ class QuestionParser(HTMLParser):
 	def handle_starttag(self, tag, attrs):
 		if self.DEBUG:
 			print 'start TAG:', tag, ', ATTRS:', attrs
-		if tag == 'div' and ('class', 'question-title') in attrs:
-			self.title_block_start = True
-		elif tag == 'h3' and self.title_block_start:
+		if tag == 'title':
 			self.start_title_flag = True
 		elif tag == 'div' and ('class', 'question-content') in attrs:
 			self.start_content_flag = True
@@ -37,13 +34,14 @@ class QuestionParser(HTMLParser):
 	def handle_endtag(self, tag):
 		if self.DEBUG:
 			print 'end TAG:', tag
-		if self.title_block_start and tag == 'div':
-			self.title_block_start = False
+		if self.start_title_flag and tag == 'title':
+			self.start_title_flag = False
 		elif self.start_content_flag and tag == 'div':
 			self.start_content_flag = False
 
 	def handle_data(self, data):
 		if self.DEBUG:
+			print 'falgs:', self.start_title_flag, self.start_content_flag
 			print 'DATA:', data
 		if self.start_title_flag:
 			self.question_title += data
@@ -53,7 +51,7 @@ class QuestionParser(HTMLParser):
 
 	def get_question_title(self):
 		t = self.question_title
-		return t[t.find('. ')+1:].strip()
+		return t[:t.find('|')].strip()
 
 	def get_question_content(self):
 		c = self.question_content.replace('\r', '')
