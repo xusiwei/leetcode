@@ -8,6 +8,8 @@ Problems & Solutions
 Here's my solutions of leetcode problems, and I'll keep it up to date.
 If you have any ideas about my solution, welcome to post a comment.
 
+(tip: :lock: means you need to buy a book from LeetCode)
+
 | # | Title | Solutions | Difficulty |
 |---|-------|-----------|------------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/)  | [C++](Algorithms/TwoSum/twoSum.cc) | Medium |
@@ -165,21 +167,21 @@ If you have any ideas about my solution, welcome to post a comment.
 | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)  | [C++](Algorithms/FindMinimumInRotatedSortedArray/findMinimumInRotatedSortedArray.cc) | Medium |
 | 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)  | [C++](Algorithms/FindMinimumInRotatedSortedArrayII/findMinimumInRotatedSortedArrayII.cc) | Hard |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/)  | [C++](Algorithms/MinStack/minStack.cc) | Easy |
-| 156 | Binary Tree Upside Down  |  | Medium |
-| 157 | Read N Characters Given Read4  |  | Easy |
-| 158 | Read N Characters Given Read4 II - Call multiple times  |  | Hard |
-| 159 | Longest Substring with At Most Two Distinct Characters  |  | Hard |
+| 156 | :lock: Binary Tree Upside Down   |  |  Medium  |
+| 157 | :lock: Read N Characters Given Read4   |  |  Easy  |
+| 158 | :lock: Read N Characters Given Read4 II - Call multiple times   |  |  Hard  |
+| 159 | :lock: Longest Substring with At Most Two Distinct Characters   |  |  Hard  |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)  | [C](Algorithms/IntersectionOfTwoLinkedLists/getIntersectionNode.c), [C++](Algorithms/IntersectionOfTwoLinkedLists/getIntersectionNode.cc) | Easy |
-| 161 | One Edit Distance  |  | Medium |
+| 161 | :lock: One Edit Distance   |  |  Medium  |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)  | [C++](Algorithms/FindPeakElement/findPeakElement.cc) | Medium |
-| 163 | Missing Ranges  |  | Medium |
+| 163 | :lock: Missing Ranges   |  |  Medium  |
 | 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/)  | [C++](Algorithms/MaximumGap/maximumGap.cc) | Hard |
 | 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)  | [C++](Algorithms/CompareVersionNumbers/compareVersionNumbers.cc) | Easy |
 | 166 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)  | [C++](Algorithms/FractionToRecurringDecimal/fractionToRecurringDecimal.cc) | Medium |
-| 167 | Two Sum II - Input array is sorted  |  | Medium |
+| 167 | :lock: Two Sum II - Input array is sorted   |  |  Medium  |
 | 168 | Excel Sheet Column Title  |  | Easy |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/)  | [C++](Algorithms/MarjorityElement/majorityElement.cc) | Easy |
-| 170 | Two Sum III - Data structure design  |  | Easy |
+| 170 | :lock: Two Sum III - Data structure design   |  |  Easy  |
 | 171 | Excel Sheet Column Number  |  | Easy |
 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)  | [C++](Algorithms/FactorialTrailingZeroes/factorialTrailingZeroes.cc) | Easy |
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)  | [C++](Algorithms/BinarySearchTreeIterator/binarySearchTreeIterator.cc) | Medium |
@@ -216,6 +218,155 @@ If you have any ideas about my solution, welcome to post a comment.
 | 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | [C++](Algorithms/ContainsDuplicateIII/containsDuplicateIII.cc) | Medium |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C++](Algorithms/InvertBinaryTree/invertBinaryTree.cc) | Easy |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [C++](Algorithms/PowerOfTwo/powerOf2.cc) | Easy |
+| 232 | Implement Queue using Stacks |  | Easy |
+| 233 | Number of Digit One |  | Hard |
+| 234 | Palindrome Linked List |  | Easy |
+| 235 | Lowest Common Ancestor of a Binary Search Tree |  | Easy |
+| 236 | Lowest Common Ancestor of a Binary Tree |  | Medium |
+| 237 | Delete Node in a Linked List |  | Easy |
+| 238 | Product of Array Except Self |  | Medium |
+| 239 | Sliding Window Maximum |  | Hard |
+| 240 | Search a 2D Matrix II |  | Medium |
+| 241 | Different Ways to Add Parentheses |  | Medium |
+| 242 | Valid Anagram |  | Easy |
+| 243 | :lock: Shortest Word Distance    |  |  Easy  |
+| 244 | :lock: Shortest Word Distance II   |  |  Medium  |
+| 245 | :lock: Shortest Word Distance III   |  |  Medium  |
+| 246 | :lock: Strobogrammatic Number   |  |  Easy  |
+| 247 | :lock: Strobogrammatic Number II   |  |  Medium  |
+| 248 | :lock: Strobogrammatic Number III   |  |  Hard  |
+| 249 | :lock: Group Shifted Strings   |  |  Easy  |
+| 250 | :lock: Count Univalue Subtrees   |  |  Medium  |
+| 251 | :lock: Flatten 2D Vector   |  |  Medium  |
+| 252 | :lock: Meeting Rooms   |  |  Easy  |
+| 253 | :lock: Meeting Rooms II   |  |  Medium  |
+| 254 | :lock: Factor Combinations   |  |  Medium  |
+| 255 | :lock: Verify Preorder Sequence in Binary Search Tree   |  |  Medium  |
+| 256 | :lock: Paint House   |  |  Medium  |
+| 257 | Binary Tree Paths |  | Easy |
+| 258 | Add Digits |  | Easy |
+| 259 | :lock: 3Sum Smaller   |  |  Medium  |
+| 260 | Single Number III |  | Medium |
+| 261 | :lock: Graph Valid Tree   |  |  Medium  |
+| 263 | Ugly Number |  | Easy |
+| 264 | Ugly Number II |  | Medium |
+| 265 | :lock: Paint House II   |  |  Hard  |
+| 266 | :lock: Palindrome Permutation   |  |  Easy  |
+| 267 | :lock: Palindrome Permutation II   |  |  Medium  |
+| 268 | Missing Number |  | Medium |
+| 269 | :lock: Alien Dictionary   |  |  Hard  |
+| 270 | :lock: Closest Binary Search Tree Value   |  |  Easy  |
+| 271 | :lock: Encode and Decode Strings   |  |  Medium  |
+| 272 | :lock: Closest Binary Search Tree Value II   |  |  Hard  |
+| 273 | Integer to English Words |  | Hard |
+| 274 | H-Index |  | Medium |
+| 275 | H-Index II |  | Medium |
+| 276 | :lock: Paint Fence   |  |  Easy  |
+| 277 | :lock: Find the Celebrity   |  |  Medium  |
+| 278 | First Bad Version |  | Easy |
+| 279 | Perfect Squares |  | Medium |
+| 280 | :lock: Wiggle Sort   |  |  Medium  |
+| 281 | :lock: Zigzag Iterator   |  |  Medium  |
+| 282 | Expression Add Operators |  | Hard |
+| 283 | Move Zeroes |  | Easy |
+| 284 | Peeking Iterator |  | Medium |
+| 285 | :lock: Inorder Successor in BST   |  |  Medium  |
+| 286 | :lock: Walls and Gates   |  |  Medium  |
+| 287 | Find the Duplicate Number |  | Hard |
+| 288 | :lock: Unique Word Abbreviation   |  |  Easy  |
+| 289 | Game of Life |  | Medium |
+| 290 | Word Pattern |  | Easy |
+| 291 | :lock: Word Pattern II   |  |  Hard  |
+| 292 | Nim Game |  | Easy |
+| 293 | :lock: Flip Game   |  |  Easy  |
+| 294 | :lock: Flip Game II   |  |  Medium  |
+| 295 | Find Median from Data Stream |  | Hard |
+| 296 | :lock: Best Meeting Point   |  |  Hard  |
+| 297 | Serialize and Deserialize Binary Tree |  | Hard |
+| 298 | :lock: Binary Tree Longest Consecutive Sequence   |  |  Medium  |
+| 299 | Bulls and Cows |  | Easy |
+| 300 | Longest Increasing Subsequence |  | Medium |
+| 301 | Remove Invalid Parentheses |  | Hard |
+| 302 | :lock: Smallest Rectangle Enclosing Black Pixels   |  |  Hard  |
+| 303 | Range Sum Query - Immutable |  | Easy |
+| 304 | Range Sum Query 2D - Immutable |  | Medium |
+| 305 | :lock: Number of Islands II   |  |  Hard  |
+| 306 | Additive Number |  | Medium |
+| 307 | Range Sum Query - Mutable |  | Medium |
+| 308 | :lock: Range Sum Query 2D - Mutable   |  |  Hard  |
+| 309 | Best Time to Buy and Sell Stock with Cooldown |  | Medium |
+| 310 | Minimum Height Trees |  | Medium |
+| 311 | :lock: Sparse Matrix Multiplication   |  |  Medium  |
+| 312 | Burst Balloons |  | Hard |
+| 313 | Super Ugly Number |  | Medium |
+| 314 | :lock: Binary Tree Vertical Order Traversal   |  |  Medium  |
+| 315 | Count of Smaller Numbers After Self |  | Hard |
+| 316 | Remove Duplicate Letters |  | Hard |
+| 317 | :lock: Shortest Distance from All Buildings   |  |  Hard  |
+| 318 | Maximum Product of Word Lengths |  | Medium |
+| 319 | Bulb Switcher |  | Medium |
+| 320 | :lock: Generalized Abbreviation   |  |  Medium  |
+| 321 | Create Maximum Number |  | Hard |
+| 322 | Coin Change |  | Medium |
+| 323 | :lock: Number of Connected Components in an Undirected Graph   |  |  Medium  |
+| 324 | Wiggle Sort II |  | Medium |
+| 325 | :lock: Maximum Size Subarray Sum Equals k   |  |  Medium  |
+| 326 | Power of Three |  | Easy |
+| 327 | Count of Range Sum |  | Hard |
+| 328 | Odd Even Linked List |  | Medium |
+| 329 | Longest Increasing Path in a Matrix |  | Hard |
+| 330 | Patching Array |  | Hard |
+| 331 | Verify Preorder Serialization of a Binary Tree |  | Medium |
+| 332 | Reconstruct Itinerary |  | Medium |
+| 333 | :lock: Largest BST Subtree   |  |  Medium  |
+| 334 | Increasing Triplet Subsequence |  | Medium |
+| 335 | Self Crossing |  | Hard |
+| 336 | Palindrome Pairs |  | Hard |
+| 337 | House Robber III |  | Medium |
+| 338 | Counting Bits |  | Medium |
+| 339 | :lock: Nested List Weight Sum   |  |  Easy  |
+| 340 | :lock: Longest Substring with At Most K Distinct Characters   |  |  Hard  |
+| 341 | Flatten Nested List Iterator |  | Medium |
+| 342 | Power of Four |  | Easy |
+| 343 | Integer Break |  | Medium |
+| 344 | Reverse String |  | Easy |
+| 345 | Reverse Vowels of a String |  | Easy |
+| 346 | :lock: Moving Average from Data Stream   |  |  Easy  |
+| 347 | Top K Frequent Elements |  | Medium |
+| 348 | :lock: Design Tic-Tac-Toe   |  |  Medium  |
+| 349 | Intersection of Two Arrays |  | Easy |
+| 350 | Intersection of Two Arrays II |  | Easy |
+| 351 | :lock: Android Unlock Patterns   |  |  Medium  |
+| 352 | Data Stream as Disjoint Intervals |  | Hard |
+| 353 | :lock: Design Snake Game   |  |  Medium  |
+| 354 | Russian Doll Envelopes |  | Hard |
+| 355 | Design Twitter |  | Medium |
+| 356 | :lock: Line Reflection   |  |  Medium  |
+| 357 | Count Numbers with Unique Digits |  | Medium |
+| 358 | :lock: Rearrange String k Distance Apart   |  |  Hard  |
+| 359 | :lock: Logger Rate Limiter   |  |  Easy  |
+| 360 | :lock: Sort Transformed Array   |  |  Medium  |
+| 361 | :lock: Bomb Enemy   |  |  Medium  |
+| 362 | :lock: Design Hit Counter   |  |  Medium  |
+| 363 | Max Sum of Rectangle No Larger Than K |  | Hard |
+| 364 | :lock: Nested List Weight Sum II   |  |  Medium  |
+| 365 | Water and Jug Problem |  | Medium |
+| 366 | :lock: Find Leaves of Binary Tree   |  |  Medium  |
+| 367 | Valid Perfect Square |  | Medium |
+| 368 | Largest Divisible Subset |  | Medium |
+| 369 | :lock: Plus One Linked List   |  |  Medium  |
+| 370 | :lock: Range Addition   |  |  Medium  |
+| 371 | Sum of Two Integers |  | Easy |
+| 372 | Super Pow |  | Medium |
+| 373 | Find K Pairs with Smallest Sums |  | Medium |
+| 374 | Guess Number Higher or Lower |  | Easy |
+| 375 | Guess Number Higher or Lower II |  | Medium |
+| 376 | Wiggle Subsequence |  | Medium |
+| 377 | Combination Sum IV |  | Medium |
+| 378 | Kth Smallest Element in a Sorted Matrix |  | Medium |
+| 379 | :lock: Design Phone Directory   |  |  Medium  |
+| 380 | Insert Delete GetRandom O(1) |  | Medium |
+
 
 ----------
 **copyright xu(xusiwei1236@163.com), all right reserved.**
