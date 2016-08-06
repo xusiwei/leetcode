@@ -218,7 +218,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | [C++](Algorithms/ContainsDuplicateIII/containsDuplicateIII.cc) | Medium |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C++](Algorithms/InvertBinaryTree/invertBinaryTree.cc) | Easy |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [C++](Algorithms/PowerOfTwo/powerOf2.cc) | Easy |
-| 232 | Implement Queue using Stacks |  | Easy |
+| 232 | Implement Queue using Stacks | [C++](Algorithms/ImplementQueueUsingStacks/implementQueueUsingStacks.cc) | Easy |
 | 233 | Number of Digit One |  | Hard |
 | 234 | Palindrome Linked List |  | Easy |
 | 235 | Lowest Common Ancestor of a Binary Search Tree |  | Easy |
