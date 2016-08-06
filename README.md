@@ -179,7 +179,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)  | [C++](Algorithms/CompareVersionNumbers/compareVersionNumbers.cc) | Easy |
 | 166 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)  | [C++](Algorithms/FractionToRecurringDecimal/fractionToRecurringDecimal.cc) | Medium |
 | 167 | :lock: Two Sum II - Input array is sorted   |  |  Medium  |
-| 168 | Excel Sheet Column Title  |  | Easy |
+| 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)  | [C++](Algorithms/ExcelSheetColumnTitle/excelSheetColumnTitle.cc) | Easy |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/)  | [C++](Algorithms/MarjorityElement/majorityElement.cc) | Easy |
 | 170 | :lock: Two Sum III - Data structure design   |  |  Easy  |
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)  | [C++](Algorithms/ExcelSheetColumnNumber/excelSheetColumnNumber.cc) | Easy |
