@@ -187,7 +187,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)  | [C++](Algorithms/BinarySearchTreeIterator/binarySearchTreeIterator.cc) | Medium |
 | 174 | [Dungeon Game](https://leetcode.com/problems/dungeon-game/)  | [C++](Algorithms/DungeonGame/dungeonGame.cc) | Hard |
 | 179 | [Largest Number](https://leetcode.com/problems/largest-number/)  | [C++](Algorithms/LargestNumber/largestNumber.cc) | Medium |
-| 186 | Reverse Words in a String II  |  | Medium |
+| 186 | :lock: Reverse Words in a String II  |  | Medium |
 | 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)  | [C++](Algorithms/RepeatedDNASequences/repeatedDNASequences.cc) | Medium |
 | 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)  | [C++](Algorithms/BestTimeToBuyAndSellStockIV/bestTimeToBuyAndSellStockIV.cc) | Hard |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/)  | [C++](Algorithms/RotateArray/rotateArray.cc) | Easy |
@@ -228,7 +228,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 239 | Sliding Window Maximum |  | Hard |
 | 240 | Search a 2D Matrix II |  | Medium |
 | 241 | Different Ways to Add Parentheses |  | Medium |
-| 242 | Valid Anagram |  | Easy |
+| 242 | Valid Anagram | [C++](Algorithms/ValidAnagram/validAnagram.cc) | Easy |
 | 243 | :lock: Shortest Word Distance    |  |  Easy  |
 | 244 | :lock: Shortest Word Distance II   |  |  Medium  |
 | 245 | :lock: Shortest Word Distance III   |  |  Medium  |
