@@ -42,15 +42,15 @@ public:
 
 int main(int argc, char* argv[])
 {
-	string s = "anagram";
-	string t = "nagaram";
+    string s = "anagram";
+    string t = "nagaram";
 
-	if (argc > 2) {
-		s = argv[1];
-		t = argv[2];
-	}
-	cout << s << endl;
-	cout << t << endl;
-	cout << Solution().isAnagram(s, t) << endl;
+    if (argc > 2) {
+        s = argv[1];
+        t = argv[2];
+    }
+    cout << s << endl;
+    cout << t << endl;
+    cout << Solution().isAnagram(s, t) << endl;
     return 0;
 }

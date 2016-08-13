@@ -31,13 +31,13 @@ bool isAnagram(const char* s, const char* t) {
 
 int main(int argc, char* argv[])
 {
-	const char* s = "anagram";
-	const char* t = "nagaram";
+    const char* s = "anagram";
+    const char* t = "nagaram";
 
-	if (argc > 2) {
-		s = argv[1];
-		t = argv[2];
-	}
+    if (argc > 2) {
+        s = argv[1];
+        t = argv[2];
+    }
     printf("isAnagram(%s, %s): %s\n", s, t, isAnagram(s, t) ? "true" : "false");
     return 0;
 }

@@ -228,7 +228,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 239 | Sliding Window Maximum |  | Hard |
 | 240 | Search a 2D Matrix II |  | Medium |
 | 241 | Different Ways to Add Parentheses |  | Medium |
-| 242 | Valid Anagram | [C++](Algorithms/ValidAnagram/validAnagram.cc) | Easy |
+| 242 | Valid Anagram | [C](Algorithms/ValidAnagram/validAnagram.c), [C++](Algorithms/ValidAnagram/validAnagram.cc), [Java](Algorithms/ValidAnagram/java/Solution.java), [Python](Algorithms/ValidAnagram/validAnagram.py) | Easy |
 | 243 | :lock: Shortest Word Distance    |  |  Easy  |
 | 244 | :lock: Shortest Word Distance II   |  |  Medium  |
 | 245 | :lock: Shortest Word Distance III   |  |  Medium  |

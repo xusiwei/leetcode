@@ -4,3 +4,8 @@
 *.out
 *.exe
 
+# python object files
+*.pyc
+
+# java class files
+*.class
