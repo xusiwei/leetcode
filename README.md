@@ -366,6 +366,16 @@ If you have any ideas about my solution, welcome to post a comment.
 | 378 | Kth Smallest Element in a Sorted Matrix |  | Medium |
 | 379 | :lock: Design Phone Directory   |  |  Medium  |
 | 380 | Insert Delete GetRandom O(1) |  | Medium |
+| 381 | Insert Delete GetRandom O(1) - Duplicates allowed |  | Hard |
+| 382 | Linked List Random Node |  | Medium |
+| 383 | Ransom Note |  | Easy |
+| 384 | Shuffle an Array |  | Medium |
+| 385 | Mini Parser |  | Medium |
+| 386 | Lexicographical Numbers |  | Medium |
+| 387 | First Unique Character in a String |  | Easy |
+| 388 | Longest Absolute File Path |  | Medium |
+| 389 | Find the Difference | [C++](Algorithms/FindTheDifference/findTheDifference.cc) | Easy |
+| 391 | Perfect Rectangle |  | Hard |
 
 
 ----------
