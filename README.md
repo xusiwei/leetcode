@@ -374,7 +374,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 386 | Lexicographical Numbers |  | Medium |
 | 387 | First Unique Character in a String |  | Easy |
 | 388 | Longest Absolute File Path |  | Medium |
-| 389 | Find the Difference | [C++](Algorithms/FindTheDifference/findTheDifference.cc) | Easy |
+| 389 | Find the Difference | [C++](Algorithms/FindTheDifference/findTheDifference.cc), [Java](Algorithms/FindTheDifference/java/Solution.java) | Easy |
 | 391 | Perfect Rectangle |  | Hard |
 
 
