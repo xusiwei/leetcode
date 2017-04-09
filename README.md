@@ -512,7 +512,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 549 | Binary Tree Longest Consecutive Sequence II   New |   | Medium |
 | 554 | Brick Wall   New |   | Medium |
 | 556 | Next Greater Element III   New |   | Medium |
-| 557 | Reverse Words in a String III   New |   | Easy |
+| 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | [C++](Algorithms/ReverseWordsInAStringIII/reverseWordsInAStringIII.cc) | Easy |
 
 ----------
 **copyright xu(xusiwei1236@163.com), all right reserved.**
