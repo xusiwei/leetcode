@@ -15,3 +15,7 @@ grep -lR --include=*.cc -P '\t' . | xargs sed -i "s/\t/    /g"
 #correct some word:
 # replace `wrong` -> `crorrect` in all files.
 grep -lr wrong . | xargs sed -i "s/wrong/crorrect/g"
+
+
+# convert to markdown table
+awk -F',' '{print "|", $2, "|", $3, "|", "  |", $6, "|"}' problems.csv
