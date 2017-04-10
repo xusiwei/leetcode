@@ -509,7 +509,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 546 | Remove Boxes    |   | Hard |
 | 547 | Friend Circles    |   | Medium |
 | 548 | Split Array with Equal Sum    |   | Medium |
-| 549 | Binary Tree Longest Consecutive Sequence II   New |   | Medium |
+| 549 | [Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii) | [C++](Algorithms/BinaryTreeLongestConsecutiveSequenceII/binaryTreeLongestConsecutiveSequenceII.cc) | Medium |
 | 554 | [Brick Wall](https://leetcode.com/problems/brick-wall/) | [C++](Algorithms/BrickWall/brickWall.cc) | Medium |
 | 556 | [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii) | [C++](Algorithms/NextGreaterElementIII/nextGreaterElementIII.cc) | Medium |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | [C++](Algorithms/ReverseWordsInAStringIII/reverseWordsInAStringIII.cc) | Easy |
