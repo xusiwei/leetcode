@@ -23,6 +23,7 @@ Explanation: The longest consecutive ends is [1, 2, 3] or [3, 2, 1].
 Note: All the values of tree nodes are in the range of [-1e7, 1e7].
 */
 
+#include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
 #include <deque>
@@ -30,17 +31,43 @@ Note: All the values of tree nodes are in the range of [-1e7, 1e7].
 #include <list>
 #include <vector>
 #include <algorithm>
-#include <iostream>
+#include <functional>
+
 
 using namespace std;
 
 struct TreeNode {
     int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+    TreeNode* left;
+    TreeNode* right;
+    TreeNode(int x)
+        : val(x)
+        , left(NULL)
+        , right(NULL)
+    {
+    }
 };
 
+#ifdef DEBUG
+#define VERBOSE(fmt, ...) printf(fmt "\n", ##__VA_ARGS__)
+#else
+#define VERBOSE(...)
+#endif
+
+struct OnExit {
+    OnExit(function<void(void)> f)
+        : callback_(f)
+    {
+    }
+#ifdef DEBUG
+    ~OnExit()
+    {
+        callback_();
+    }
+#endif
+private:
+    function<void(void)> callback_;
+};
 
 /**
  * Definition for a binary tree node.
@@ -51,13 +78,23 @@ struct TreeNode {
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
-class Solution {
-    map<TreeNode*, list<TreeNode*>> dict;
+class Solution
+{
+    map<TreeNode*, list<TreeNode*> > dict;
 
-    list<TreeNode*>& endwith(TreeNode* root) {        
+    list<TreeNode*>& endwith(TreeNode* root)
+    {
         if (dict.find(root) != dict.end()) {
             return dict[root];
         }
+
+        OnExit _([&]() {
+            int size = -1;
+            if (dict.find(root) != dict.end()) {
+                size = (int)dict[root].size();
+            }
+            printf("OnExit %p> %d: %d\n", root, root ? root->val : -1, size);
+        });
 
         if (root == NULL) {
             dict[root] = {};
@@ -67,35 +104,37 @@ class Solution {
         TreeNode* lchild = root->left;
         TreeNode* rchild = root->right;
         if (lchild == NULL && rchild == NULL) {
-            dict[root] = {root};
+            dict[root] = { root };
             return dict[root];
         }
 
         auto lpath = endwith(lchild);
-        if (lpath.size() > 0) {
-            if (lpath.back() == lchild && lchild->val + 1 == root->val) {
-                lpath.push_back(root);
-            }
-            if (lpath.front() == lchild && root->val + 1 == lchild->val) {
-                lpath.push_front(root);
-            }
-        }
-
         auto rpath = endwith(rchild);
-        if (rpath.size() > 0) {
-            if (rpath.back() == rchild && rchild->val + 1 == root->val) {
-                rpath.push_back(root);
-            }
-            if (rpath.front() == rchild && root->val + 1 == rchild->val) {
-                rpath.push_front(root);
-            }
-        }
+        list<TreeNode*> result = { root };
+
+#define EXTEND(path, child)                                            \
+    if (path.size() > 0) {                                             \
+        if (path.back() == child && child->val + 1 == root->val) {     \
+            path.push_back(root);                                      \
+            VERBOSE("[...%d] append %d\n", child->val, root->val);     \
+        }                                                              \
+        if (path.front() == child && root->val + 1 == child->val) {    \
+            path.push_front(root);                                     \
+            VERBOSE("prepend %d to [%d...]\n", root->val, child->val); \
+        }                                                              \
+    }
+
+        VERBOSE("check for %d, %zd %zd\n", root->val, lpath.size(), rpath.size());
+        EXTEND(lpath, lchild);
+        EXTEND(rpath, rchild);
 
         dict[root] = lpath.size() > rpath.size() ? lpath : rpath;
+        dict[root] = dict[root].size() > result.size() ? dict[root] : result;
         return dict[root];
     }
 
-    int lcp_recursive(TreeNode* root) {
+    int lcp_recursive(TreeNode* root)
+    {
         if (root == NULL) return 0;
 
         auto lchild = root->left;
@@ -111,15 +150,16 @@ class Solution {
         auto lpath = endwith(lchild);
         auto rpath = endwith(rchild);
         if (lpath.size() > 0 && rpath.size() > 0
-         && lpath.back()->val + 1 == root->val
-         && root->val + 1 == rpath.front()->val) {
+            && lchild == lpath.back() && lchild->val + 1 == root->val
+            && rchild == rpath.front() && root->val + 1 == rchild->val) {
             result = max(result, (int)lpath.size() + 1 + (int)rpath.size());
         }
         return result;
     }
 
 public:
-    int longestConsecutive(TreeNode* root) {
+    int longestConsecutive(TreeNode* root)
+    {
         dict.clear();
         return lcp_recursive(root);
     }
@@ -128,19 +168,21 @@ public:
 // #include <stdlib.h>
 // #include <assert.h>
 // #include <deque>
-TreeNode* deserialize(string str) {
+TreeNode* deserialize(string str)
+{
     TreeNode* root = NULL;
     int len = str.length();
-    
-    assert(str[0] == '{' && str[len-1] == '}');
+
+    assert(str[0] == '{' && str[len - 1] == '}');
 
     deque<TreeNode**> que;
     que.push_back(&root);
-    
+
     len--;
     int tok = 1;
     while (tok < len) {
-        TreeNode** writer = que.front(); que.pop_front();
+        TreeNode** writer = que.front();
+        que.pop_front();
         TreeNode* node = NULL;
         if (str[tok] != '#') {
             char* end = &str[tok];
@@ -159,14 +201,40 @@ TreeNode* deserialize(string str) {
     return root;
 }
 
+void printTree(TreeNode* root)
+{
+    vector<TreeNode*> s;
+
+    if (root) s.push_back(root);
+
+    while (s.size()) {
+        TreeNode* p = s.back();
+        s.pop_back();
+        if (p->left) {
+            s.push_back(p->left);
+            printf("\t%d -> %d;\n", p->val, p->left->val);
+        }
+        if (p->right) {
+            s.push_back(p->right);
+            printf("\t%d -> %d;\n", p->val, p->right->val);
+        }
+    }
+}
+
 int main(int argc, char* argv[])
 {
-	string s = "{3,2,4,1,#,5}";
-	if (argc > 1) s = argv[1];
+    string s = "{3,2,4,1,#,5}";
+    if (argc > 1) s = argv[1];
+    printf("// tree: %s\n", s.c_str());
 
-	cout << "tree: " << s << endl;
-	TreeNode* root = deserialize(s);
-	cout << "LCP: " << Solution().longestConsecutive(root) << endl;
+    TreeNode* root = deserialize(s);
+    auto LCP = Solution().longestConsecutive(root);
+
+    printf("digraph tree_%p {\n", root);
+    printTree(root);
+    printf("\"LCP: %d\"[shape=box];\n", LCP);
+    printf("}\n");
+    printf("// %d\n", LCP);
     return 0;
 }
 
