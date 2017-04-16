@@ -514,7 +514,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 552 | Student Attendance Record II |   | Hard |
 | 553 | Optimal Division |   | Medium |
 | 554 | [Brick Wall](https://leetcode.com/problems/brick-wall/) | [C++](Algorithms/BrickWall/brickWall.cc) | Medium |
-| 555 | Split Assembled Strings | | Hard |
+| 555 | [Split Assembled Strings](https://leetcode.com/problems/split-assembled-strings) | [C++](Algorithms/SplitAssembledStrings/splitAssembledStrings.cc) | Hard |
 | 556 | [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii) | [C++](Algorithms/NextGreaterElementIII/nextGreaterElementIII.cc) | Medium |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | [C++](Algorithms/ReverseWordsInAStringIII/reverseWordsInAStringIII.cc) | Easy |
 
