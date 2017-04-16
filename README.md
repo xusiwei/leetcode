@@ -512,7 +512,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 549 | [Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii) | [C++](Algorithms/BinaryTreeLongestConsecutiveSequenceII/binaryTreeLongestConsecutiveSequenceII.cc) | Medium |
 | 551 | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/) | [C++](Algorithms/StudentAttendanceRecordI/studentAttendanceRecordI.cc) | Easy |
 | 552 | Student Attendance Record II |   | Hard |
-| 553 | Optimal Division |   | Medium |
+| 553 | [Optimal Division](https://leetcode.com/problems/optimal-division) | [C++](Algorithms/OptimalDivision/optimalDivision.cc) | Medium |
 | 554 | [Brick Wall](https://leetcode.com/problems/brick-wall/) | [C++](Algorithms/BrickWall/brickWall.cc) | Medium |
 | 555 | [Split Assembled Strings](https://leetcode.com/problems/split-assembled-strings) | [C++](Algorithms/SplitAssembledStrings/splitAssembledStrings.cc) | Hard |
 | 556 | [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii) | [C++](Algorithms/NextGreaterElementIII/nextGreaterElementIII.cc) | Medium |
