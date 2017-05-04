@@ -522,7 +522,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 562 | Longest Line of Consecutive One in Matrix    |   | Medium |
 | 563 | Binary Tree Tilt    |   | Easy |
 | 564 | Find the Closest Palindrome    |   | Hard |
-| 566 | Reshape the Matrix   New |   | Easy |
+| 566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix) | [C++](Algorithms/ReshapeTheMatrix/reshapeTheMatrix.cc) | Easy |
 | 567 | Permutation in String   New |   | Medium |
 | 568 | Maximum Vacation Days   New |   | Hard |
 ----------
