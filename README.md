@@ -523,7 +523,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 563 | Binary Tree Tilt    |   | Easy |
 | 564 | Find the Closest Palindrome    |   | Hard |
 | 566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix) | [C++](Algorithms/ReshapeTheMatrix/reshapeTheMatrix.cc) | Easy |
-| 567 | Permutation in String   New |   | Medium |
+| 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string) | [C++](Algorithms/PermutationInString/permutationInString.cc) | Medium |
 | 568 | Maximum Vacation Days   New |   | Hard |
 ----------
 **copyright xu(xusiwei1236@163.com), all right reserved.**
