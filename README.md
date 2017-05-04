@@ -517,6 +517,13 @@ If you have any ideas about my solution, welcome to post a comment.
 | 555 | [Split Assembled Strings](https://leetcode.com/problems/split-assembled-strings) | [C++](Algorithms/SplitAssembledStrings/splitAssembledStrings.cc) | Hard |
 | 556 | [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii) | [C++](Algorithms/NextGreaterElementIII/nextGreaterElementIII.cc) | Medium |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | [C++](Algorithms/ReverseWordsInAStringIII/reverseWordsInAStringIII.cc) | Easy |
-
+| 560 | Subarray Sum Equals K   New |   | Medium |
+| 561 | Array Partition I    |   | Easy |
+| 562 | Longest Line of Consecutive One in Matrix    |   | Medium |
+| 563 | Binary Tree Tilt    |   | Easy |
+| 564 | Find the Closest Palindrome    |   | Hard |
+| 566 | Reshape the Matrix   New |   | Easy |
+| 567 | Permutation in String   New |   | Medium |
+| 568 | Maximum Vacation Days   New |   | Hard |
 ----------
 **copyright xu(xusiwei1236@163.com), all right reserved.**
