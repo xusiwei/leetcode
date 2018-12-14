@@ -259,7 +259,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 271 | :lock: Encode and Decode Strings   |  |  Medium  |
 | 272 | :lock: Closest Binary Search Tree Value II   |  |  Hard  |
 | 273 | Integer to English Words |  | Hard |
-| 274 | H-Index |  | Medium |
+| 274 | [H-Index](https://leetcode.com/problems/h-index/) | [C++](Algorithms/HIndex/hIndex.cc) | Medium |
 | 275 | H-Index II |  | Medium |
 | 276 | :lock: Paint Fence   |  |  Easy  |
 | 277 | :lock: Find the Celebrity   |  |  Medium  |
