@@ -9,3 +9,7 @@
 
 # java class files
 *.class
+
+# ignore hiden files, but not .gitginore
+.*
+!.gitignore
