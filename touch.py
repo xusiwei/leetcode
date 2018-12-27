@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import re
 import os
 import sys
 
@@ -19,14 +20,26 @@ int main(int argc, char* argv[])
 }}
 '''
 
+ROMAN_PATTEN = '^M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$'
+COMMON_WORDS = set(['and', 'for', 'to', 'of', 'is'])
+
 def main(argv):
 	if len(argv) <= 1:
 		print('Usage: {} URL\n\tURL -- problem URL'.format(argv[0]))
 		exit(1)
 	url = argv[1]
-	_, title = os.path.split(url.strip('/'))
-	words = map(str.capitalize, title.split('-'))
-	print('title: {}, words: {}'.format(title, str(words)))
+
+	_, last = os.path.split(url.strip('/'))
+	words = last.split('-')
+	# print('split words: {}'.format(str(words)))
+
+	title_words = lambda s: re.sub('[a-zA-Z]+', lambda m: str.capitalize(m.group()), s)
+	words = map(title_words, words)
+	# print('capitalize words: {}'.format(str(words)))
+
+	upper_roman = lambda s: re.match(ROMAN_PATTEN, s.upper()) and s.upper() or s
+	words = map(upper_roman, words)
+	print('finally words: {}'.format(str(words)))
 
 	directory = os.path.join('Algorithms', ''.join(words))
 	if os.path.exists(directory):
@@ -35,10 +48,12 @@ def main(argv):
 	print('create solution dir : ' + directory)
 	os.makedirs(directory)
 
-	dwords = words[:]; dwords[0] = dwords[0].lower()
-	solution = os.path.join(directory, ''.join(dwords) + '.cc')
+	copies = words[:]
+	copies[0] = re.sub('^[a-zA-Z]+', lambda m: str.lower(m.group()), copies[0])
+	solution = os.path.join(directory, ''.join(copies) + '.cc')
 	with open(solution, 'w') as f:
 		print('create solution file: ' + solution)
+		words = map(lambda w: (w in COMMON_WORDS) and w.lower() or w, words)
 		title = ' '.join(words)
 		f.write(template.format(title, '='*len(title)))
 	print('Done')
