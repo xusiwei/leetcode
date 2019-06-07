@@ -222,7 +222,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 233 | Number of Digit One |  | Hard |
 | 234 | Palindrome Linked List |  | Easy |
 | 235 | Lowest Common Ancestor of a Binary Search Tree |  | Easy |
-| 236 | Lowest Common Ancestor of a Binary Tree |  | Medium |
+| 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [C++](Algorithms/LowestCommonAncestorOfABinaryTree/lowestCommonAncestorOfABinaryTree.cc) | Medium |
 | 237 | Delete Node in a Linked List |  | Easy |
 | 238 | Product of Array Except Self |  | Medium |
 | 239 | Sliding Window Maximum |  | Hard |
