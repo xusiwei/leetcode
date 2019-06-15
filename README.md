@@ -218,7 +218,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | [C++](Algorithms/ContainsDuplicateIII/containsDuplicateIII.cc) | Medium |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C++](Algorithms/InvertBinaryTree/invertBinaryTree.cc) | Easy |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [C++](Algorithms/PowerOfTwo/powerOf2.cc) | Easy |
-| 232 | Implement Queue using Stacks | [C++](Algorithms/ImplementQueueUsingStacks/implementQueueUsingStacks.cc) | Easy |
+| 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | [C++](Algorithms/ImplementQueueUsingStacks/implementQueueUsingStacks.cc) | Easy |
 | 233 | Number of Digit One |  | Hard |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [C++](Algorithms/PalindromeLinkedList/palindromeLinkedList.cc) | Easy |
 | 235 | Lowest Common Ancestor of a Binary Search Tree |  | Easy |
@@ -228,7 +228,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 239 | Sliding Window Maximum |  | Hard |
 | 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [C++](Algorithms/SearchA2DMatrixII/searchA2DMatrixII.cc) | Medium |
 | 241 | Different Ways to Add Parentheses |  | Medium |
-| 242 | Valid Anagram | [C](Algorithms/ValidAnagram/validAnagram.c), [C++](Algorithms/ValidAnagram/validAnagram.cc), [Java](Algorithms/ValidAnagram/java/Solution.java), [Python](Algorithms/ValidAnagram/validAnagram.py) | Easy |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | [C](Algorithms/ValidAnagram/validAnagram.c), [C++](Algorithms/ValidAnagram/validAnagram.cc), [Java](Algorithms/ValidAnagram/java/Solution.java), [Python](Algorithms/ValidAnagram/validAnagram.py) | Easy |
 | 243 | :lock: Shortest Word Distance    |  |  Easy  |
 | 244 | :lock: Shortest Word Distance II   |  |  Medium  |
 | 245 | :lock: Shortest Word Distance III   |  |  Medium  |
