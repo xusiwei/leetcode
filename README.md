@@ -243,7 +243,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 254 | :lock: Factor Combinations   |  |  Medium  |
 | 255 | :lock: Verify Preorder Sequence in Binary Search Tree   |  |  Medium  |
 | 256 | :lock: Paint House   |  |  Medium  |
-| 257 | Binary Tree Paths |  | Easy |
+| 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [C++](Algorithms/BinaryTreePaths/binaryTreePaths.cc) | Easy |
 | 258 | Add Digits |  | Easy |
 | 259 | :lock: 3Sum Smaller   |  |  Medium  |
 | 260 | Single Number III |  | Medium |
