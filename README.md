@@ -246,7 +246,7 @@ If you have any ideas about my solution, welcome to post a comment.
 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [C++](Algorithms/BinaryTreePaths/binaryTreePaths.cc) | Easy |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | [C++](Algorithms/AddDigits/addDigits.cc) | Easy |
 | 259 | :lock: 3Sum Smaller   |  |  Medium  |
-| 260 | Single Number III |  | Medium |
+| 260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | [c++](Algorithms/SingleNumberIII/singleNumberIII.cc) | Medium |
 | 261 | :lock: Graph Valid Tree   |  |  Medium  |
 | 263 | Ugly Number |  | Easy |
 | 264 | Ugly Number II |  | Medium |
