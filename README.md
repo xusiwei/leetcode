@@ -10,6 +10,8 @@ If you have any ideas about my solution, welcome to post a comment.
 
 (tip: :lock: means you need to buy a book from LeetCode)
 
+## Algorithms category
+
 | # | Title | Solutions | Difficulty |
 |---|-------|-----------|------------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/)  | [C++](Algorithms/TwoSum/twoSum.cc) | Medium |
@@ -526,6 +528,16 @@ If you have any ideas about my solution, welcome to post a comment.
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string) | [C++](Algorithms/PermutationInString/permutationInString.cc) | Medium |
 | 568 | Maximum Vacation Days   New |   | Hard |
 | 652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees) | [C++](Algorithms/FindDuplicateSubtrees/findDuplicateSubtrees.cc) | Medium |
+
+## Concurrency category
+
+| # | Title | Solutions | Difficulty |
+|---|-------|-----------|------------|
+| 1114 | [Print in Order](https://leetcode.com/problems/print-in-order) | [C++](Concurrency/PrintInOrder/printInOrder.cc) | Easy |
+| 1115 | [Print FooBar Alternately](https://leetcode.com/problems/print-foobar-alternately) | [C++](Concurrency/PrintFoobarAlternately/printFoobarAlternately.cc) | Medium |
+| 1116 | [Print Zero Even Odd](https://leetcode.com/problems/print-zero-even-odd) | [C++](Concurrency/PrintZeroEvenOdd/printZeroEvenOdd.cc) | Medium |
+| 1117 | [Building H2O](https://leetcode.com/problems/building-h2o) | [C++](Concurrency/BuildingH2O/buildingH2O.cc) | Medium |
+
 
 ----------
 **copyright xu(xusiwei1236@163.com), all right reserved.**

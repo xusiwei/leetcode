@@ -25,9 +25,11 @@ COMMON_WORDS = set(['and', 'for', 'to', 'of', 'is'])
 
 def main(argv):
 	if len(argv) <= 1:
-		print('Usage: {} URL\n\tURL -- problem URL'.format(argv[0]))
+		print('Usage: {} URL [category]\n\tURL -- problem URL' \
+				+ '\n\tcategory -- Algorithms by default'.format(argv[0]))
 		exit(1)
 	url = argv[1]
+	category = argv[2] if len(argv) > 2 else 'Algorithms'
 
 	_, last = os.path.split(url.strip('/'))
 	words = last.split('-')
@@ -41,7 +43,7 @@ def main(argv):
 	words = map(upper_roman, words)
 	print('finally words: {}'.format(str(words)))
 
-	directory = os.path.join('Algorithms', ''.join(words))
+	directory = os.path.join(category, ''.join(words))
 	if os.path.exists(directory):
 		print(directory, 'Already exists, exit!')
 		exit(1)
