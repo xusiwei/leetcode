@@ -6,39 +6,59 @@ import "sync"
 import "runtime"
 
 type H2O struct {
-	H chan int
-	O chan int
-	finish chan bool
+	H int
+	O int
+	m *sync.Mutex
+	c *sync.Cond
 }
 
 func NewH2O() *H2O {
 	h2o := new(H2O)
-	h2o.H = make(chan int, 2)
-	h2o.O = make(chan int, 1)
+	h2o.H = 0
+	h2o.O = 0
+	h2o.m = &sync.Mutex{}
+	h2o.c = sync.NewCond(h2o.m)
 	return h2o
 }
 
-
 // H2
 func (self *H2O) hydrogen(releaseHydrogen func()) {
-	self.H <- 2
+	self.m.Lock()
+	for self.H >= 2 {
+		self.c.Wait()
+	}
 
 	// releaseHydrogen() outputs "H". Do not change or remove this line.
-	releaseHydrogen();
+	releaseHydrogen()
 
-	<-self.O
+	self.H += 1
+	if self.H == 2 && self.O == 1 {
+		self.H = 0
+		self.O = 0
+		self.c.Broadcast()
+	}
+	self.m.Unlock()
 
 	// self.finish <- true
 }
 
 // O2
 func (self *H2O) oxygen(releaseOxygen func()) {
-	self.O <- 2
+	self.m.Lock()
+	for self.O >= 1 {
+		self.c.Wait()
+	}
+
 	// releaseOxygen() outputs "O". Do not change or remove this line.
-	releaseOxygen();
+	releaseOxygen()
 
-
-	// self.finish <- true
+	self.O += 1
+	if self.H == 2 && self.O == 1 {
+		self.H = 0
+		self.O = 0
+		self.c.Broadcast()
+	}
+	self.m.Unlock()
 }
 
 func main() {
@@ -46,7 +66,7 @@ func main() {
 	// input := "OOHHHH"
 
 	h2o := NewH2O()
-	h2o.finish = make(chan bool, len(input))
+	//h2o.finish = make(chan bool, len(input))
 
 	count := 0
 	output := ""
@@ -64,16 +84,12 @@ func main() {
 		if ch == 'H' {
 			go h2o.hydrogen(func() { printChar('H') })
 		} else {
-			go h2o.oxygen(func () { printChar('O') })
+			go h2o.oxygen(func() { printChar('O') })
 		}
 	}
 
 	runtime.Gosched()
-	time.Sleep(1 * time.Second);
-
-	for i := 0; i < len(input); i++ {
-		<-h2o.finish
-	}
+	time.Sleep(1 * time.Second)
 
 	fmt.Println("input:", input, len(input))
 	fmt.Println("output:", output, len(output))
